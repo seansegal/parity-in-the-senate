@@ -1,2 +1,6 @@
-# bigdatafinal
-Final Project For ECON 1660
+# ECON1660 Final Project
+Created By: Sean Segal, Nate Myers, Ben Wesner
+
+## Introduction
+
+## Documentation
