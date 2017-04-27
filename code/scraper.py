@@ -41,8 +41,12 @@ def scrape(id):
         for vote in votes[3:-3]:
             votes_arr.append({'senator': str(vote.next.next).strip(), 'voted': vote.next})
         return (description, date, votes_arr, soup)
-    except:
-        print ('ERROR: Could not fetch or parse id: ', id)
+    except KeyboardInterrupt:
+        # Don't ignore CTRL-C
+        raise
+    except Exception as e:
+        # Ignore all other exceptions
+        print ('ERROR: Could not fetch or parse id: ', id, '[', e, ']')
         return None, None, None, None
 
 
@@ -69,19 +73,31 @@ def scrape_all(begin, end, desc_to_ignore=[]):
         all_data.append(data)
     return all_data
 
+def write_to_csv(file, all_data):
+    senators = set()
+    for bill in all_data:
+        for vote in bill['votes']:
+            senators.add(vote['senator'])
+    headers = ['description', 'date']
+    headers.extend(senators)
 
-def scrape_all_to_csv(file, begin, end, desc_to_ignore=[]):
-    all_data = scrape_all(begin, end, desc_to_ignore)
-    with open(file, 'w') as outfile:
-        outCSV = csv.writer()
+    with open(file, 'w') as csvfile:
+         writer = csv.DictWriter(csvfile, fieldnames=headers, restval='N/A')
+         writer.writeheader()
+         for bill in all_data:
+             row = {
+             'description': bill['description'],
+             'date': bill['date'].replace(',', '/')
+             }
+             row.update({b['senator']: b['voted'] for b in bill['votes']})
+             writer.writerow(row)
 
-
-def scrape_all_to_json(file, begin, end, desc_to_ignore=[]):
-    all_data = scrape_all(begin, end, desc_to_ignore)
+def write_to_json(file, all_data):
     with open(file, 'w') as outfile:
         json.dump(all_data, outfile)
 
-desc, _ , _, soup = scrape(10694)
-print(desc)
+
 desc_to_ignore=['ROLL CALL', 'CONSENT CALENDARAdoption']
-scrape_all_to_json('../data/data.json', DATES['2014'], DATES['TODAY']+1, desc_to_ignore)
+all_data = scrape_all( DATES['2014'], DATES['TODAY']+1, desc_to_ignore)
+write_to_json('../data/data.json', all_data)
+write_to_csv('../data/data.csv', all_data)
