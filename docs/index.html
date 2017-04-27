@@ -1,1 +1,86 @@
-Test
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Parity at the State Level: Understanding our State Senates</title>
+  <meta name="description" content="Understanding Parity in State Senates">
+  <meta name="author" content="Nate Meyers, Ben Wesner, and Sean Segal">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- end CSS-->
+
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+  <div id="container" class="container">
+    <header>
+      <h1>Parity in State Senates</h1>
+      <p>State senators who tend to vote together are linked closer together. Senators are colored by their parity.</p>
+      <p>The date range includes all senators who served for at least one of the days in the specified range.</p>
+    </header>
+
+    <div id="state_selection" class="control">
+      <h3>State</h3>
+      <select id="state_select">
+        <option value="fakeData.json">Rhode Island</option>
+        <option value="fakeData.json">Montana</option>
+      </select>
+    </div>
+
+    <div id="controls">
+      <div id="dates" class="control">
+        <h3>Date Range</h3>
+        <input type="date" id="startDate" placeholder="Start date..."> <p>to<p>
+        <input type="date" id="endDate" placeholder="End date...">
+      </div>
+
+      <div id="search_section" class="control">
+        <h3>Search</h3>
+        <input type="text" class="text-input" id="search" value="" placeholder="Search for a senator..." />
+      </div>
+    </div>
+
+    <div id="main" role="main">
+      <div id="vis"></div>
+    </div>
+
+    <footer>
+    <p>Data scraped from official State General Assembly websites. <br/>&copy 2017 by Nate Meyers, Ben Wesner, and Sean Segal. All rights reserved.</p>
+    </footer>
+  </div> <!--! end of #container -->
+
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <script src="js/libs/coffee-script.js"></script>
+  <script src="js/libs/d3.v2.js"></script>
+  <script src="js/Tooltip.js"></script>
+  <script type="text/coffeescript" src="coffee/vis.coffee"></script>
+
+  <script> // Change UA-XXXXX-X to be your site's ID
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>
