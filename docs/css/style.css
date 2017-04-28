@@ -1,5 +1,13 @@
-body {
-  font-family: Helvetica, sans-serif;
+h1 {
+  font-family: Helvetica;
+}
+
+p {
+  font-family: Garamond;
+}
+
+header p {
+  font-size: 16px;
 }
 
 a, a:visited {
@@ -9,7 +17,7 @@ a, a:visited {
 
 #container {
   width: 800px;
-  padding: 5px 0 10px 0;
+  padding: 20px 0 10px 0;
   margin: auto;
 }
 
@@ -22,11 +30,16 @@ a, a:visited {
   width: 100%;
   float: left;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .control {
   float: left;
   padding-left: 20px;
+}
+
+#search_section {
+  clear: both;
 }
 
 .control a {
@@ -46,6 +59,10 @@ a, a:visited {
 .control a.active {
   color: white;
   background: #555;
+}
+
+.control p {
+  font-family: Helvetica;
 }
 
 #dates p {
