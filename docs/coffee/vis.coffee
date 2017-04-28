@@ -1,8 +1,8 @@
 root = exports ? this
 
 Network = () ->
-  # width and height of visualization
-  width = 960
+  # width and height of visualization (should be based off css spacing on page)
+  width = 805
   height = 500
 
   # allData will store the unfiltered data
@@ -25,7 +25,7 @@ Network = () ->
   end = new Date()
 
   # our force directed layout
-  force = d3.layout.force().gravity(.05).distance(100)
+  force = d3.layout.force().gravity(.05)
 
   # drag currently doesn't work...
   drag = force.drag
@@ -45,6 +45,7 @@ Network = () ->
     vis = d3.select(selection).append("svg")
       .attr("width", width)
       .attr("height", height)
+      .attr("align", "center")
     linksG = vis.append("g").attr("id", "links")
     nodesG = vis.append("g").attr("id", "nodes")
 
@@ -124,10 +125,12 @@ Network = () ->
   # Returns modified data
   setupData = (data) ->
     data.nodes.forEach (n) ->
-      # set initial x/y to values within the width/height
-      # of the visualization
-      n.x = randomnumber=Math.floor(Math.random()*width)
-      n.y = randomnumber=Math.floor(Math.random()*height)
+      # set initial x/y to values within the width/height of the visualization (make dems on left)
+      if n.parity < 0.3
+        n.x = randomnumber=Math.floor(Math.random() * 1.5) + (width / 4)
+      else
+        n.x = randomnumber=Math.floor(Math.random() * 1.5) + ((3 * width) / 4)
+      n.y = Math.floor(Math.random() * 1.5) + (height / 2)
 
       # Set radius
       n.radius = n.importance

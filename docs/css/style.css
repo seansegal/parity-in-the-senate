@@ -8,13 +8,14 @@ a, a:visited {
 }
 
 #container {
-  width: 940px;
+  width: 800px;
   padding: 5px 0 10px 0;
   margin: auto;
 }
 
 #main {
-  clear: both;
+  /*border: 3px solid green;*/
+  clear:both;
 }
 
 #controls {
