@@ -60,7 +60,7 @@ def scrape_all(begin, end, desc_to_ignore=[]):
             continue
         skip = False
         for d in desc_to_ignore:
-            if d == desc:
+            if d in desc:
                 skip = True
                 break
         if skip:
