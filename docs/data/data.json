@@ -1,0 +1,20 @@
+{
+    "nodes": [
+        {
+            "name": "myName",
+            "id": "myID",
+            "info": "myInfo",
+            "startDate": "myStartDate",
+            "endDate": "myEndDate",
+            "importance": 5,
+            "parity": 20
+        }
+    ],
+    "links": [
+        {
+            "source": "senator1",
+            "target": "senator2",
+            "weight": 500
+        }
+    ]
+}
