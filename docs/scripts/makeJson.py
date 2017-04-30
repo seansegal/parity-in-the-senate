@@ -1,6 +1,12 @@
 import json
+import csv
 
-outputFile = "data/data.json"
+outputFile = "../data/data.json"
+linksFile = "../../data/senator_pairs.csv"
+senatorsFile = "../../data/senator-info.json"
+
+maxWeight = 400
+minWeight = 50
 
 class Senator:
 	def __init__(self, name, ID, info, startDate, endDate, importance, parity=0):
@@ -21,6 +27,12 @@ class Link:
 		self.target = target
 		self.weight = weight
 
+	def scaleWeight(self, minWeightUnscaled, maxWeightUnscaled):
+		oldRange = maxWeightUnscaled - minWeightUnscaled
+		newRange = maxWeight - minWeight
+		self.weight = (((1 - self.weight) * newRange) / oldRange) + minWeight
+		print(self.weight)
+
 	def toJson(self):
 		return {"source": self.source, "target": self.target, "weight": self.weight}
 
@@ -28,7 +40,24 @@ def getSenators():
 	return [Senator("myName", "myID", "myInfo", "myStartDate", "myEndDate", 5)]
 
 def getLinks():
-	return [Link("senator1", "senator2", 500)]
+	links = []
+	with open(linksFile, "r") as f:
+		reader = csv.DictReader(f)
+
+		minWeightUnscaled = float("inf")
+		maxWeightUnscaled = float("-inf")
+		for row in reader:
+			weight = row["weight"]
+			if weight != "NA":
+				weight = float(weight)
+				minWeightUnscaled = min(minWeightUnscaled, weight)
+				maxWeightUnscaled = max(maxWeightUnscaled, weight)
+				links.append(Link(row["Senator1"], row["Senator2"], weight))
+
+		for link in links:
+			link.scaleWeight(minWeightUnscaled, maxWeightUnscaled)
+
+	return links
 
 def getParity(senator, links):
 	return 20
