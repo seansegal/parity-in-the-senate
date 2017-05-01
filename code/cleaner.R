@@ -27,7 +27,11 @@ jvNA <- (justvotes == 'NA')*1
 jvNV <- (justvotes == 'NV')*1
 jvYN <- jvY + jvN
 
-votesFIN$yay <- rowSums(jvY)
+votesFIN$DEM <- (rowSums(jvY) > 19)*1
+against <- data.frame(colSums(votesFIN$DEM*jvN+(1-votesFIN$DEM)*jvY)/colSums(jvYN))
+colnames(against) <- c("VotesAgainst")
+write.csv(against,"votesagainst.csv")
+
 
 output <- data.frame(matrix(0,nrow = (length(sens)*(length(sens)-1)/2), ncol = 4))
 inc <- 1
