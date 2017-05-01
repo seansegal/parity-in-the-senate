@@ -27,6 +27,8 @@ jvNA <- (justvotes == 'NA')*1
 jvNV <- (justvotes == 'NV')*1
 jvYN <- jvY + jvN
 
+votesFIN$yay <- rowSums(jvY)
+
 output <- data.frame(matrix(0,nrow = (length(sens)*(length(sens)-1)/2), ncol = 4))
 inc <- 1
 
@@ -72,10 +74,12 @@ colnames(minmaxdates) <- c("Senator","FirstDate","LastDate")
 
 write.csv(minmaxdates,"minmaxdates.csv",row.names = F)
 
-
-
 #extras
 # library(heatmaply)
 # heatmaply(normalize(outmat))
 # heatmaply(percentize(outmat))
 
+vExtra <- votesFIN
+vExtra$yay <- rowSums(jvY)
+
+fails <- votesFIN[which(rowSums(jvY)<20),]
