@@ -3,6 +3,7 @@
     "name": "Nicholas Kettle",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.0482603815937149,
     "info": {
         "party": "Rep",
         "location": "Coventry, Foster, Scituate&West Greenwich",
@@ -13,6 +14,7 @@
     "name": "Dominick J. Ruggerio",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00277315585135885,
     "info": {
         "party": "Dem",
         "location": "Providence",
@@ -23,6 +25,7 @@
     "name": "Erin Lynch",
     "startDate": "2014-01-08",
     "endDate": "2015-06-25",
+    "parity": 0.00269058295964126,
     "info": {
         "party": "Dem",
         "location": "Warwick",
@@ -33,6 +36,7 @@
     "name": "Daniel Da Ponte",
     "startDate": "2014-01-08",
     "endDate": "2017-04-11",
+    "parity": 0.00354819633353046,
     "info": {
         "party": "Dem",
         "location": "East Providence & Pawtucket",
@@ -43,6 +47,7 @@
     "name": "Paul Fogarty",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00496963003865268,
     "info": {
         "party": "Dem",
         "location": "Burrillville & Glocester",
@@ -53,6 +58,7 @@
     "name": "Frank Lombardo",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00359066427289048,
     "info": {
         "party": "Dem",
         "location": "Johnston",
@@ -63,6 +69,7 @@
     "name": "V. Susan Sosnowski",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00108459869848156,
     "info": {
         "party": "Dem",
         "location": "Block Island & South Kingstown",
@@ -73,6 +80,7 @@
     "name": "Thomas Paolino",
     "startDate": "2017-01-03",
     "endDate": "2017-04-25",
+    "parity": 0.0454545454545455,
     "info": {
         "party": "Rep",
         "location": "Lincoln",
@@ -83,6 +91,7 @@
     "name": "Paul Jabour",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.0100956429330499,
     "info": {
         "party": "Dem",
         "location": "Providence",
@@ -93,6 +102,7 @@
     "name": "Frank Ciccone",
     "startDate": "2014-01-08",
     "endDate": "2017-04-11",
+    "parity": 0.00615858352578907,
     "info": {
         "party": "Dem",
         "location": "North Providence",
@@ -103,6 +113,7 @@
     "name": "Gayle Goldin",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00894854586129754,
     "info": {
         "party": "Dem",
         "location": "Providence",
@@ -113,6 +124,7 @@
     "name": "Harold Metts",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.0118726389638424,
     "info": {
         "party": "Dem",
         "location": "Providence",
@@ -123,6 +135,7 @@
     "name": "Maryellen Goodwin",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00108342361863489,
     "info": {
         "party": "Dem",
         "location": "Providence",
@@ -133,6 +146,7 @@
     "name": "Walter Felag",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00915948275862069,
     "info": {
         "party": "Dem",
         "location": "Tiverton & Warren",
@@ -143,6 +157,7 @@
     "name": "Ana Quezada",
     "startDate": "2017-01-03",
     "endDate": "2017-04-25",
+    "parity": 0,
     "info": {
         "party": "Dem",
         "location": "Providence",
@@ -153,6 +168,7 @@
     "name": "Louis DiPalma",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00670391061452514,
     "info": {
         "party": "Dem",
         "location": "Little Compton & Middletown",
@@ -163,6 +179,7 @@
     "name": "Adam Satchell",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.0071664829106946,
     "info": {
         "party": "Dem",
         "location": "West Warwick",
@@ -173,6 +190,7 @@
     "name": "James Seveney",
     "startDate": "2017-01-03",
     "endDate": "2017-04-25",
+    "parity": 0,
     "info": {
         "party": "Dem",
         "location": "Bristol & Portsmouth",
@@ -183,6 +201,7 @@
     "name": "Marc Cote",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.0224166211044287,
     "info": {
         "party": "Dem",
         "location": "North Smithfield",
@@ -193,6 +212,7 @@
     "name": "Elaine J. Morgan",
     "startDate": "2015-01-06",
     "endDate": "2017-04-11",
+    "parity": 0.143697478991597,
     "info": {
         "party": "Rep",
         "location": "Exeter, Hopkinton, Richmond, & West Greenwich",
@@ -203,6 +223,7 @@
     "name": "Cynthia Armour Coyne",
     "startDate": "2015-01-06",
     "endDate": "2017-04-25",
+    "parity": 0.00337268128161889,
     "info": {
         "party": "Dem",
         "location": "Barrington",
@@ -213,6 +234,7 @@
     "name": "Hanna Gallo",
     "startDate": "2014-01-08",
     "endDate": "2017-03-15",
+    "parity": 0.00441501103752759,
     "info": {
         "party": "Dem",
         "location": "Cranston",
@@ -223,6 +245,7 @@
     "name": "Roger Picard",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00754310344827586,
     "info": {
         "party": "Dem",
         "location": "Woonsocket",
@@ -233,6 +256,7 @@
     "name": "Jeanine Calkin",
     "startDate": "2017-01-03",
     "endDate": "2017-04-25",
+    "parity": 0.0444444444444444,
     "info": {
         "party": "Dem",
         "location": "Warwick",
@@ -243,6 +267,7 @@
     "name": "Frank Lombardi",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00291375291375291,
     "info": {
         "party": "Dem",
         "location": "Cranston",
@@ -253,6 +278,7 @@
     "name": "Donna Nesselbush",
     "startDate": "2014-01-14",
     "endDate": "2017-04-25",
+    "parity": 0.0052417006406523,
     "info": {
         "party": "Dem",
         "location": "Pawtucket",
@@ -263,6 +289,7 @@
     "name": "Elizabeth Crowley",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00309597523219814,
     "info": {
         "party": "Dem",
         "location": "Central Falls",
@@ -273,6 +300,7 @@
     "name": "Dennis Algiere",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.0269687162891046,
     "info": {
         "party": "Rep",
         "location": "Westerly & Charlestown",
@@ -283,6 +311,7 @@
     "name": "Ryan W. Pearson",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00722222222222222,
     "info": {
         "party": "Dem",
         "location": "Cumberland",
@@ -293,6 +322,7 @@
     "name": "Stephen Archambault",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.0031813361611877,
     "info": {
         "party": "Dem",
         "location": "Smithfield, Johnston, & North Providence",
@@ -303,6 +333,7 @@
     "name": "Mark W. Gee",
     "startDate": "2015-01-06",
     "endDate": "2017-04-25",
+    "parity": 0.0658333333333333,
     "info": {
         "party": "Rep",
         "location": "North Kingstown, & Narragansett",
@@ -313,6 +344,7 @@
     "name": "Michael McCaffrey",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.0028587764436821,
     "info": {
         "party": "Dem",
         "location": "Warwick",
@@ -323,6 +355,7 @@
     "name": "Leonidas Raptakis",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.026458208057727,
     "info": {
         "party": "Dem",
         "location": "East Greenwich",
@@ -333,6 +366,7 @@
     "name": "Joshua Miller",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00511945392491468,
     "info": {
         "party": "Dem",
         "location": "Cranston",
@@ -343,6 +377,7 @@
     "name": "James Sheehan",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.0116564417177914,
     "info": {
         "party": "Dem",
         "location": "Narragansett",
@@ -353,6 +388,7 @@
     "name": "Dawson Hodgson",
     "startDate": "2014-01-08",
     "endDate": "2014-06-30",
+    "parity": 0.0271084337349398,
     "info": {
         "party": "Rep",
         "location": "North Kingstown, & Narragansett",
@@ -363,6 +399,7 @@
     "name": "William Conley, Jr.",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.00269106566200215,
     "info": {
         "party": "Dem",
         "location": "Narragansett",
@@ -373,6 +410,7 @@
     "name": "Juan M. Pichardo",
     "startDate": "2014-01-08",
     "endDate": "2016-06-18",
+    "parity": 0.00540540540540541,
     "info": {
         "party": "Dem",
         "location": "Providence",
@@ -383,6 +421,7 @@
     "name": "Erin Lynch Prata",
     "startDate": "2016-01-06",
     "endDate": "2017-04-25",
+    "parity": 0.00529100529100529,
     "info": {
         "party": "Dem",
         "location": "Warwick, Cranston",
@@ -393,6 +432,7 @@
     "name": "M. Teresa Paiva-Weed",
     "startDate": "2014-01-08",
     "endDate": "2017-03-30",
+    "parity": 0.00164925783397471,
     "info": {
         "party": "Dem",
         "location": "Newport & Jamestown",
@@ -403,6 +443,7 @@
     "name": "Catherine Cool Rumsey",
     "startDate": "2014-01-08",
     "endDate": "2014-06-30",
+    "parity": 0.00618238021638331,
     "info": {
         "party": "Dem",
         "location": "Exeter, Hopkinton, Richmond, & West Greenwich",
@@ -413,6 +454,7 @@
     "name": "David Bates",
     "startDate": "2014-01-08",
     "endDate": "2014-06-30",
+    "parity": 0.0193452380952381,
     "info": {
         "party": "Rep",
         "location": "Barrington",
@@ -423,6 +465,7 @@
     "name": "Christopher Ottiano",
     "startDate": "2014-01-08",
     "endDate": "2015-06-25",
+    "parity": 0.00641025641025641,
     "info": {
         "party": "Rep",
         "location": "Bristol & Portsmouth",
@@ -433,6 +476,7 @@
     "name": "James Doyle II",
     "startDate": "2014-01-08",
     "endDate": "2017-04-25",
+    "parity": 0.000639386189258312,
     "info": {
         "party": "Dem",
         "location": "Pawtucket",
@@ -443,6 +487,7 @@
     "name": "John Pagliarini",
     "startDate": "2016-01-20",
     "endDate": "2016-06-18",
+    "parity": 0.204166666666667,
     "info": {
         "party": "Dem",
         "location": "Bristol & Portsmouth",
@@ -453,6 +498,7 @@
     "name": "Edward J. O'Neill",
     "startDate": "2014-01-08",
     "endDate": "2016-06-17",
+    "parity": 0.081353919239905,
     "info": {
         "party": "Ind",
         "location": "Lincoln",
@@ -463,6 +509,7 @@
     "name": "William Walaska",
     "startDate": "2014-01-08",
     "endDate": "2016-06-18",
+    "parity": 0.00467016929363689,
     "info": {
         "party": "Dem",
         "location": "Warwick",
