@@ -60,9 +60,14 @@ def getSenators():
 			senatorIDs[senatorID] = senatorUUID
 
 			info = getInfoStr(senatorData["info"])
-			party = "D" if senatorData["info"]["party"] == "Dem" else "R"
 
-			senators.append(Senator(senatorData["name"], senatorUUID, info, party, senatorData["startDate"], senatorData["endDate"], importance))
+			party = "D"
+			if senatorData["info"]["party"] == "Rep":
+				party = "R"
+			elif senatorData["info"]["party"] == "Ind":
+				party = "I"
+
+			senators.append(Senator(senatorData["name"], senatorUUID, info, party, senatorData["startDate"], senatorData["endDate"], importance, senatorData["parity"]))
 
 	return senators
 
@@ -94,7 +99,7 @@ def getLinks():
 	return links
 
 def getParity(senator, links):
-	return 20
+	return senator.parity
 
 def writeToJson(senators, links):
 	data = {}
