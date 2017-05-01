@@ -37,7 +37,11 @@ class Link:
 		return {"source": self.source, "target": self.target, "weight": self.weight}
 
 def getSenators():
-	return [Senator("myName", "myID", "myInfo", "myStartDate", "myEndDate", 5)]
+	nodes = []
+	with open(linksFile, "r") as f:
+		reader = csv.DictReader(f)
+
+	return nodes
 
 def getLinks():
 	links = []
