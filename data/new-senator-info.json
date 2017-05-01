@@ -1,0 +1,471 @@
+[{
+    "id": "Kettle",
+    "name": "Nicholas Kettle",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Rep",
+        "location": "Coventry, Foster, Scituate&West Greenwich",
+        "district": 21
+    }
+}, {
+    "id": "Ruggerio",
+    "name": "Dominick J. Ruggerio",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Providence",
+        "district": 4
+    }
+}, {
+    "id": "Lynch",
+    "name": "Erin Lynch",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Warwick",
+        "district": 31
+    }
+}, {
+    "id": "Ponte",
+    "name": "Daniel Da Ponte",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "East Providence & Pawtucket",
+        "district": 14
+    }
+}, {
+    "id": "Fogarty",
+    "name": "Paul Fogarty",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Burrillville & Glocester",
+        "district": 23
+    }
+}, {
+    "id": "Lombardo",
+    "name": "Frank Lombardo",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Johnston",
+        "district": 25
+    }
+}, {
+    "id": "Sosnowski",
+    "name": "V. Susan Sosnowski",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Block Island & South Kingstown",
+        "district": 37
+    }
+}, {
+    "id": "Paolino",
+    "name": "Thomas Paolino",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Rep",
+        "location": "Lincoln",
+        "district": 17
+    }
+}, {
+    "id": "Jabour",
+    "name": "Paul Jabour",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Providence",
+        "district": 5
+    }
+}, {
+    "id": "Ciccone",
+    "name": "Frank Ciccone",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "North Providence",
+        "district": 7
+    }
+}, {
+    "id": "Goldin",
+    "name": "Gayle Goldin",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Providence",
+        "district": 3
+    }
+}, {
+    "id": "Metts",
+    "name": "Harold Metts",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Providence",
+        "district": 6
+    }
+}, {
+    "id": "Goodwin",
+    "name": "Maryellen Goodwin",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Providence",
+        "district": 1
+    }
+}, {
+    "id": "Felag",
+    "name": "Walter Felag",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Tiverton & Warren",
+        "district": 10
+    }
+}, {
+    "id": "Quezada",
+    "name": "Ana Quezada",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Providence",
+        "district": 2
+    }
+}, {
+    "id": "DiPalma",
+    "name": "Louis DiPalma",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Little Compton & Middletown",
+        "district": 12
+    }
+}, {
+    "id": "Satchell",
+    "name": "Adam Satchell",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "West Warwick",
+        "district": 9
+    }
+}, {
+    "id": "Seveney",
+    "name": "James Seveney",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Bristol & Portsmouth",
+        "district": 11
+    }
+}, {
+    "id": "Cote",
+    "name": "Marc Cote",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "North Smithfield",
+        "district": 24
+    }
+}, {
+    "id": "Morgan",
+    "name": "Elaine J. Morgan",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Rep",
+        "location": "Exeter, Hopkinton, Richmond, & West Greenwich",
+        "district": 34
+    }
+}, {
+    "id": "Coyne",
+    "name": "Cynthia Armour Coyne",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Barrington",
+        "district": 32
+    }
+}, {
+    "id": "Gallo",
+    "name": "Hanna Gallo",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Cranston",
+        "district": 27
+    }
+}, {
+    "id": "Picard",
+    "name": "Roger Picard",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Woonsocket",
+        "district": 20
+    }
+}, {
+    "id": "Calkin",
+    "name": "Jeanine Calkin",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Warwick",
+        "district": 30
+    }
+}, {
+    "id": "Lombardi",
+    "name": "Frank Lombardi",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Cranston",
+        "district": 26
+    }
+}, {
+    "id": "Nesselbush",
+    "name": "Donna Nesselbush",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Pawtucket",
+        "district": 15
+    }
+}, {
+    "id": "Crowley",
+    "name": "Elizabeth Crowley",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Central Falls",
+        "district": 16
+    }
+}, {
+    "id": "Algiere",
+    "name": "Dennis Algiere",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Rep",
+        "location": "Westerly & Charlestown",
+        "district": 38
+    }
+}, {
+    "id": "Pearson",
+    "name": "Ryan W. Pearson",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Cumberland",
+        "district": 19
+    }
+}, {
+    "id": "Archambault",
+    "name": "Stephen Archambault",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Smithfield, Johnston, & North Providence",
+        "district": 22
+    }
+}, {
+    "id": "Gee",
+    "name": "Mark W. Gee",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Rep",
+        "location": "North Kingstown, & Narragansett",
+        "district": 35
+    }
+}, {
+    "id": "McCaffrey",
+    "name": "Michael McCaffrey",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Warwick",
+        "district": 29
+    }
+}, {
+    "id": "Raptakis",
+    "name": "Leonidas Raptakis",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "East Greenwich",
+        "district": 33
+    }
+}, {
+    "id": "Miller",
+    "name": "Joshua Miller",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Cranston",
+        "district": 28
+    }
+}, {
+    "id": "Sheehan",
+    "name": "James Sheehan",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Narragansett",
+        "district": 36
+    }
+}, {
+    "id": "Hodgson",
+    "name": "Dawson Hodgson",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Rep",
+        "location": "North Kingstown, & Narragansett",
+        "district": 35
+    }
+}, {
+    "id": "Conley",
+    "name": "William Conley, Jr.",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Narragansett",
+        "district": 18
+    }
+}, {
+    "id": "Pichardo",
+    "name": "Juan M. Pichardo",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Providence",
+        "district": 2
+    }
+}, {
+    "id": "Prata",
+    "name": "Erin Lynch Prata",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Warwick, Cranston",
+        "district": 31
+    }
+}, {
+    "id": "Weed",
+    "name": "M. Teresa Paiva-Weed",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Newport & Jamestown",
+        "district": 13
+    }
+}, {
+    "id": "Rumsey",
+    "name": "Catherine Cool Rumsey",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Exeter, Hopkinton, Richmond, & West Greenwich",
+        "district": 34
+    }
+}, {
+    "id": "Bates",
+    "name": "David Bates",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Rep",
+        "location": "Barrington",
+        "district": 32
+    }
+}, {
+    "id": "Ottiano",
+    "name": "Christopher Ottiano",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Rep",
+        "location": "Bristol & Portsmouth",
+        "district": 11
+    }
+}, {
+    "id": "Doyle",
+    "name": "James Doyle II",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Pawtucket",
+        "district": 11
+    }
+}, {
+    "id": "Pagliarini",
+    "name": "John Pagliarini",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Bristol & Portsmouth",
+        "district": 11
+    }
+}, {
+    "id": "Neill",
+    "name": "Edward J. O'Neill",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Ind",
+        "location": "Lincoln",
+        "district": 17
+    }
+}, {
+    "id": "Walaska",
+    "name": "William Walaska",
+    "startDate": "TODO",
+    "endDate": "TODO",
+    "info": {
+        "party": "Dem",
+        "location": "Warwick",
+        "district": 30
+    }
+}]
