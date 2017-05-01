@@ -35,5 +35,5 @@ with open('../data/data.csv') as csvfile:
         else:
             print(name)
 
-with open('../data/senator-info.json', 'w') as outfile:
-    json.dump(useful_data, outfile)
+# with open('../data/senator-info.json', 'w') as outfile:
+#     json.dump(useful_data, outfile)

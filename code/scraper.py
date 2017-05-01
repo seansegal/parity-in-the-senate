@@ -97,7 +97,7 @@ def write_to_json(file, all_data):
         json.dump(all_data, outfile)
 
 
-desc_to_ignore=['ROLL CALL', 'CONSENT CALENDARAdoption']
+desc_to_ignore=['ROLL CALL', 'Adoption']
 all_data = scrape_all( DATES['2014'], DATES['TODAY']+1, desc_to_ignore)
 write_to_json('../data/data.json', all_data)
 write_to_csv('../data/data.csv', all_data)
