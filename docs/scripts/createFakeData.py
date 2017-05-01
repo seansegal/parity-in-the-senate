@@ -134,7 +134,7 @@ def main():
 	data["nodes"] = allNodes
 	data["links"] = allLinks
 	
-	with open("data/fakeData.json", "w+") as f:
+	with open("../data/fakeData.json", "w+") as f:
 		f.write(json.dumps(data, indent=4))
 
 main()
