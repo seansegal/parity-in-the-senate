@@ -23,7 +23,6 @@ sens <- cols[c(8:(length(cols)-1))]
 justvotes <- votesFIN[,sens]
 jvY <- (justvotes == 'Y')*1
 jvN <- (justvotes == 'N')*1
-jvNA <- (justvotes == 'NA')*1
 jvNV <- (justvotes == 'NV')*1
 jvYN <- jvY + jvN
 
