@@ -124,7 +124,12 @@ Network = () ->
   # called once to clean up raw data and switch links to point to node instances
   # Returns modified data
   setupData = (data) ->
+    minParity = Number.MAX_SAFE_INTEGER
+    maxParity = -Number.MAX_SAFE_INTEGER
     data.nodes.forEach (n) ->
+      minParity = Math.min(minParity, n.parity)
+      maxParity = Math.max(maxParity, n.parity)
+
       # set initial x/y to values within the width/height of the visualization (make dems on left)
       if n.parity < 0.3
         n.x = randomnumber=Math.floor(Math.random() * 1.5) + (width / 4)
@@ -145,6 +150,9 @@ Network = () ->
 
       # linkedByIndex is used for link sorting
       linkedByIndex["#{l.source.id},#{l.target.id}"] = 1
+    console.log minParity
+    console.log maxParity
+    nodeColors.domain([minParity, maxParity])
 
     data
 
