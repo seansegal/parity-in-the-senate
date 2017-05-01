@@ -237,7 +237,7 @@ Network = () ->
 
   # Mouseover tooltip function
   showDetails = (d,i) ->
-    content = '<p class="main">' + d.name + '</span></p>'
+    content = '<p class="main">' + d.name + ' (' + d.party + ')</span></p>'
     content += '<hr class="tooltip-hr">'
     content += '<p class="main">' + d.info + '</span></p>'
     tooltip.showTooltip(content,d3.event)

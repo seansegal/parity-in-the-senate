@@ -15,17 +15,18 @@ importance = 12
 senatorIDs = {}
 
 class Senator:
-	def __init__(self, name, ID, info, startDate, endDate, importance, parity=0):
+	def __init__(self, name, ID, info, party, startDate, endDate, importance, parity=0):
 		self.name = name
 		self.ID = ID
 		self.info = info
+		self.party = party
 		self.startDate = startDate
 		self.endDate = endDate
 		self.importance = importance
 		self.parity = parity
 
 	def toJson(self):
-		return {"name": self.name, "id": self.ID, "info": self.info, "startDate": self.startDate, "endDate": self.endDate, "importance": self.importance, "parity": self.parity}
+		return {"name": self.name, "id": self.ID, "info": self.info, "party": self.party, "startDate": self.startDate, "endDate": self.endDate, "importance": self.importance, "parity": self.parity}
 
 class Link:
 	def __init__(self, source, target, weight):
@@ -45,10 +46,6 @@ class Link:
 def getInfoStr(infoItems):
 	return "District " + str(infoItems["district"]) + ": " + infoItems["location"]
 
-def getNameStr(senatorData):
-	return senatorData["name"]
-	# return senatorData["name"] + (" (R)" if senatorData["info"]["party"] == "Rep" else " (D)")
-
 def getSenators():
 	senators = []
 	with open(senatorsFile, "r") as f:
@@ -63,9 +60,9 @@ def getSenators():
 			senatorIDs[senatorID] = senatorUUID
 
 			info = getInfoStr(senatorData["info"])
-			name = getNameStr(senatorData)
+			party = "D" if senatorData["info"]["party"] == "Dem" else "R"
 
-			senators.append(Senator(name, senatorUUID, info, senatorData["startDate"], senatorData["endDate"], importance))
+			senators.append(Senator(senatorData["name"], senatorUUID, info, party, senatorData["startDate"], senatorData["endDate"], importance))
 
 	return senators
 
