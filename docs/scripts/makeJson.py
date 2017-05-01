@@ -1,12 +1,18 @@
 import json
 import csv
+import sys
+import uuid
 
 outputFile = "../data/data.json"
 linksFile = "../../data/senator_pairs.csv"
-senatorsFile = "../../data/senator-info.json"
+senatorsFile = "../../data/new-senator-info.json"
 
 maxWeight = 400
 minWeight = 50
+
+importance = 12
+
+senatorIDs = {}
 
 class Senator:
 	def __init__(self, name, ID, info, startDate, endDate, importance, parity=0):
@@ -36,12 +42,32 @@ class Link:
 	def toJson(self):
 		return {"source": self.source, "target": self.target, "weight": self.weight}
 
-def getSenators():
-	nodes = []
-	with open(linksFile, "r") as f:
-		reader = csv.DictReader(f)
+def getInfoStr(infoItems):
+	return "District " + str(infoItems["district"]) + ": " + infoItems["location"]
 
-	return nodes
+def getNameStr(senatorData):
+	return senatorData["name"]
+	# return senatorData["name"] + (" (R)" if senatorData["info"]["party"] == "Rep" else " (D)")
+
+def getSenators():
+	senators = []
+	with open(senatorsFile, "r") as f:
+		senatorsData = json.load(f)
+
+		for senatorData in senatorsData:
+			senatorID = senatorData["id"]
+			if senatorID in senatorIDs:
+				print("ERROR: Duplicate ID found. Data must be reconciled.")
+				sys.exit()
+			senatorUUID = str(uuid.uuid4())
+			senatorIDs[senatorID] = senatorUUID
+
+			info = getInfoStr(senatorData["info"])
+			name = getNameStr(senatorData)
+
+			senators.append(Senator(name, senatorUUID, info, senatorData["startDate"], senatorData["endDate"], importance))
+
+	return senators
 
 def getLinks():
 	links = []
@@ -56,7 +82,14 @@ def getLinks():
 				weight = float(weight)
 				minWeightUnscaled = min(minWeightUnscaled, weight)
 				maxWeightUnscaled = max(maxWeightUnscaled, weight)
-				links.append(Link(row["Senator1"], row["Senator2"], weight))
+
+				id1 = senatorIDs[row["Senator1"]]
+				id2 = senatorIDs[row["Senator2"]]
+				if id1 == None or id2 == None:
+					print("ERROR: Mismatch between senator info IDs and sentor link IDs. Data must be reconciled.")
+					sys.exit()
+
+				links.append(Link(id1, id2, weight))
 
 		for link in links:
 			link.scaleWeight(minWeightUnscaled, maxWeightUnscaled)
