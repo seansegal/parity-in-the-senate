@@ -43,7 +43,7 @@ for (i in c(1:(length(sens)-1))) {
 colnames(output) <- c("Senator1","Senator2","Agree","Disagree")
 output$weight <- output$Agree/(output$Agree+output$Disagree)
 
-write.csv(output,"senator_pairs.csv",row.names = F)
+#write.csv(output,"senator_pairs.csv",row.names = F)
 
 outmat <- data.frame(matrix(0,nrow = length(sens), ncol = length(sens)))
 
@@ -58,33 +58,24 @@ for (i in c(1:length(sens))) {
 colnames(outmat) <- sens
 rownames(outmat) <- sens
 
+minmaxdates <- data.frame(matrix(0, nrow = length(sens), ncol = 3))
+
+for (i in c(1:length(sens))){
+  minmaxdates[i,1] <- sens[i]
+  minmaxdates[i,2] <- as.Date(min(votesFIN[jvYN[,i] == 1,"datec"]))
+  minmaxdates[i,3] <- as.Date(max(votesFIN[jvYN[,i] == 1,"datec"]))
+}
+
+minmaxdates$X2 <- as.Date(minmaxdates$X2,origin = "1970-01-01")
+minmaxdates$X3 <- as.Date(minmaxdates$X3,origin = "1970-01-01")
+colnames(minmaxdates) <- c("Senator","FirstDate","LastDate")
+
+write.csv(minmaxdates,"minmaxdates.csv",row.names = F)
+
+
+
+#extras
 # library(heatmaply)
 # heatmaply(normalize(outmat))
 # heatmaply(percentize(outmat))
-
-party <- data.frame(cbind(sens,1+0*c(1:length(sens))))
-
-my.JSON <- fromJSON(file="senator-info.json")
-
-df <- lapply(my.JSON, function(play) # Loop through each "play"
-{
-  # Convert each group to a data frame.
-  # This assumes you have 6 elements each time
-  data.frame(matrix(unlist(play), ncol=4, byrow=T))
-})
-
-# Now you have a list of data frames, connect them together in
-# one single dataframe
-df <- do.call(rbind, df)
-
-colnames(df) <- names(my.JSON[[1]][[1]])
-rownames(df) <- NULL
-
-library(stringi)
-df$lastname <- stri_extract_last_words(df$name)
-
-for (i in c(1:length(sens))){
-  datemin = min(votesFIN[jvYN[,i],"datec"])
-  datemax = max(votesFIN[jvYN[,i],"datec"])
-}
 
