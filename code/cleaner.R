@@ -1,8 +1,8 @@
-setwd("/Users/nathanmeyers/Desktop/")
+setwd("/Users/nathanmeyers/Documents/bigdatafinal/data/")
 library(tidyr)
 library(qdapRegex)
 
-votes <- read.csv("data.csv", header=T)
+votes <- read.csv("data2.csv", header=T)
 votes$date <- sapply(votes$date, as.character)
 votes <- separate(votes, date, c("weekday","monthday","yeartime"), sep = '/ ')
 votes <- separate(votes, monthday, c("month", "day"), sep = " ")
@@ -86,13 +86,5 @@ df$lastname <- stri_extract_last_words(df$name)
 for (i in c(1:length(sens))){
   datemin = min(votesFIN[jvYN[,i],"datec"])
   datemax = max(votesFIN[jvYN[,i],"datec"])
-}
-
-for (j in df$lastname){
-  if (j != "Ponte"){
-    datemin = min(votesFIN[jvYN[,j],"datec"])
-    datemax = max(votesFIN[jvYN[,j],"datec"])
-    print(paste(datemin,datemax))
-  }
 }
 
