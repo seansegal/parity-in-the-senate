@@ -68,8 +68,9 @@ for (k in years){
   inc1 <- inc1 + 1
 }
 
-write.csv(againstall,"votesagainstall.csv")
-write.csv(outputall,"senator_pairsall.csv",row.names = F)
+colnames(outputall) <- c("Senator1","Senator2","Weight2014","Weight2015","Weight2016","Weight2017")
+#write.csv(againstall,"votesagainst1417.csv")
+#write.csv(outputall,"senator_pairs1417.csv",row.names = F)
 
 
 #################################
