@@ -29,8 +29,7 @@ jvYN <- jvY + jvN
 votesFIN$DEM <- (rowSums(jvY) > 19)*1
 against <- data.frame(colSums(votesFIN$DEM*jvN+(1-votesFIN$DEM)*jvY)/colSums(jvYN))
 colnames(against) <- c("VotesAgainst")
-write.csv(against,"votesagainst.csv")
-
+#write.csv(against,"votesagainst.csv")
 
 output <- data.frame(matrix(0,nrow = (length(sens)*(length(sens)-1)/2), ncol = 4))
 inc <- 1
@@ -75,7 +74,7 @@ minmaxdates$X2 <- as.Date(minmaxdates$X2,origin = "1970-01-01")
 minmaxdates$X3 <- as.Date(minmaxdates$X3,origin = "1970-01-01")
 colnames(minmaxdates) <- c("Senator","FirstDate","LastDate")
 
-write.csv(minmaxdates,"minmaxdates.csv",row.names = F)
+#write.csv(minmaxdates,"minmaxdates.csv",row.names = F)
 
 #extras
 # library(heatmaply)
