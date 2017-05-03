@@ -1,6 +1,7 @@
 setwd("/Users/nathanmeyers/Documents/bigdatafinal/data/")
 
 library('stringr')
+library('data.table')
 
 votes <- read.csv("data-all.csv", header = T, stringsAsFactors=FALSE)
 votes2 = data.frame(votes)
@@ -80,21 +81,16 @@ for (i in c(1:(length(proper)))){
 votes2 <- votes2[ , !(names(votes2) %in% upper)]
 colnames(votes2) <- str_to_title(colnames(votes2))
 votes2[votes2[,"Lynch"] == "N/A","Lynch"] <- votes2[votes2[,"Lynch"] == "N/A","Lynch.prata"]
-colnames(votes2[,c("Da.ponte","Paiva.weed","O.neill","Cool.rumsey" )]) <- c("Ponte","Weed","Neill","Rumsey")
 votes2 <- votes2[ , !(names(votes2) %in% c("Test.member","Lynch.prata"))]
 
+setnames(votes2, old = c("Da.ponte","Paiva.weed","O.neill","Cool.rumsey","Description","Date"), 
+         new = c("Ponte","Weed","Neill","Rumsey","description","date"))
 
+madprez <- votes2[votes2$Madam.president != "N/A",]
+mrprez <- votes2[votes2$Mr..President != "N/A",]
 
+votes2[votes2[,"Ruggerio"] == "N/A","Ruggerio"] <- votes2[votes2[,"Ruggerio"] == "N/A","Mr..President"]
+votes2[votes2[,"Weed"] == "N/A","Weed"] <- votes2[votes2[,"Weed"] == "N/A","Madam.president"]
+votes2 <- votes2[,-c(which(colnames(votes2)=="Mr..President"),which(colnames(votes2)=="Madam.president"))]
 
-
-"TEST.MEMBER"   
-#########3
-votes2[votes[,"Ruggerio"] == "N/A","Ruggerio"] <- votes[votes[,"Ruggerio"] == "N/A","Mr..President"]
-votes2[votes[,"Paiva.Weed"] == "N/A","Paiva.Weed"] <- votes[votes[,"Paiva.Weed"] == "N/A","Madam.President"]
-votes2 <- votes2[,-c(which(colnames(votes2)=="Mr..President"),which(colnames(votes2)=="Madam.President"))]
-
-
-
-
-
-#write.csv(votes2,"data2.csv", row.names = F)
+write.csv(votes2,"data2all.csv", row.names = F)
