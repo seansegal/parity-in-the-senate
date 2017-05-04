@@ -11,6 +11,8 @@ legislators = set()
 votes = []
 count = 0
 for bill in bills:
+    if count > 100:
+        break
     count = count + 1
     if 'SB' in bill['bill_id']:
         print('Requesting: ', bill['bill_id'], 'Count: ', count)
@@ -35,12 +37,18 @@ for bill in bills:
 
 
 # Write to the file
-with open(OUTFILE, 'w') as csvfile:
-    print('Writing Dataset...')
-    headers = ['date', 'description']
-    headers.extend(list(legislators))
-    print(list(legislators))
-    writer = csv.DictWriter(csvfile, fieldnames=headers, restval='N/A')
-    writer.writeheader()
-    for vote in votes:
-        writer.writerow(vote)
+# with open(OUTFILE, 'w') as csvfile:
+#     print('Writing Dataset...')
+#     headers = ['date', 'description']
+#     headers.extend(list(legislators))
+#     print(list(legislators))
+#     writer = csv.DictWriter(csvfile, fieldnames=headers, restval='N/A')
+#     writer.writeheader()
+#     for vote in votes:
+#         writer.writerow(vote)
+
+
+for leg in legislators:
+    fullLeg = pyopenstates.get_legislator(leg)
+    print(fullLeg)
+    exit()
