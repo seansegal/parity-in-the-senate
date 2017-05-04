@@ -1,330 +1,323 @@
 [{
-    "Kettle": {
-        "district": "21",
-        "name": "Nicholas Kettle",
-        "party": "Rep",
-        "location": "Coventry, Foster, Scituate&West Greenwich"
-    }
+  "Kettle": {
+    "district": "21",
+    "name": "Nicholas Kettle",
+    "party": "Rep",
+    "location": "Coventry, Foster, Scituate&West Greenwich"
+  }
 }, {
-    "Ruggerio": {
-        "district": "4",
-        "name": "Dominick J. Ruggerio",
-        "party": "Dem",
-        "location": "Providence"
-    }
+  "Ruggerio": {
+    "district": "4",
+    "name": "Dominick J. Ruggerio",
+    "party": "Dem",
+    "location": "Providence"
+  }
 }, {
-    "Lynch": {
-        "district": "31",
-        "name": "Erin Lynch",
-        "party": "Dem",
-        "location": "Warwick"
-    }
+  "Lynch": {
+    "district": "31",
+    "name": "Erin Lynch",
+    "party": "Dem",
+    "location": "Warwick"
+  }
 }, {
-    "Ponte": {
-        "district": "14",
-        "name": "Daniel Da Ponte",
-        "party": "Dem",
-        "location": "East Providence & Pawtucket"
-    }
+  "Ponte": {
+    "district": "14",
+    "name": "Daniel Da Ponte",
+    "party": "Dem",
+    "location": "East Providence & Pawtucket"
+  }
 }, {
-    "Fogarty": {
-        "district": "23",
-        "name": "Paul Fogarty",
-        "party": "Dem",
-        "location": "Burrillville & Glocester"
-    }
+  "Fogarty": {
+    "district": "23",
+    "name": "Paul Fogarty",
+    "party": "Dem",
+    "location": "Burrillville & Glocester"
+  }
 }, {
-    "Lombardo": {
-        "district": "25",
-        "name": "Frank Lombardo",
-        "party": "Dem",
-        "location": "Johnston"
-    }
+  "Lombardo": {
+    "district": "25",
+    "name": "Frank Lombardo",
+    "party": "Dem",
+    "location": "Johnston"
+  }
 }, {
-    "Sosnowski": {
-        "district": "37",
-        "name": "V. Susan Sosnowski",
-        "party": "Dem",
-        "location": "Block Island & South Kingstown"
-    }
+  "Sosnowski": {
+    "district": "37",
+    "name": "V. Susan Sosnowski",
+    "party": "Dem",
+    "location": "Block Island & South Kingstown"
+  }
 }, {
-    "Paolino": {
-        "district": "17",
-        "name": "Thomas Paolino",
-        "party": "Rep",
-        "location": "Lincoln"
-    }
+  "Paolino": {
+    "district": "17",
+    "name": "Thomas Paolino",
+    "party": "Rep",
+    "location": "Lincoln"
+  }
 }, {
-    "Jabour": {
-        "district": "5",
-        "name": "Paul Jabour",
-        "party": "Dem",
-        "location": "Providence"
-    }
+  "Jabour": {
+    "district": "5",
+    "name": "Paul Jabour",
+    "party": "Dem",
+    "location": "Providence"
+  }
 }, {
-    "Ciccone": {
-        "district": "7",
-        "name": "Frank Ciccone",
-        "party": "Dem",
-        "location": "North Providence"
-    }
+  "Ciccone": {
+    "district": "7",
+    "name": "Frank Ciccone",
+    "party": "Dem",
+    "location": "North Providence"
+  }
 }, {
-    "Goldin": {
-        "district": "3",
-        "name": "Gayle Goldin",
-        "party": "Dem",
-        "location": "Providence"
-    }
+  "Goldin": {
+    "district": "3",
+    "name": "Gayle Goldin",
+    "party": "Dem",
+    "location": "Providence"
+  }
 }, {
-    "Metts": {
-        "district": "6",
-        "name": "Harold Metts",
-        "party": "Dem",
-        "location": "Providence"
-    }
+  "Metts": {
+    "district": "6",
+    "name": "Harold Metts",
+    "party": "Dem",
+    "location": "Providence"
+  }
 }, {
-    "Goodwin": {
-        "district": "1",
-        "name": "Maryellen Goodwin",
-        "party": "Dem",
-        "location": "Providence"
-    }
+  "Goodwin": {
+    "district": "1",
+    "name": "Maryellen Goodwin",
+    "party": "Dem",
+    "location": "Providence"
+  }
 }, {
-    "Felag": {
-        "district": "10",
-        "name": "Walter Felag",
-        "party": "Dem",
-        "location": "Tiverton & Warren"
-    }
+  "Felag": {
+    "district": "10",
+    "name": "Walter Felag",
+    "party": "Dem",
+    "location": "Tiverton & Warren"
+  }
 }, {
-    "Quezada": {
-        "district": "2",
-        "name": "Ana Quezada",
-        "party": "Dem",
-        "location": "Providence"
-    }
+  "Quezada": {
+    "district": "2",
+    "name": "Ana Quezada",
+    "party": "Dem",
+    "location": "Providence"
+  }
 }, {
-    "DiPalma": {
-        "district": "12",
-        "name": "Louis DiPalma",
-        "party": "Dem",
-        "location": "Little Compton & Middletown"
-    }
+  "DiPalma": {
+    "district": "12",
+    "name": "Louis DiPalma",
+    "party": "Dem",
+    "location": "Little Compton & Middletown"
+  }
 }, {
-    "Satchell": {
-        "district": "9",
-        "name": "Adam Satchell",
-        "party": "Dem",
-        "location": "West Warwick"
-    }
+  "Satchell": {
+    "district": "9",
+    "name": "Adam Satchell",
+    "party": "Dem",
+    "location": "West Warwick"
+  }
 }, {
-    "Seveney": {
-        "district": "11",
-        "name": "James Seveney",
-        "party": "Dem",
-        "location": "Bristol & Portsmouth"
-    }
+  "Seveney": {
+    "district": "11",
+    "name": "James Seveney",
+    "party": "Dem",
+    "location": "Bristol & Portsmouth"
+  }
 }, {
-    "Cote": {
-        "district": "24",
-        "name": "Marc Cote",
-        "party": "Dem",
-        "location": "North Smithfield"
-    }
+  "Cote": {
+    "district": "24",
+    "name": "Marc Cote",
+    "party": "Dem",
+    "location": "North Smithfield"
+  }
 }, {
-    "Morgan": {
-        "district": "34",
-        "name": "Elaine J. Morgan",
-        "party": "Rep",
-        "location": "Exeter, Hopkinton, Richmond, & West Greenwich"
-    }
+  "Morgan": {
+    "district": "34",
+    "name": "Elaine J. Morgan",
+    "party": "Rep",
+    "location": "Exeter, Hopkinton, Richmond, & West Greenwich"
+  }
 }, {
-    "Coyne": {
-        "district": "32",
-        "name": "Cynthia Armour Coyne",
-        "party": "Dem",
-        "location": "Barrington"
-    }
+  "Coyne": {
+    "district": "32",
+    "name": "Cynthia Armour Coyne",
+    "party": "Dem",
+    "location": "Barrington"
+  }
 }, {
-    "Gallo": {
-        "district": "27",
-        "name": "Hanna Gallo",
-        "party": "Dem",
-        "location": "Cranston"
-    }
+  "Gallo": {
+    "district": "27",
+    "name": "Hanna Gallo",
+    "party": "Dem",
+    "location": "Cranston"
+  }
 }, {
-    "Picard": {
-        "district": "20",
-        "name": "Roger Picard",
-        "party": "Dem",
-        "location": "Woonsocket"
-    }
+  "Picard": {
+    "district": "20",
+    "name": "Roger Picard",
+    "party": "Dem",
+    "location": "Woonsocket"
+  }
 }, {
-    "Calkin": {
-        "district": "30",
-        "name": "Jeanine Calkin",
-        "party": "Dem",
-        "location": "Warwick"
-    }
+  "Calkin": {
+    "district": "30",
+    "name": "Jeanine Calkin",
+    "party": "Dem",
+    "location": "Warwick"
+  }
 }, {
-    "Lombardi": {
-        "district": "26",
-        "name": "Frank Lombardi",
-        "party": "Dem",
-        "location": "Cranston"
-    }
+  "Lombardi": {
+    "district": "26",
+    "name": "Frank Lombardi",
+    "party": "Dem",
+    "location": "Cranston"
+  }
 }, {
-    "Nesselbush": {
-        "district": "15",
-        "name": "Donna Nesselbush",
-        "party": "Dem",
-        "location": "Pawtucket"
-    }
+  "Nesselbush": {
+    "district": "15",
+    "name": "Donna Nesselbush",
+    "party": "Dem",
+    "location": "Pawtucket"
+  }
 }, {
-    "Crowley": {
-        "district": "16",
-        "name": "Elizabeth Crowley",
-        "party": "Dem",
-        "location": "Central Falls"
-    }
+  "Crowley": {
+    "district": "16",
+    "name": "Elizabeth Crowley",
+    "party": "Dem",
+    "location": "Central Falls"
+  }
 }, {
-    "Algiere": {
-        "district": "38",
-        "name": "Dennis Algiere",
-        "party": "Rep",
-        "location": "Westerly & Charlestown"
-    }
+  "Algiere": {
+    "district": "38",
+    "name": "Dennis Algiere",
+    "party": "Rep",
+    "location": "Westerly & Charlestown"
+  }
 }, {
-    "Pearson": {
-        "district": "19",
-        "name": "Ryan W. Pearson",
-        "party": "Dem",
-        "location": "Cumberland"
-    }
+  "Pearson": {
+    "district": "19",
+    "name": "Ryan W. Pearson",
+    "party": "Dem",
+    "location": "Cumberland"
+  }
 }, {
-    "Archambault": {
-        "district": "22",
-        "name": "Stephen Archambault",
-        "party": "Dem",
-        "location": "Smithfield, Johnston, & North Providence"
-    }
+  "Archambault": {
+    "district": "22",
+    "name": "Stephen Archambault",
+    "party": "Dem",
+    "location": "Smithfield, Johnston, & North Providence"
+  }
 }, {
-    "Gee": {
-        "district": "35",
-        "name": "Mark W. Gee",
-        "party": "Rep",
-        "location": "North Kingstown, & Narragansett"
-    }
+  "Gee": {
+    "district": "35",
+    "name": "Mark W. Gee",
+    "party": "Rep",
+    "location": "North Kingstown, & Narragansett"
+  }
 }, {
-    "McCaffrey": {
-        "district": "29",
-        "name": "Michael McCaffrey",
-        "party": "Dem",
-        "location": "Warwick"
-    }
+  "McCaffrey": {
+    "district": "29",
+    "name": "Michael McCaffrey",
+    "party": "Dem",
+    "location": "Warwick"
+  }
 }, {
-    "Raptakis": {
-        "district": "33",
-        "name": "Leonidas Raptakis",
-        "party": "Dem",
-        "location": "East Greenwich"
-    }
+  "Raptakis": {
+    "district": "33",
+    "name": "Leonidas Raptakis",
+    "party": "Dem",
+    "location": "East Greenwich"
+  }
 }, {
-    "Miller": {
-        "district": "28",
-        "name": "Joshua Miller",
-        "party": "Dem",
-        "location": "Cranston"
-    }
+  "Miller": {
+    "district": "28",
+    "name": "Joshua Miller",
+    "party": "Dem",
+    "location": "Cranston"
+  }
 }, {
-    "Sheehan": {
-        "district": "36",
-        "name": "James Sheehan",
-        "party": "Dem",
-        "location": "Narragansett"
-    }
+  "Sheehan": {
+    "district": "36",
+    "name": "James Sheehan",
+    "party": "Dem",
+    "location": "Narragansett"
+  }
 }, {
-    "Hodgson": {
-        "district": "35",
-        "name": "Dawson Hodgson",
-        "party": "Rep",
-        "location": "North Kingstown, & Narragansett"
-    }
+  "Hodgson": {
+    "district": "35",
+    "name": "Dawson Hodgson",
+    "party": "Rep",
+    "location": "North Kingstown, & Narragansett"
+  }
 }, {
-    "Conley": {
-        "district": "18",
-        "name": "William Conley, Jr.",
-        "party": "Dem",
-        "location": "Narragansett"
-    }
+  "Conley": {
+    "district": "18",
+    "name": "William Conley, Jr.",
+    "party": "Dem",
+    "location": "Narragansett"
+  }
 }, {
-    "Pichardo": {
-        "district": "2",
-        "name": "Juan M. Pichardo",
-        "party": "Dem",
-        "location": "Providence"
-    }
+  "Pichardo": {
+    "district": "2",
+    "name": "Juan M. Pichardo",
+    "party": "Dem",
+    "location": "Providence"
+  }
 }, {
-    "Prata": {
-        "district": "31",
-        "name": "Erin Lynch Prata",
-        "party": "Dem",
-        "location": "Warwick, Cranston"
-    }
+  "Weed": {
+    "district": "13",
+    "name": "M. Teresa Paiva-Weed",
+    "party": "Dem",
+    "location": "Newport & Jamestown"
+  }
 }, {
-    "Weed": {
-        "district": "13",
-        "name": "M. Teresa Paiva-Weed",
-        "party": "Dem",
-        "location": "Newport & Jamestown"
-    }
+  "Rumsey": {
+    "district": "34",
+    "name": "Catherine Cool Rumsey",
+    "party": "Dem",
+    "location": "Exeter, Hopkinton, Richmond, & West Greenwich"
+  }
 }, {
-    "Rumsey": {
-        "district": "34",
-        "name": "Catherine Cool Rumsey",
-        "party": "Dem",
-        "location": "Exeter, Hopkinton, Richmond, & West Greenwich"
-    }
+  "Bates": {
+    "district": "32",
+    "name": "David Bates",
+    "party": "Rep",
+    "location": "Barrington"
+  }
 }, {
-    "Bates": {
-        "district": "32",
-        "name": "David Bates",
-        "party": "Rep",
-        "location": "Barrington"
-    }
+  "Ottiano": {
+    "district": "11",
+    "name": "Christopher Ottiano",
+    "party": "Rep",
+    "location": "Bristol & Portsmouth"
+  }
 }, {
-    "Ottiano": {
-        "district": "11",
-        "name": "Christopher Ottiano",
-        "party": "Rep",
-        "location": "Bristol & Portsmouth"
-    }
+  "Doyle": {
+    "district": "11",
+    "name": "James Doyle II",
+    "party": "Dem",
+    "location": "Pawtucket"
+  }
 }, {
-    "Doyle": {
-        "district": "11",
-        "name": "James Doyle II",
-        "party": "Dem",
-        "location": "Pawtucket"
-    }
+  "Pagliarini": {
+    "district": "11",
+    "name": "John Pagliarini",
+    "party": "Rep",
+    "location": "Bristol & Portsmouth"
+  }
 }, {
-    "Pagliarini": {
-        "district": "11",
-        "name": "John Pagliarini",
-        "party": "Rep",
-        "location": "Bristol & Portsmouth"
-    }
+  "Neill": {
+    "district": "17",
+    "name": "Edward J. O'Neill",
+    "party": "Ind",
+    "location": "Lincoln"
+  }
 }, {
-    "Neill": {
-        "district": "17",
-        "name": "Edward J. O'Neill",
-        "party": "Ind",
-        "location": "Lincoln"
-    }
-}, {
-    "Walaska": {
-        "district": "30",
-        "name": "William Walaska",
-        "party": "Dem",
-        "location": "Warwick"
-    }
+  "Walaska": {
+    "district": "30",
+    "name": "William Walaska",
+    "party": "Dem",
+    "location": "Warwick"
+  }
 }]

@@ -6,8 +6,9 @@ import csv
 
 
 DATES = {
+    '2003': 1,
     '2014': 8231,
-    'TODAY': 10695 # Updated April 26, 2015
+    'TODAY': 10720 # Updated May 2, 2017
 }
 
 def scrape(id):
@@ -98,6 +99,6 @@ def write_to_json(file, all_data):
 
 
 desc_to_ignore=['ROLL CALL', 'Adoption']
-all_data = scrape_all( DATES['2014'], DATES['TODAY']+1, desc_to_ignore)
-write_to_json('../data/data.json', all_data)
-write_to_csv('../data/data.csv', all_data)
+all_data = scrape_all( DATES['2003'], DATES['TODAY'], desc_to_ignore)
+write_to_json('../data/data-all.json', all_data)
+write_to_csv('../data/data-all.csv', all_data)
