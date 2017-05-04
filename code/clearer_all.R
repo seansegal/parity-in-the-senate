@@ -73,7 +73,14 @@ colnames(outputall) <- c("Senator1","Senator2",
                          "Weight2006","Weight2007","Weight2008","Weight2009",
                          "Weight2010","Weight2011","Weight2012","Weight2013",
                          "Weight2014","Weight2015","Weight2016","Weight2017")
+
+rownames(againstall) <- tolower(rownames(againstall))
+
 write.csv(againstall,"votesagainstall.csv")
+
+outputall$Senator1 <- tolower(outputall$Senator1)
+outputall$Senator2 <- tolower(outputall$Senator2)
+
 write.csv(outputall,"senator_pairsall.csv",row.names = F)
 
 
