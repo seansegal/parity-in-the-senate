@@ -14,6 +14,8 @@ importance = 12
 
 senatorIDs = {}
 
+terms = set()
+
 class Senator:
 	def __init__(self, name, ID, info, party, startDate, endDate, importance, parities):
 		self.name = name
@@ -68,6 +70,9 @@ def getSenators():
 			elif senatorData["info"]["party"] == "Ind":
 				party = "I"
 
+			for term in senatorData["parities"]
+				terms.add(term)
+
 			senators.append(Senator(senatorData["name"], senatorUUID, info, party, senatorData["startDate"], senatorData["endDate"], importance, senatorData["parities"]))
 
 	return senators
@@ -110,6 +115,8 @@ def getLinks():
 						links.append(Link(id1, id2, weight, term))
 
 		for term in minWeightsUnscaled:
+			terms.add(term)
+			
 			for link in links:
 				link.scaleWeight(minWeightsUnscaled[term], maxWeightsUnscaled[term], term)
 
