@@ -896,17 +896,6 @@
     "district": 30
   }
 }, {
-  "id": "pagliarini",
-  "name": "John Pagliarini",
-  "parities": {
-    "2016": 0.204166666666667
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Bristol & Portsmouth",
-    "district": 11
-  }
-}, {
   "id": "maher",
   "name": "Francis Maher",
   "parities": {
