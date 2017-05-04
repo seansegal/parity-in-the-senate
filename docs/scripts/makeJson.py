@@ -4,7 +4,7 @@ import sys
 import uuid
 
 outputFile = "../data/data.json"
-linksFile = "../../data/senator_pairs.csv"
+linksFile = "../../data/senator_pairsall.csv"
 senatorsFile = "../../data/new-senator-info.json"
 
 maxWeight = 400
@@ -17,18 +17,16 @@ senatorIDs = {}
 terms = set()
 
 class Senator:
-	def __init__(self, name, ID, info, party, startDate, endDate, importance, parities):
+	def __init__(self, name, ID, info, party, importance, parities):
 		self.name = name
 		self.ID = ID
 		self.info = info
 		self.party = party
-		self.startDate = startDate
-		self.endDate = endDate
 		self.importance = importance
 		self.parities = parities
 
 	def toJson(self):
-		return {"name": self.name, "id": self.ID, "info": self.info, "party": self.parities, "startDate": self.startDate, "endDate": self.endDate, "importance": self.importance, "parity": self.parity}
+		return {"name": self.name, "id": self.ID, "info": self.info, "party": self.parities, "startDate": self.startDate, "endDate": self.endDate, "importance": self.importance, "parities": self.parities}
 
 class Link:
 	def __init__(self, source, target, weight, term):
@@ -57,7 +55,7 @@ def getSenators():
 		for senatorData in senatorsData:
 			senatorID = senatorData["id"]
 			if senatorID in senatorIDs:
-				print("ERROR: Duplicate ID found. Data must be reconciled.")
+				print("ERROR: Duplicate ID found: " + senatorID + ". Data must be reconciled.")
 				sys.exit()
 			senatorUUID = str(uuid.uuid4())
 			senatorIDs[senatorID] = senatorUUID
@@ -70,10 +68,10 @@ def getSenators():
 			elif senatorData["info"]["party"] == "Ind":
 				party = "I"
 
-			for term in senatorData["parities"]
+			for term in senatorData["parities"]:
 				terms.add(term)
 
-			senators.append(Senator(senatorData["name"], senatorUUID, info, party, senatorData["startDate"], senatorData["endDate"], importance, senatorData["parities"]))
+			senators.append(Senator(senatorData["name"], senatorUUID, info, party, importance, senatorData["parities"]))
 
 	return senators
 
