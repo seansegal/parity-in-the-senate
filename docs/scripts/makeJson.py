@@ -116,7 +116,7 @@ def getLinks():
 
 		for term in minWeightsUnscaled:
 			terms.add(term)
-			
+
 			for link in links:
 				link.scaleWeight(minWeightsUnscaled[term], maxWeightsUnscaled[term], term)
 
@@ -136,6 +136,7 @@ def writeToJson(senators, links):
 	for link in links:
 		allLinks.append(link.toJson())
 
+	data["terms"] = terms
 	data["nodes"] = allNodes
 	data["links"] = allLinks
 

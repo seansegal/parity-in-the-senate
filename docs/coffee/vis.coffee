@@ -40,6 +40,7 @@ Network = () ->
   network = (selection, data) ->
     # format our data
     fullJson = data
+    updateTerms(fullJson)
     allData = setupData(data)
 
     # create our svg and groups
@@ -113,6 +114,7 @@ Network = () ->
   # Public function to update data
   network.updateData = (newData) ->
     fullJson = newData
+    updateTerms(fullJson)
     allData = setupData(newData)
     link.remove()
     node.remove()
@@ -120,7 +122,16 @@ Network = () ->
 
   network.updateDataForTerm = (newTerm) ->
     currTerm = newTerm
-    network.updateData(fullJson)
+    allData = setupData(fullJson)
+    link.remove()
+    node.remove()
+    update()
+
+  updateTerms = (data) ->
+    # change term dropdown  
+    $("#term_select").empty()
+    data.terms.forEach (t) ->
+      $("#term_select").append $('<option value="' + t + '">' + t + '</option>')
 
   # called once to clean up raw data and switch links to point to node instances
   # Returns modified data
