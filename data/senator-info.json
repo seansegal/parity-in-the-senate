@@ -319,122 +319,124 @@
       "name": "William Walaska",
       "party": "Dem",
       "location": "Warwick"
-    } {
-      "Pagliarini": {
-        "district": "11",
-        "name": "John Pagliarini",
-        "party": "Rep",
-        "location": "Bristol & Portsmouth"
-      }
-    },
-    {
-      "maher": {
-        "district": "34",
-        "name": "Francis Maher",
-        "party": "Rep"
-      }
-    },
-    {
-      "maselli": {
-        "district": "25",
-        "name": "Christopher Maselli",
-        "party": "Dem"
-      }
-    },
-    {
-      "mcburney": {
-        "district": "15",
-        "name": "John McBurney",
-        "party": "Dem"
-      }
-    },
-    {
-      "levesque": {
-        "district": "11",
-        "name": "Charles Levesque",
-        "party": "Dem"
-      }
-    },
-    {
-      "lenihan": {
-        "district": "35",
-        "name": "J. Michael Lenihan",
-        "party": "Dem"
-      }
-    },
-    {
-      "shibley": {
-        "district": "33",
-        "name": "Glenford Shibley",
-        "party": "Rep"
-      }
-    },
-    {
-      "moura": {
-        "district": "19",
-        "name": "Bethany Moura",
-        "party": "Rep"
-      }
-    },
-    {
-      "lanzi": {
-        "district": "26",
-        "name": "Beatrice Lanzi",
-        "party": "Dem"
-      }
-    },
-    {
-      "tassoni": {
-        "district": "22",
-        "name": "John Tassoni",
-        "party": "Dem"
-      }
-    },
-    {
-      "devall": {
-        "district": "18",
-        "name": "Frank Devall",
-        "party": "Dem"
-      }
-    },
-    {
-      "roberts": {
-        "district": "28",
-        "name": "Elizabeth H. Roberts",
-        "party": "Dem"
-      }
-    },{
-  "blais": {
-    "name": "Leo Blais",
-    "party": "Rep",
-    "district": 21
+    }
+  }, {
+    "Pagliarini": {
+      "district": "11",
+      "name": "John Pagliarini",
+      "party": "Rep",
+      "location": "Bristol & Portsmouth"
+    }
+  },
+  {
+    "maher": {
+      "district": "34",
+      "name": "Francis Maher",
+      "party": "Rep"
+    }
+  },
+  {
+    "maselli": {
+      "district": "25",
+      "name": "Christopher Maselli",
+      "party": "Dem"
+    }
+  },
+  {
+    "mcburney": {
+      "district": "15",
+      "name": "John McBurney",
+      "party": "Dem"
+    }
+  },
+  {
+    "levesque": {
+      "district": "11",
+      "name": "Charles Levesque",
+      "party": "Dem"
+    }
+  },
+  {
+    "lenihan": {
+      "district": "35",
+      "name": "J. Michael Lenihan",
+      "party": "Dem"
+    }
+  },
+  {
+    "shibley": {
+      "district": "33",
+      "name": "Glenford Shibley",
+      "party": "Rep"
+    }
+  },
+  {
+    "moura": {
+      "district": "19",
+      "name": "Bethany Moura",
+      "party": "Rep"
+    }
+  },
+  {
+    "lanzi": {
+      "district": "26",
+      "name": "Beatrice Lanzi",
+      "party": "Dem"
+    }
+  },
+  {
+    "tassoni": {
+      "district": "22",
+      "name": "John Tassoni",
+      "party": "Dem"
+    }
+  },
+  {
+    "devall": {
+      "district": "18",
+      "name": "Frank Devall",
+      "party": "Dem"
+    }
+  },
+  {
+    "roberts": {
+      "district": "28",
+      "name": "Elizabeth H. Roberts",
+      "party": "Dem"
+    }
+  }, {
+    "blais": {
+      "name": "Leo Blais",
+      "party": "Rep",
+      "district": 21
+    }
+  },
+  {
+    "pinga": {
+      "name": "Michael Pinga",
+      "party": "Ind",
+      "district": 9
+    }
+  },
+  {
+    "perry": {
+      "name": "Rhoda Perry",
+      "party": "Dem",
+      "district": 3
+    }
+  },
+  {
+    "connors": {
+      "name": "Daniel Connors",
+      "party": "Dem",
+      "district": 19
+    }
+  },
+  {
+    "polisena": {
+      "name": "Joseph M. Polisena",
+      "party": "Dem",
+      "district": 28
+    }
   }
-},
-{
-  "pinga": {
-    "name": "Michael Pinga",
-    "party": "Ind",
-    "district": 9
-  }
-},
-{
-  "perry": {
-    "name": "Rhoda Perry",
-    "party": "Dem",
-    "district": 3
-  }
-},
-{
-  "connors": {
-    "name": "Daniel Connors",
-    "party": "Dem",
-    "district": 19
-  }
-},
-{
-  "polisena": {
-    "name": "Joseph M. Polisena",
-    "party": "Dem",
-    "district": 28
-  }
-}]
+]
