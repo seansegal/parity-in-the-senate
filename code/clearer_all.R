@@ -28,8 +28,13 @@ for (k in years){
   justvotes <- votesyear[,sens]
   jvY <- (justvotes == 'Y')*1
   jvN <- (justvotes == 'N')*1
-  jvNV <- (justvotes == 'NV')*1
   jvYN <- jvY + jvN
+  
+  notpres <- c(colSums(jvYN) < 20)
+  
+  jvY[,notpres] <- 0
+  jvN[,notpres] <- 0
+  jvYN[,notpres] <- 0
   
   votesyear$DEM <- (rowSums(jvY) > 19)*1
   against <- data.frame(colSums(votesyear$DEM*jvN+(1-votesyear$DEM)*jvY)/colSums(jvYN))
