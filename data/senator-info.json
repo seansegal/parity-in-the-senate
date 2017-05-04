@@ -408,35 +408,35 @@
     "blais": {
       "name": "Leo Blais",
       "party": "Rep",
-      "district": 21
+      "district": "21"
     }
   },
   {
     "pinga": {
       "name": "Michael Pinga",
       "party": "Ind",
-      "district": 9
+      "district": "9"
     }
   },
   {
     "perry": {
       "name": "Rhoda Perry",
       "party": "Dem",
-      "district": 3
+      "district": "3"
     }
   },
   {
     "connors": {
       "name": "Daniel Connors",
       "party": "Dem",
-      "district": 19
+      "district": "19"
     }
   },
   {
     "polisena": {
       "name": "Joseph M. Polisena",
       "party": "Dem",
-      "district": 28
+      "district": "28"
     }
   }
 ]

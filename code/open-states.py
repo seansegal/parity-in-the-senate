@@ -43,3 +43,6 @@ with open(OUTFILE, 'w') as csvfile:
     writer.writeheader()
     for vote in votes:
         writer.writerow(vote)
+        print(len(vote))
+        print(len(headers))
+        exit()

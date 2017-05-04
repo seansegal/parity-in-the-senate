@@ -1,4 +1,5 @@
 const fs = require('fs');
+const districts = require('../data/districts');
 
 dates = {}
 
@@ -44,7 +45,7 @@ fs.readFile('../data/votesagainstall.csv', 'utf8', function(err, lines) {
         parities: parities[key.toLowerCase()],
         info: {
           party: senatorInfo.party,
-          location: senatorInfo.location,
+          location: senatorInfo.location || districts[senatorInfo.district],
           district: Number(data[key].district),
         },
       })
