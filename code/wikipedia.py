@@ -6,6 +6,7 @@ import json
 
 # Map from last name --> all information
 info = {}
+districtMap = {}
 
 url = "https://en.wikipedia.org/wiki/Rhode_Island_Senate"
 response = requests.request("GET", url)
@@ -21,19 +22,23 @@ for row in table.find_all('tr'):
         'party': data[2].get_text(),
         'location': data[3].get_text()
     }
+    districtMap[data[0].get_text()] = data[3].get_text()
     info[data_map['name'].split(' ')[-1]] = data_map
 
-useful_data = []
-with open('../data/data.csv') as csvfile:
-    reader = csv.DictReader(csvfile)
-    count = 0
-    for name in reader.fieldnames:
-        name = name.split(' ')[-1]
-        if name in info:
-            useful_data.append({name: info[name]})
-            count = count + 1
-        else:
-            print(name)
+# useful_data = []
+# with open('../data/data.csv') as csvfile:
+#     reader = csv.DictReader(csvfile)
+#     count = 0
+#     for name in reader.fieldnames:
+#         name = name.split(' ')[-1]
+#         if name in info:
+#             useful_data.append({name: info[name]})
+#             count = count + 1
+#         else:
+#             print(name)
+
+with open('../data/districts.json', 'w') as outfile:
+    json.dump(districtMap, outfile)
 
 # with open('../data/senator-info.json', 'w') as outfile:
 #     json.dump(useful_data, outfile)

@@ -31,11 +31,12 @@ fs.readFile('../data/votesagainstall.csv', 'utf8', function(err, lines) {
     const senators = JSON.parse(data);
     newData = [];
     senators.forEach(function(data) {
-      key = Object.keys(data)[0]
+      key = Object.keys(data)[0];
+      console.log(key)
       newData.push({
-        id: key,
+        id: key.toLowerCase(),
         name: data[key].name,
-        parities: parities[key],
+        parities: parities[key.toLowerCase()],
         info: {
           party: data[key].party,
           location: data[key].location,
