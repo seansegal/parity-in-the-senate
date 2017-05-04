@@ -35,11 +35,11 @@ class Link:
 		self.weight = weight
 		self.term = term
 
-	def scaleWeight(self, minWeightUnscaled, maxWeightUnscaled):
-		oldRange = maxWeightUnscaled - minWeightUnscaled
-		newRange = maxWeight - minWeight
-		self.weight = (((1 - self.weight) * newRange) / oldRange) + minWeight
-		print(self.weight)
+	def scaleWeight(self, minWeightUnscaled, maxWeightUnscaled, term):
+		if self.term == term:
+			oldRange = maxWeightUnscaled - minWeightUnscaled
+			newRange = maxWeight - minWeight
+			self.weight = (((1 - self.weight) * newRange) / oldRange) + minWeight
 
 	def toJson(self):
 		return {"source": self.source, "target": self.target, "weight": self.weight, "term": self.term}
@@ -77,27 +77,41 @@ def getLinks():
 	with open(linksFile, "r") as f:
 		reader = csv.DictReader(f)
 
-		minWeightUnscaled = float("inf")
-		maxWeightUnscaled = float("-inf")
+		minWeightsUnscaled = {}
+		maxWeightsUnscaled = {}
 		for row in reader:
-			for weightCol in range(2, len(row)):
-				# get column name (extract term) and use weight number...
-			weight = row["weight"]
-			if weight != "NA":
-				weight = float(weight)
-				minWeightUnscaled = min(minWeightUnscaled, weight)
-				maxWeightUnscaled = max(maxWeightUnscaled, weight)
+			id1 = senatorIDs[row["Senator1"]]
+			id2 = senatorIDs[row["Senator2"]]
 
-				id1 = senatorIDs[row["Senator1"]]
-				id2 = senatorIDs[row["Senator2"]]
-				if id1 == None or id2 == None:
-					print("ERROR: Mismatch between senator info IDs and sentor link IDs. Data must be reconciled.")
-					sys.exit()
+			if id1 == None or id2 == None:
+				print("ERROR: Mismatch between senator info IDs and sentor link IDs. Data must be reconciled.")
+				sys.exit()
 
-				links.append(Link(id1, id2, weight))
+			for key in row:
+				if key != "Senator1" and key != "Senator2":
+					term = key[6:]
+					weight = row[key]
 
-		for link in links:
-			link.scaleWeight(minWeightUnscaled, maxWeightUnscaled)
+					if weight != "NA":
+						weight = float(weight)
+
+						minWeightUnscaled = minWeightsUnscaled[term]
+						if minWeightUnscaled == None:
+							minWeightsUnscaled[term] = weight
+						else:
+							minWeightsUnscaled[term] = min(minWeightUnscaled, weight)
+
+						maxWeightUnscaled = maxWeightsUnscaled[term]
+						if maxWeightUnscaled == None:
+							maxWeightsUnscaled[term] = weight
+						else:
+							maxWeightsUnscaled[term] = max(maxWeightUnscaled, weight)
+
+						links.append(Link(id1, id2, weight, term))
+
+		for term in minWeightsUnscaled:
+			for link in links:
+				link.scaleWeight(minWeightsUnscaled[term], maxWeightsUnscaled[term], term)
 
 	return links
 
