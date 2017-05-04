@@ -26,7 +26,7 @@ class Senator:
 		self.parities = parities
 
 	def toJson(self):
-		return {"name": self.name, "id": self.ID, "info": self.info, "party": self.parities, "startDate": self.startDate, "endDate": self.endDate, "importance": self.importance, "parities": self.parities}
+		return {"name": self.name, "id": self.ID, "info": self.info, "party": self.party, "importance": self.importance, "parities": self.parities}
 
 class Link:
 	def __init__(self, source, target, weight, term):
@@ -98,17 +98,15 @@ def getLinks():
 					if weight != "NA":
 						weight = float(weight)
 
-						minWeightUnscaled = minWeightsUnscaled[term]
-						if minWeightUnscaled == None:
+						if term not in minWeightsUnscaled:
 							minWeightsUnscaled[term] = weight
 						else:
-							minWeightsUnscaled[term] = min(minWeightUnscaled, weight)
+							minWeightsUnscaled[term] = min(minWeightsUnscaled[term], weight)
 
-						maxWeightUnscaled = maxWeightsUnscaled[term]
-						if maxWeightUnscaled == None:
+						if term not in maxWeightsUnscaled:
 							maxWeightsUnscaled[term] = weight
 						else:
-							maxWeightsUnscaled[term] = max(maxWeightUnscaled, weight)
+							maxWeightsUnscaled[term] = max(maxWeightsUnscaled[term], weight)
 
 						links.append(Link(id1, id2, weight, term))
 
@@ -119,9 +117,6 @@ def getLinks():
 				link.scaleWeight(minWeightsUnscaled[term], maxWeightsUnscaled[term], term)
 
 	return links
-
-def getParity(senator, links):
-	return senator.parity
 
 def writeToJson(senators, links):
 	data = {}
@@ -134,7 +129,10 @@ def writeToJson(senators, links):
 	for link in links:
 		allLinks.append(link.toJson())
 
-	data["terms"] = terms
+	termsList = list(terms)
+	termsList.sort(reverse=True)
+
+	data["terms"] = termsList
 	data["nodes"] = allNodes
 	data["links"] = allLinks
 
@@ -144,9 +142,6 @@ def writeToJson(senators, links):
 def main():
 	senators = getSenators()
 	links = getLinks()
-
-	for senator in senators:
-		senator.parity = getParity(senator, links)
 
 	writeToJson(senators, links)
 

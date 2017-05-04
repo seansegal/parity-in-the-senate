@@ -130,6 +130,7 @@ Network = () ->
   updateTerms = (data) ->
     # change term dropdown  
     $("#term_select").empty()
+    console.log data
     data.terms.forEach (t) ->
       $("#term_select").append $('<option value="' + t + '">' + t + '</option>')
 
@@ -328,5 +329,5 @@ $ ->
     myNetwork.updateDataForTerm($(this).val())
 
   # start our visualization
-  d3.json "data/fakeData.json", (json) ->
+  d3.json "data/data.json", (json) ->
     myNetwork("#vis", json)
