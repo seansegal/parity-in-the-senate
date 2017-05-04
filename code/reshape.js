@@ -15,7 +15,7 @@ fs.readFile('../data/votesagainstall.csv', 'utf8', function(err, lines) {
     parity = {}
     for(let year = 2003; year <= 2017; year++){
       if(elements[year - 2003 + 1] !== 'NA'){
-        parity[String(year)] = elements[year - 2003 + 1];
+        parity[String(year)] = Number(elements[year - 2003 + 1]);
       }
     }
 
