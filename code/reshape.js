@@ -6,12 +6,23 @@ dates = {}
 
 
 parities = {}
-fs.readFile('../data/votesagainst.csv', 'utf8', function(err, lines) {
+fs.readFile('../data/votesagainstall.csv', 'utf8', function(err, lines) {
   lines.split('\n').forEach(function(line) {
     elements = line.split(',');
-    parities[elements[0].substring(1, elements[0].length - 1)] = {
-      parity: Number(elements[1]),
+    if(elements.length != 16){
+      return;
     }
+    parity = {}
+    for(let year = 2003; year <= 2017; year++){
+      if(elements[year - 2003 + 1] !== 'NA'){
+        parity[String(year)] = elements[year - 2003 + 1];
+      }
+    }
+
+    console.log(parity);
+
+    parities[elements[0].substring(1, elements[0].length - 1)] = parity;
+
   })
 
 
@@ -21,12 +32,10 @@ fs.readFile('../data/votesagainst.csv', 'utf8', function(err, lines) {
     newData = [];
     senators.forEach(function(data) {
       key = Object.keys(data)[0]
-      console.log(key)
       newData.push({
         id: key,
         name: data[key].name,
-
-        parity: parities[key].parity,
+        parities: parities[key],
         info: {
           party: data[key].party,
           location: data[key].location,
