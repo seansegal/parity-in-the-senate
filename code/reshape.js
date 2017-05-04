@@ -33,13 +33,18 @@ fs.readFile('../data/votesagainstall.csv', 'utf8', function(err, lines) {
     senators.forEach(function(data) {
       key = Object.keys(data)[0];
       console.log(key)
+      senatorInfo = data[key] || data[key.toLowerCase()]
+      if(!senatorInfo){
+        console.log('No found for ' + key);
+        return
+      }
       newData.push({
         id: key.toLowerCase(),
-        name: data[key].name,
+        name: senatorInfo.name,
         parities: parities[key.toLowerCase()],
         info: {
-          party: data[key].party,
-          location: data[key].location,
+          party: senatorInfo.party,
+          location: senatorInfo.location,
           district: Number(data[key].district),
         },
       })
