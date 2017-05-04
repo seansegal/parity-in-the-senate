@@ -1,5 +1,5 @@
 [{
-  "id": "Kettle",
+  "id": "kettle",
   "name": "Nicholas Kettle",
   "parities": {
     "2011": 0.122203098106713,
@@ -16,7 +16,7 @@
     "district": 21
   }
 }, {
-  "id": "Ruggerio",
+  "id": "ruggerio",
   "name": "Dominick J. Ruggerio",
   "parities": {
     "2003": 0.00609756097560976,
@@ -41,7 +41,7 @@
     "district": 4
   }
 }, {
-  "id": "Lynch",
+  "id": "lynch",
   "name": "Erin Lynch",
   "parities": {
     "2003": 0.0170132325141777,
@@ -66,7 +66,7 @@
     "district": 31
   }
 }, {
-  "id": "Ponte",
+  "id": "ponte",
   "name": "Daniel Da Ponte",
   "parities": {
     "2003": 0.0104166666666667,
@@ -91,7 +91,7 @@
     "district": 14
   }
 }, {
-  "id": "Fogarty",
+  "id": "fogarty",
   "name": "Paul Fogarty",
   "parities": {
     "2003": 0.00947867298578199,
@@ -116,7 +116,7 @@
     "district": 23
   }
 }, {
-  "id": "Lombardo",
+  "id": "lombardo",
   "name": "Frank Lombardo",
   "parities": {
     "2011": 0.0154905335628227,
@@ -133,7 +133,7 @@
     "district": 25
   }
 }, {
-  "id": "Sosnowski",
+  "id": "sosnowski",
   "name": "V. Susan Sosnowski",
   "parities": {
     "2003": 0.0104166666666667,
@@ -158,7 +158,7 @@
     "district": 37
   }
 }, {
-  "id": "Paolino",
+  "id": "paolino",
   "name": "Thomas Paolino",
   "parities": {
     "2017": 0.0317460317460317
@@ -169,7 +169,7 @@
     "district": 17
   }
 }, {
-  "id": "Jabour",
+  "id": "jabour",
   "name": "Paul Jabour",
   "parities": {
     "2007": 0.0301783264746228,
@@ -190,7 +190,7 @@
     "district": 5
   }
 }, {
-  "id": "Ciccone",
+  "id": "ciccone",
   "name": "Frank Ciccone",
   "parities": {
     "2003": 0.0075642965204236,
@@ -215,7 +215,7 @@
     "district": 7
   }
 }, {
-  "id": "Goldin",
+  "id": "goldin",
   "name": "Gayle Goldin",
   "parities": {
     "2013": 0.0153256704980843,
@@ -230,7 +230,7 @@
     "district": 3
   }
 }, {
-  "id": "Metts",
+  "id": "metts",
   "name": "Harold Metts",
   "parities": {
     "2003": 0.00156739811912226,
@@ -254,7 +254,7 @@
     "district": 6
   }
 }, {
-  "id": "Goodwin",
+  "id": "goodwin",
   "name": "Maryellen Goodwin",
   "parities": {
     "2003": 0.00623052959501558,
@@ -279,7 +279,7 @@
     "district": 1
   }
 }, {
-  "id": "Felag",
+  "id": "felag",
   "name": "Walter Felag",
   "parities": {
     "2003": 0.0138248847926267,
@@ -304,7 +304,7 @@
     "district": 10
   }
 }, {
-  "id": "Quezada",
+  "id": "quezada",
   "name": "Ana Quezada",
   "parities": {
     "2017": 0
@@ -315,15 +315,32 @@
     "district": 2
   }
 }, {
-  "id": "DiPalma",
+  "id": "dipalma",
   "name": "Louis DiPalma",
+  "parities": {
+    "2003": 0.0248447204968944,
+    "2004": 0.0528211284513806,
+    "2005": 0.0474137931034483,
+    "2006": 0.0308880308880309,
+    "2007": 0.0663058186738836,
+    "2008": 0.0465890183028286,
+    "2009": 0.0461095100864553,
+    "2010": 0.0206611570247934,
+    "2011": 0.00549450549450549,
+    "2012": 0.00566037735849057,
+    "2013": 0.0150501672240803,
+    "2014": 0.011437908496732,
+    "2015": 0.0023696682464455,
+    "2016": 0.00561009817671809,
+    "2017": 0
+  },
   "info": {
     "party": "Dem",
     "location": "Little Compton & Middletown",
     "district": 12
   }
 }, {
-  "id": "Satchell",
+  "id": "satchell",
   "name": "Adam Satchell",
   "parities": {
     "2013": 0.0169204737732657,
@@ -338,7 +355,7 @@
     "district": 9
   }
 }, {
-  "id": "Seveney",
+  "id": "seveney",
   "name": "James Seveney",
   "parities": {
     "2017": 0
@@ -349,7 +366,7 @@
     "district": 11
   }
 }, {
-  "id": "Cote",
+  "id": "cote",
   "name": "Marc Cote",
   "parities": {
     "2003": 0.016566265060241,
@@ -374,7 +391,7 @@
     "district": 24
   }
 }, {
-  "id": "Morgan",
+  "id": "morgan",
   "name": "Elaine J. Morgan",
   "parities": {
     "2015": 0.0666666666666667,
@@ -387,7 +404,7 @@
     "district": 34
   }
 }, {
-  "id": "Coyne",
+  "id": "coyne",
   "name": "Cynthia Armour Coyne",
   "parities": {
     "2015": 0.00460829493087558,
@@ -400,7 +417,7 @@
     "district": 32
   }
 }, {
-  "id": "Gallo",
+  "id": "gallo",
   "name": "Hanna Gallo",
   "parities": {
     "2003": 0.00603318250377074,
@@ -425,7 +442,7 @@
     "district": 27
   }
 }, {
-  "id": "Picard",
+  "id": "picard",
   "name": "Roger Picard",
   "parities": {
     "2003": 0.0248833592534992,
@@ -450,7 +467,7 @@
     "district": 20
   }
 }, {
-  "id": "Calkin",
+  "id": "calkin",
   "name": "Jeanine Calkin",
   "parities": {
     "2017": 0.03125
@@ -461,7 +478,7 @@
     "district": 30
   }
 }, {
-  "id": "Lombardi",
+  "id": "lombardi",
   "name": "Frank Lombardi",
   "parities": {
     "2013": 0.0102915951972556,
@@ -476,7 +493,7 @@
     "district": 26
   }
 }, {
-  "id": "Nesselbush",
+  "id": "nesselbush",
   "name": "Donna Nesselbush",
   "parities": {
     "2011": 0.00863557858376511,
@@ -493,7 +510,7 @@
     "district": 15
   }
 }, {
-  "id": "Crowley",
+  "id": "crowley",
   "name": "Elizabeth Crowley",
   "parities": {
     "2003": 0.00676818950930626,
@@ -518,7 +535,7 @@
     "district": 16
   }
 }, {
-  "id": "Algiere",
+  "id": "algiere",
   "name": "Dennis Algiere",
   "parities": {
     "2013": 0.0451505016722408,
@@ -533,7 +550,7 @@
     "district": 38
   }
 }, {
-  "id": "Pearson",
+  "id": "pearson",
   "name": "Ryan W. Pearson",
   "parities": {
     "2013": 0.011844331641286,
@@ -548,7 +565,7 @@
     "district": 19
   }
 }, {
-  "id": "Archambault",
+  "id": "archambault",
   "name": "Stephen Archambault",
   "parities": {
     "2013": 0.0032626427406199,
@@ -563,7 +580,7 @@
     "district": 22
   }
 }, {
-  "id": "Gee",
+  "id": "gee",
   "name": "Mark W. Gee",
   "parities": {
     "2015": 0.045662100456621,
@@ -576,15 +593,32 @@
     "district": 35
   }
 }, {
-  "id": "McCaffrey",
+  "id": "mccaffrey",
   "name": "Michael McCaffrey",
+  "parities": {
+    "2003": 0.00300751879699248,
+    "2004": 0.00987654320987654,
+    "2005": 0.0170454545454545,
+    "2006": 0.0036144578313253,
+    "2007": 0.0140056022408964,
+    "2008": 0.0508474576271186,
+    "2009": 0.0570652173913043,
+    "2010": 0.0176125244618395,
+    "2011": 0.0142857142857143,
+    "2012": 0,
+    "2013": 0.0109489051094891,
+    "2014": 0.00603318250377074,
+    "2015": 0,
+    "2016": 0.00141643059490085,
+    "2017": 0
+  },
   "info": {
     "party": "Dem",
     "location": "Warwick",
     "district": 29
   }
 }, {
-  "id": "Raptakis",
+  "id": "raptakis",
   "name": "Leonidas Raptakis",
   "parities": {
     "2003": 0.0204460966542751,
@@ -607,7 +641,7 @@
     "district": 33
   }
 }, {
-  "id": "Miller",
+  "id": "miller",
   "name": "Joshua Miller",
   "parities": {
     "2006": 0,
@@ -629,7 +663,7 @@
     "district": 28
   }
 }, {
-  "id": "Sheehan",
+  "id": "sheehan",
   "name": "James Sheehan",
   "parities": {
     "2003": 0.0234113712374582,
@@ -654,7 +688,7 @@
     "district": 36
   }
 }, {
-  "id": "Hodgson",
+  "id": "hodgson",
   "name": "Dawson Hodgson",
   "parities": {
     "2011": 0.0814814814814815,
@@ -668,7 +702,7 @@
     "district": 35
   }
 }, {
-  "id": "Conley",
+  "id": "conley",
   "name": "William Conley, Jr.",
   "parities": {
     "2013": 0.0066006600660066,
@@ -683,7 +717,7 @@
     "district": 18
   }
 }, {
-  "id": "Pichardo",
+  "id": "pichardo",
   "name": "Juan M. Pichardo",
   "parities": {
     "2003": 0.0200333889816361,
@@ -707,7 +741,7 @@
     "district": 2
   }
 }, {
-  "id": "Weed",
+  "id": "weed",
   "name": "M. Teresa Paiva-Weed",
   "parities": {
     "2003": 0.028125,
@@ -732,7 +766,7 @@
     "district": 13
   }
 }, {
-  "id": "Rumsey",
+  "id": "rumsey",
   "name": "Catherine Cool Rumsey",
   "parities": {
     "2013": 0.0180623973727422,
@@ -744,7 +778,7 @@
     "district": 34
   }
 }, {
-  "id": "Bates",
+  "id": "bates",
   "name": "David Bates",
   "parities": {
     "2003": 0.024,
@@ -766,7 +800,7 @@
     "district": 32
   }
 }, {
-  "id": "Ottiano",
+  "id": "ottiano",
   "name": "Christopher Ottiano",
   "parities": {
     "2011": 0.0414414414414414,
@@ -781,7 +815,7 @@
     "district": 11
   }
 }, {
-  "id": "Doyle",
+  "id": "doyle",
   "name": "James Doyle II",
   "parities": {
     "2003": 0.00462962962962963,
@@ -806,7 +840,7 @@
     "district": 11
   }
 }, {
-  "id": "Pagliarini",
+  "id": "pagliarini",
   "name": "John Pagliarini",
   "parities": {
     "2016": 0.204166666666667
@@ -817,7 +851,7 @@
     "district": 11
   }
 }, {
-  "id": "Neill",
+  "id": "neill",
   "name": "Edward J. O'Neill",
   "parities": {
     "2003": 0.0046875,
@@ -841,7 +875,7 @@
     "district": 17
   }
 }, {
-  "id": "Walaska",
+  "id": "walaska",
   "name": "William Walaska",
   "parities": {
     "2003": 0.0110410094637224,

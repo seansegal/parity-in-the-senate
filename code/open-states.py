@@ -38,6 +38,7 @@ for bill in bills:
 with open(OUTFILE, 'w') as csvfile:
     print('Writing Dataset...')
     headers = list(legislators)
+    print(list(legislators))
     writer = csv.DictWriter(csvfile, fieldnames=headers, restval='N/A')
     writer.writeheader()
     for vote in votes:
