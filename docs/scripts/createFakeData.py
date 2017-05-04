@@ -8,8 +8,7 @@ def main():
 
 	importance = 12
 	names = ["senator1", "senator2", "senator3", "senator4", "senator5", "senator6", "senator7", "senator8", "senator9", "senator10"]
-	startDates = ["01/01/12", "01/01/10", "01/01/13"]
-	endDates = ["current", "01/01/14", "01/01/15", "01/01/16"]
+	terms = ["2012", "2013", "2014"]
 	demNames = []
 	repubNames = []
 	bothNames = []
@@ -24,10 +23,28 @@ def main():
 		thisNode["name"] = nameChoice
 		thisNode["id"] = nameChoice
 		thisNode["info"] = "info on this person"
-		thisNode["startDate"] = random.choice(startDates)
-		thisNode["endDate"] = random.choice(endDates)
 		thisNode["importance"] = importance
-		thisNode["parity"] = random.uniform(0.0, 0.2)
+
+		randNum = random.uniform(0, 1)
+		thisTerms = list(terms)
+		if randNum < 0.33:
+			choice1 = random.choice(thisTerms)
+			thisTerms.remove(choice1)
+			thisNode["parities"] = {choice1:random.uniform(0.0, 0.2)}
+		elif randNum >= 0.33 and randNum < 0.66:
+			choice1 = random.choice(thisTerms)
+			thisTerms.remove(choice1)
+			choice2 = random.choice(thisTerms)
+			thisTerms.remove(choice2)
+			thisNode["parities"] = {choice1:random.uniform(0.0, 0.2), choice2:random.uniform(0.0, 0.2)}
+		else:
+			choice1 = random.choice(thisTerms)
+			thisTerms.remove(choice1)
+			choice2 = random.choice(thisTerms)
+			thisTerms.remove(choice2)
+			choice3 = random.choice(thisTerms)
+			thisTerms.remove(choice3)
+			thisNode["parities"] = {choice1:random.uniform(0.0, 0.2), choice2:random.uniform(0.0, 0.2), choice3:random.uniform(0.0, 0.2)}
 
 		allNodes.append(thisNode)
 
@@ -38,10 +55,29 @@ def main():
 	thisNode["name"] = nameChoice
 	thisNode["id"] = nameChoice
 	thisNode["info"] = "info on this person"
-	thisNode["startDate"] = random.choice(startDates)
-	thisNode["endDate"] = random.choice(endDates)
 	thisNode["importance"] = importance
-	thisNode["parity"] = random.uniform(0.45, 0.55)
+	
+	randNum = random.uniform(0, 1)
+	thisTerms = list(terms)
+	if randNum < 0.33:
+		choice1 = random.choice(thisTerms)
+		thisTerms.remove(choice1)
+		thisNode["parities"] = {choice1:random.uniform(0.45, 0.55)}
+	elif randNum >= 0.33 and randNum < 0.66:
+		choice1 = random.choice(thisTerms)
+		thisTerms.remove(choice1)
+		choice2 = random.choice(thisTerms)
+		thisTerms.remove(choice2)
+		thisNode["parities"] = {choice1:random.uniform(0.45, 0.55), choice2:random.uniform(0.45, 0.55)}
+	else:
+		choice1 = random.choice(thisTerms)
+		thisTerms.remove(choice1)
+		choice2 = random.choice(thisTerms)
+		thisTerms.remove(choice2)
+		choice3 = random.choice(thisTerms)
+		thisTerms.remove(choice3)
+		thisNode["parities"] = {choice1:random.uniform(0.45, 0.55), choice2:random.uniform(0.45, 0.55), choice3:random.uniform(0.45, 0.55)}
+
 	allNodes.append(thisNode)
 
 	thisNode = {}
@@ -51,10 +87,29 @@ def main():
 	thisNode["name"] = nameChoice
 	thisNode["id"] = nameChoice
 	thisNode["info"] = "info on this person"
-	thisNode["startDate"] = random.choice(startDates)
-	thisNode["endDate"] = random.choice(endDates)
 	thisNode["importance"] = importance
-	thisNode["parity"] = random.uniform(0.45, 0.55)
+	
+	randNum = random.uniform(0, 1)
+	thisTerms = list(terms)
+	if randNum < 0.33:
+		choice1 = random.choice(thisTerms)
+		thisTerms.remove(choice1)
+		thisNode["parities"] = {choice1:random.uniform(0.45, 0.55)}
+	elif randNum >= 0.33 and randNum < 0.66:
+		choice1 = random.choice(thisTerms)
+		thisTerms.remove(choice1)
+		choice2 = random.choice(thisTerms)
+		thisTerms.remove(choice2)
+		thisNode["parities"] = {choice1:random.uniform(0.45, 0.55), choice2:random.uniform(0.45, 0.55)}
+	else:
+		choice1 = random.choice(thisTerms)
+		thisTerms.remove(choice1)
+		choice2 = random.choice(thisTerms)
+		thisTerms.remove(choice2)
+		choice3 = random.choice(thisTerms)
+		thisTerms.remove(choice3)
+		thisNode["parities"] = {choice1:random.uniform(0.45, 0.55), choice2:random.uniform(0.45, 0.55), choice3:random.uniform(0.45, 0.55)}
+
 	allNodes.append(thisNode)
 
 	for n in range(4):
@@ -67,10 +122,28 @@ def main():
 		thisNode["name"] = nameChoice
 		thisNode["id"] = nameChoice
 		thisNode["info"] = "info on this person"
-		thisNode["startDate"] = random.choice(startDates)
-		thisNode["endDate"] = random.choice(endDates)
 		thisNode["importance"] = importance
-		thisNode["parity"] = random.uniform(0.8, 1.0)
+		
+		randNum = random.uniform(0, 1)
+		thisTerms = list(terms)
+		if randNum < 0.33:
+			choice1 = random.choice(thisTerms)
+			thisTerms.remove(choice1)
+			thisNode["parities"] = {choice1:random.uniform(0.8, 0.1)}
+		elif randNum >= 0.33 and randNum < 0.66:
+			choice1 = random.choice(thisTerms)
+			thisTerms.remove(choice1)
+			choice2 = random.choice(thisTerms)
+			thisTerms.remove(choice2)
+			thisNode["parities"] = {choice1:random.uniform(0.8, 0.1), choice2:random.uniform(0.8, 0.1)}
+		else:
+			choice1 = random.choice(thisTerms)
+			thisTerms.remove(choice1)
+			choice2 = random.choice(thisTerms)
+			thisTerms.remove(choice2)
+			choice3 = random.choice(thisTerms)
+			thisTerms.remove(choice3)
+			thisNode["parities"] = {choice1:random.uniform(0.8, 0.1), choice2:random.uniform(0.8, 0.1), choice3:random.uniform(0.8, 0.1)}
 
 		allNodes.append(thisNode)
 
@@ -82,6 +155,7 @@ def main():
 				thisLink["source"] = name
 				thisLink["target"] = otherName
 				thisLink["weight"] = random.randint(50, 80)
+				thisLink["term"] = random.choice(terms)
 
 				allLinks.append(thisLink)
 
@@ -91,6 +165,7 @@ def main():
 			thisLink["source"] = name
 			thisLink["target"] = otherName
 			thisLink["weight"] = random.randint(350, 380)
+			thisLink["term"] = random.choice(terms)
 
 			allLinks.append(thisLink)
 
@@ -100,6 +175,7 @@ def main():
 			thisLink["source"] = name
 			thisLink["target"] = otherName
 			thisLink["weight"] = random.randint(200, 230)
+			thisLink["term"] = random.choice(terms)
 
 			allLinks.append(thisLink)
 
@@ -111,6 +187,7 @@ def main():
 				thisLink["source"] = name
 				thisLink["target"] = otherName
 				thisLink["weight"] = random.randint(50, 80)
+				thisLink["term"] = random.choice(terms)
 
 				allLinks.append(thisLink)
 
@@ -120,6 +197,7 @@ def main():
 			thisLink["source"] = name
 			thisLink["target"] = otherName
 			thisLink["weight"] = random.randint(200, 230)
+			thisLink["term"] = random.choice(terms)
 
 			allLinks.append(thisLink)
 
@@ -128,6 +206,7 @@ def main():
 	thisLink["source"] = bothNames[0]
 	thisLink["target"] = bothNames[1]
 	thisLink["weight"] = random.randint(50, 80)
+	thisLink["term"] = random.choice(terms)
 
 	allLinks.append(thisLink)
 	

@@ -1,381 +1,448 @@
 {
     "nodes": [
         {
-            "name": "senator4",
-            "id": "senator4",
-            "info": "info on this person",
-            "startDate": "01/01/12",
-            "endDate": "01/01/16",
-            "importance": 12,
-            "parity": 0.04996758700225752
-        },
-        {
-            "name": "senator5",
-            "id": "senator5",
-            "info": "info on this person",
-            "startDate": "01/01/13",
-            "endDate": "current",
-            "importance": 12,
-            "parity": 0.17653351261647762
-        },
-        {
-            "name": "senator1",
-            "id": "senator1",
-            "info": "info on this person",
-            "startDate": "01/01/12",
-            "endDate": "01/01/14",
-            "importance": 12,
-            "parity": 0.1663776548882514
-        },
-        {
-            "name": "senator2",
-            "id": "senator2",
-            "info": "info on this person",
-            "startDate": "01/01/10",
-            "endDate": "01/01/14",
-            "importance": 12,
-            "parity": 0.12235231506183797
-        },
-        {
-            "name": "senator7",
-            "id": "senator7",
-            "info": "info on this person",
-            "startDate": "01/01/10",
-            "endDate": "current",
-            "importance": 12,
-            "parity": 0.5438708619469124
-        },
-        {
             "name": "senator10",
             "id": "senator10",
             "info": "info on this person",
-            "startDate": "01/01/13",
-            "endDate": "current",
             "importance": 12,
-            "parity": 0.5246475598929902
-        },
-        {
-            "name": "senator8",
-            "id": "senator8",
-            "info": "info on this person",
-            "startDate": "01/01/10",
-            "endDate": "01/01/14",
-            "importance": 12,
-            "parity": 0.8306797007035501
-        },
-        {
-            "name": "senator3",
-            "id": "senator3",
-            "info": "info on this person",
-            "startDate": "01/01/10",
-            "endDate": "01/01/14",
-            "importance": 12,
-            "parity": 0.9065676677489873
-        },
-        {
-            "name": "senator9",
-            "id": "senator9",
-            "info": "info on this person",
-            "startDate": "01/01/13",
-            "endDate": "01/01/16",
-            "importance": 12,
-            "parity": 0.8520867380987545
+            "parities": {
+                "2012": 0.0029815987476566,
+                "2013": 0.07168151240141987
+            }
         },
         {
             "name": "senator6",
             "id": "senator6",
             "info": "info on this person",
-            "startDate": "01/01/10",
-            "endDate": "01/01/16",
             "importance": 12,
-            "parity": 0.8411078211460938
+            "parities": {
+                "2012": 0.14272712570680807,
+                "2014": 0.170138465598217,
+                "2013": 0.05492449534050903
+            }
+        },
+        {
+            "name": "senator3",
+            "id": "senator3",
+            "info": "info on this person",
+            "importance": 12,
+            "parities": {
+                "2014": 0.1339351092228822,
+                "2013": 0.0482981428321408,
+                "2012": 0.07943887030131645
+            }
+        },
+        {
+            "name": "senator2",
+            "id": "senator2",
+            "info": "info on this person",
+            "importance": 12,
+            "parities": {
+                "2012": 0.08418169736538957,
+                "2014": 0.16655601119404823,
+                "2013": 0.19798690106127026
+            }
+        },
+        {
+            "name": "senator9",
+            "id": "senator9",
+            "info": "info on this person",
+            "importance": 12,
+            "parities": {
+                "2014": 0.4604657272693778
+            }
+        },
+        {
+            "name": "senator8",
+            "id": "senator8",
+            "info": "info on this person",
+            "importance": 12,
+            "parities": {
+                "2012": 0.5131989009102337,
+                "2013": 0.5473129574948757
+            }
+        },
+        {
+            "name": "senator1",
+            "id": "senator1",
+            "info": "info on this person",
+            "importance": 12,
+            "parities": {
+                "2013": 0.11149317410478687
+            }
+        },
+        {
+            "name": "senator5",
+            "id": "senator5",
+            "info": "info on this person",
+            "importance": 12,
+            "parities": {
+                "2013": 0.12218009693994458,
+                "2012": 0.17188782565880822
+            }
+        },
+        {
+            "name": "senator7",
+            "id": "senator7",
+            "info": "info on this person",
+            "importance": 12,
+            "parities": {
+                "2014": 0.14074080419496804
+            }
+        },
+        {
+            "name": "senator4",
+            "id": "senator4",
+            "info": "info on this person",
+            "importance": 12,
+            "parities": {
+                "2014": 0.6734377055871078,
+                "2012": 0.5701311581408113
+            }
         }
     ],
     "links": [
         {
-            "source": "senator4",
-            "target": "senator5",
-            "weight": 53
-        },
-        {
-            "source": "senator4",
-            "target": "senator1",
-            "weight": 53
-        },
-        {
-            "source": "senator4",
-            "target": "senator2",
-            "weight": 73
-        },
-        {
-            "source": "senator4",
-            "target": "senator8",
-            "weight": 375
-        },
-        {
-            "source": "senator4",
-            "target": "senator3",
-            "weight": 359
-        },
-        {
-            "source": "senator4",
-            "target": "senator9",
-            "weight": 377
-        },
-        {
-            "source": "senator4",
+            "source": "senator10",
             "target": "senator6",
-            "weight": 359
+            "weight": 57,
+            "term": "2012"
         },
         {
-            "source": "senator4",
+            "source": "senator10",
+            "target": "senator3",
+            "weight": 69,
+            "term": "2014"
+        },
+        {
+            "source": "senator10",
+            "target": "senator2",
+            "weight": 79,
+            "term": "2014"
+        },
+        {
+            "source": "senator10",
+            "target": "senator1",
+            "weight": 353,
+            "term": "2014"
+        },
+        {
+            "source": "senator10",
+            "target": "senator5",
+            "weight": 369,
+            "term": "2012"
+        },
+        {
+            "source": "senator10",
             "target": "senator7",
-            "weight": 230
+            "weight": 366,
+            "term": "2014"
         },
         {
-            "source": "senator4",
+            "source": "senator10",
+            "target": "senator4",
+            "weight": 367,
+            "term": "2012"
+        },
+        {
+            "source": "senator10",
+            "target": "senator9",
+            "weight": 206,
+            "term": "2012"
+        },
+        {
+            "source": "senator10",
+            "target": "senator8",
+            "weight": 209,
+            "term": "2012"
+        },
+        {
+            "source": "senator6",
             "target": "senator10",
-            "weight": 222
+            "weight": 79,
+            "term": "2013"
+        },
+        {
+            "source": "senator6",
+            "target": "senator3",
+            "weight": 77,
+            "term": "2012"
+        },
+        {
+            "source": "senator6",
+            "target": "senator2",
+            "weight": 76,
+            "term": "2014"
+        },
+        {
+            "source": "senator6",
+            "target": "senator1",
+            "weight": 379,
+            "term": "2012"
+        },
+        {
+            "source": "senator6",
+            "target": "senator5",
+            "weight": 359,
+            "term": "2013"
+        },
+        {
+            "source": "senator6",
+            "target": "senator7",
+            "weight": 350,
+            "term": "2013"
+        },
+        {
+            "source": "senator6",
+            "target": "senator4",
+            "weight": 380,
+            "term": "2014"
+        },
+        {
+            "source": "senator6",
+            "target": "senator9",
+            "weight": 230,
+            "term": "2012"
+        },
+        {
+            "source": "senator6",
+            "target": "senator8",
+            "weight": 229,
+            "term": "2013"
+        },
+        {
+            "source": "senator3",
+            "target": "senator10",
+            "weight": 55,
+            "term": "2012"
+        },
+        {
+            "source": "senator3",
+            "target": "senator6",
+            "weight": 54,
+            "term": "2012"
+        },
+        {
+            "source": "senator3",
+            "target": "senator2",
+            "weight": 71,
+            "term": "2014"
+        },
+        {
+            "source": "senator3",
+            "target": "senator1",
+            "weight": 364,
+            "term": "2012"
+        },
+        {
+            "source": "senator3",
+            "target": "senator5",
+            "weight": 375,
+            "term": "2013"
+        },
+        {
+            "source": "senator3",
+            "target": "senator7",
+            "weight": 355,
+            "term": "2014"
+        },
+        {
+            "source": "senator3",
+            "target": "senator4",
+            "weight": 353,
+            "term": "2012"
+        },
+        {
+            "source": "senator3",
+            "target": "senator9",
+            "weight": 230,
+            "term": "2014"
+        },
+        {
+            "source": "senator3",
+            "target": "senator8",
+            "weight": 219,
+            "term": "2013"
+        },
+        {
+            "source": "senator2",
+            "target": "senator10",
+            "weight": 51,
+            "term": "2013"
+        },
+        {
+            "source": "senator2",
+            "target": "senator6",
+            "weight": 79,
+            "term": "2014"
+        },
+        {
+            "source": "senator2",
+            "target": "senator3",
+            "weight": 59,
+            "term": "2013"
+        },
+        {
+            "source": "senator2",
+            "target": "senator1",
+            "weight": 369,
+            "term": "2014"
+        },
+        {
+            "source": "senator2",
+            "target": "senator5",
+            "weight": 367,
+            "term": "2014"
+        },
+        {
+            "source": "senator2",
+            "target": "senator7",
+            "weight": 362,
+            "term": "2013"
+        },
+        {
+            "source": "senator2",
+            "target": "senator4",
+            "weight": 370,
+            "term": "2014"
+        },
+        {
+            "source": "senator2",
+            "target": "senator9",
+            "weight": 207,
+            "term": "2014"
+        },
+        {
+            "source": "senator2",
+            "target": "senator8",
+            "weight": 225,
+            "term": "2014"
+        },
+        {
+            "source": "senator1",
+            "target": "senator5",
+            "weight": 57,
+            "term": "2014"
+        },
+        {
+            "source": "senator1",
+            "target": "senator7",
+            "weight": 67,
+            "term": "2014"
+        },
+        {
+            "source": "senator1",
+            "target": "senator4",
+            "weight": 55,
+            "term": "2012"
+        },
+        {
+            "source": "senator1",
+            "target": "senator9",
+            "weight": 223,
+            "term": "2012"
+        },
+        {
+            "source": "senator1",
+            "target": "senator8",
+            "weight": 216,
+            "term": "2012"
+        },
+        {
+            "source": "senator5",
+            "target": "senator1",
+            "weight": 76,
+            "term": "2012"
+        },
+        {
+            "source": "senator5",
+            "target": "senator7",
+            "weight": 80,
+            "term": "2013"
         },
         {
             "source": "senator5",
             "target": "senator4",
-            "weight": 50
-        },
-        {
-            "source": "senator5",
-            "target": "senator1",
-            "weight": 51
-        },
-        {
-            "source": "senator5",
-            "target": "senator2",
-            "weight": 76
-        },
-        {
-            "source": "senator5",
-            "target": "senator8",
-            "weight": 356
-        },
-        {
-            "source": "senator5",
-            "target": "senator3",
-            "weight": 374
+            "weight": 63,
+            "term": "2013"
         },
         {
             "source": "senator5",
             "target": "senator9",
-            "weight": 375
+            "weight": 219,
+            "term": "2013"
         },
         {
             "source": "senator5",
-            "target": "senator6",
-            "weight": 355
-        },
-        {
-            "source": "senator5",
-            "target": "senator7",
-            "weight": 202
-        },
-        {
-            "source": "senator5",
-            "target": "senator10",
-            "weight": 214
-        },
-        {
-            "source": "senator1",
-            "target": "senator4",
-            "weight": 64
-        },
-        {
-            "source": "senator1",
-            "target": "senator5",
-            "weight": 60
-        },
-        {
-            "source": "senator1",
-            "target": "senator2",
-            "weight": 57
-        },
-        {
-            "source": "senator1",
             "target": "senator8",
-            "weight": 359
-        },
-        {
-            "source": "senator1",
-            "target": "senator3",
-            "weight": 371
-        },
-        {
-            "source": "senator1",
-            "target": "senator9",
-            "weight": 377
-        },
-        {
-            "source": "senator1",
-            "target": "senator6",
-            "weight": 359
-        },
-        {
-            "source": "senator1",
-            "target": "senator7",
-            "weight": 219
-        },
-        {
-            "source": "senator1",
-            "target": "senator10",
-            "weight": 204
-        },
-        {
-            "source": "senator2",
-            "target": "senator4",
-            "weight": 57
-        },
-        {
-            "source": "senator2",
-            "target": "senator5",
-            "weight": 64
-        },
-        {
-            "source": "senator2",
-            "target": "senator1",
-            "weight": 54
-        },
-        {
-            "source": "senator2",
-            "target": "senator8",
-            "weight": 378
-        },
-        {
-            "source": "senator2",
-            "target": "senator3",
-            "weight": 370
-        },
-        {
-            "source": "senator2",
-            "target": "senator9",
-            "weight": 369
-        },
-        {
-            "source": "senator2",
-            "target": "senator6",
-            "weight": 357
-        },
-        {
-            "source": "senator2",
-            "target": "senator7",
-            "weight": 222
-        },
-        {
-            "source": "senator2",
-            "target": "senator10",
-            "weight": 219
-        },
-        {
-            "source": "senator8",
-            "target": "senator3",
-            "weight": 77
-        },
-        {
-            "source": "senator8",
-            "target": "senator9",
-            "weight": 52
-        },
-        {
-            "source": "senator8",
-            "target": "senator6",
-            "weight": 71
-        },
-        {
-            "source": "senator8",
-            "target": "senator7",
-            "weight": 216
-        },
-        {
-            "source": "senator8",
-            "target": "senator10",
-            "weight": 220
-        },
-        {
-            "source": "senator3",
-            "target": "senator8",
-            "weight": 52
-        },
-        {
-            "source": "senator3",
-            "target": "senator9",
-            "weight": 60
-        },
-        {
-            "source": "senator3",
-            "target": "senator6",
-            "weight": 63
-        },
-        {
-            "source": "senator3",
-            "target": "senator7",
-            "weight": 206
-        },
-        {
-            "source": "senator3",
-            "target": "senator10",
-            "weight": 200
-        },
-        {
-            "source": "senator9",
-            "target": "senator8",
-            "weight": 61
-        },
-        {
-            "source": "senator9",
-            "target": "senator3",
-            "weight": 53
-        },
-        {
-            "source": "senator9",
-            "target": "senator6",
-            "weight": 78
-        },
-        {
-            "source": "senator9",
-            "target": "senator7",
-            "weight": 227
-        },
-        {
-            "source": "senator9",
-            "target": "senator10",
-            "weight": 215
-        },
-        {
-            "source": "senator6",
-            "target": "senator8",
-            "weight": 51
-        },
-        {
-            "source": "senator6",
-            "target": "senator3",
-            "weight": 52
-        },
-        {
-            "source": "senator6",
-            "target": "senator9",
-            "weight": 50
-        },
-        {
-            "source": "senator6",
-            "target": "senator7",
-            "weight": 222
-        },
-        {
-            "source": "senator6",
-            "target": "senator10",
-            "weight": 215
+            "weight": 205,
+            "term": "2012"
         },
         {
             "source": "senator7",
-            "target": "senator10",
-            "weight": 69
+            "target": "senator1",
+            "weight": 72,
+            "term": "2012"
+        },
+        {
+            "source": "senator7",
+            "target": "senator5",
+            "weight": 79,
+            "term": "2014"
+        },
+        {
+            "source": "senator7",
+            "target": "senator4",
+            "weight": 80,
+            "term": "2014"
+        },
+        {
+            "source": "senator7",
+            "target": "senator9",
+            "weight": 209,
+            "term": "2014"
+        },
+        {
+            "source": "senator7",
+            "target": "senator8",
+            "weight": 209,
+            "term": "2013"
+        },
+        {
+            "source": "senator4",
+            "target": "senator1",
+            "weight": 71,
+            "term": "2014"
+        },
+        {
+            "source": "senator4",
+            "target": "senator5",
+            "weight": 74,
+            "term": "2012"
+        },
+        {
+            "source": "senator4",
+            "target": "senator7",
+            "weight": 76,
+            "term": "2014"
+        },
+        {
+            "source": "senator4",
+            "target": "senator9",
+            "weight": 204,
+            "term": "2013"
+        },
+        {
+            "source": "senator4",
+            "target": "senator8",
+            "weight": 220,
+            "term": "2014"
+        },
+        {
+            "source": "senator9",
+            "target": "senator8",
+            "weight": 80,
+            "term": "2012"
         }
     ]
 }

@@ -15,7 +15,7 @@ importance = 12
 senatorIDs = {}
 
 class Senator:
-	def __init__(self, name, ID, info, party, startDate, endDate, importance, parity=0):
+	def __init__(self, name, ID, info, party, startDate, endDate, importance, parities):
 		self.name = name
 		self.ID = ID
 		self.info = info
@@ -23,16 +23,17 @@ class Senator:
 		self.startDate = startDate
 		self.endDate = endDate
 		self.importance = importance
-		self.parity = parity
+		self.parities = parities
 
 	def toJson(self):
-		return {"name": self.name, "id": self.ID, "info": self.info, "party": self.party, "startDate": self.startDate, "endDate": self.endDate, "importance": self.importance, "parity": self.parity}
+		return {"name": self.name, "id": self.ID, "info": self.info, "party": self.parities, "startDate": self.startDate, "endDate": self.endDate, "importance": self.importance, "parity": self.parity}
 
 class Link:
-	def __init__(self, source, target, weight):
+	def __init__(self, source, target, weight, term):
 		self.source = source
 		self.target = target
 		self.weight = weight
+		self.term = term
 
 	def scaleWeight(self, minWeightUnscaled, maxWeightUnscaled):
 		oldRange = maxWeightUnscaled - minWeightUnscaled
@@ -41,7 +42,7 @@ class Link:
 		print(self.weight)
 
 	def toJson(self):
-		return {"source": self.source, "target": self.target, "weight": self.weight}
+		return {"source": self.source, "target": self.target, "weight": self.weight, "term": self.term}
 
 def getInfoStr(infoItems):
 	return "District " + str(infoItems["district"]) + ": " + infoItems["location"]
@@ -67,7 +68,7 @@ def getSenators():
 			elif senatorData["info"]["party"] == "Ind":
 				party = "I"
 
-			senators.append(Senator(senatorData["name"], senatorUUID, info, party, senatorData["startDate"], senatorData["endDate"], importance, senatorData["parity"]))
+			senators.append(Senator(senatorData["name"], senatorUUID, info, party, senatorData["startDate"], senatorData["endDate"], importance, senatorData["parities"]))
 
 	return senators
 
@@ -79,6 +80,8 @@ def getLinks():
 		minWeightUnscaled = float("inf")
 		maxWeightUnscaled = float("-inf")
 		for row in reader:
+			for weightCol in range(2, len(row)):
+				# get column name (extract term) and use weight number...
 			weight = row["weight"]
 			if weight != "NA":
 				weight = float(weight)
