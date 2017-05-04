@@ -6,6 +6,7 @@ Network = () ->
   height = 500
 
   # allData will store the unfiltered data
+  fullJson = null
   allData = []
   curLinksData = []
   curNodesData = []
@@ -21,8 +22,7 @@ Network = () ->
 
   # variables to refect the current settings of the visualization
   filter = "all"
-  start = new Date("01/01/1500")
-  end = new Date()
+  currTerm = "2017"
 
   # our force directed layout
   force = d3.layout.force().gravity(.05)
@@ -39,6 +39,7 @@ Network = () ->
   # Starting point for network visualization -- initializes visualization and starts force layout
   network = (selection, data) ->
     # format our data
+    fullJson = data
     allData = setupData(data)
 
     # create our svg and groups
@@ -93,11 +94,6 @@ Network = () ->
     setFilter(newFilter)
     update()
 
-  # Public function to switch start/end dates
-  network.setDates = (startNew, endNew) ->
-    start = startNew
-    end = endNew
-
   # Public function to update highlighted nodes from search
   network.updateSearch = (searchTerm) ->
     searchRegEx = new RegExp(searchTerm.toLowerCase())
@@ -116,22 +112,37 @@ Network = () ->
 
   # Public function to update data
   network.updateData = (newData) ->
+    fullJson = newData
     allData = setupData(newData)
     link.remove()
     node.remove()
     update()
 
+  network.updateDataForTerm = (newTerm) ->
+    currTerm = newTerm
+    network.updateData(fullJson)
+
   # called once to clean up raw data and switch links to point to node instances
   # Returns modified data
   setupData = (data) ->
+    # clone the data
+    data = JSON.parse(JSON.stringify(data))
+
+    # filter all data to only include nodes and links of the current term
+    data.nodes = data.nodes.filter (n) ->
+      n.parities.hasOwnProperty(currTerm)
+
     minParity = Number.MAX_SAFE_INTEGER
     maxParity = -Number.MAX_SAFE_INTEGER
     data.nodes.forEach (n) ->
-      minParity = Math.min(minParity, n.parity)
-      maxParity = Math.max(maxParity, n.parity)
+      # get the parity of the node in the current term
+      parity = n.parities[currTerm]
+
+      minParity = Math.min(minParity, parity)
+      maxParity = Math.max(maxParity, parity)
 
       # set initial x/y to values within the width/height of the visualization (make dems on left)
-      if n.parity < 0.3
+      if parity < 0.3
         n.x = randomnumber=Math.floor(Math.random() * 1.5) + (width / 4)
       else
         n.x = randomnumber=Math.floor(Math.random() * 1.5) + ((3 * width) / 4)
@@ -142,6 +153,9 @@ Network = () ->
 
     # id's -> node objects
     nodesMap = mapNodes(data.nodes)
+
+    data.links = data.links.filter (l) ->
+      nodesMap.get(l.source) and nodesMap.get(l.target) and (l.term == currTerm)
 
     # switch links to point to node objects instead of id's
     data.links.forEach (l) ->
@@ -175,10 +189,10 @@ Network = () ->
   filterNodes = (allNodes) ->
     filteredNodes = allNodes
 
-    # for dateFilter, get all senators who servered for at least one day in the current date range
-    if filter == "dateFilter"
+    # for dateFilter, get all senators who have a parity for the term
+    if filter == "termFilter"
       filteredNodes = allNodes.filter (n) ->
-        (new Date(n.startDate)) <= end and ((n.endDate == "current") or (new Date(n.endDate)) >= start)
+        (n.parities.hasOwnProperty(currTerm))
 
     filteredNodes
 
@@ -187,7 +201,7 @@ Network = () ->
   filterLinks = (allLinks, curNodes) ->
     curNodes = mapNodes(curNodes)
     allLinks.filter (l) ->
-      curNodes.get(l.source.id) and curNodes.get(l.target.id)
+      curNodes.get(l.source.id) and curNodes.get(l.target.id) and (l.term == currTerm)
 
   # enter/exit display for nodes
   updateNodes = () ->
@@ -199,7 +213,7 @@ Network = () ->
       .attr("cx", (d) -> d.x)
       .attr("cy", (d) -> d.y)
       .attr("r", (d) -> d.radius)
-      .style("fill", (d) -> nodeColors(d.parity))
+      .style("fill", (d) -> nodeColors(d.parities[currTerm]))
       .style("stroke", (d) -> strokeFor(d))
       .style("stroke-width", 1.0)
 
@@ -284,10 +298,6 @@ Network = () ->
   # Final act of Network() function is to return the inner 'network()' function.
   return network
 
-# Returns whether or not the given start and end dates comprise a valid date range
-isValidDateRange = (start, end) ->
-  Object::toString.call(start) == '[object Date]' and (not isNaN(start.getTime())) and Object::toString.call(end) == '[object Date]' and (not isNaN(end.getTime())) and end >= start
-
 $ ->
   myNetwork = Network()
 
@@ -302,23 +312,9 @@ $ ->
     searchTerm = $(this).val()
     myNetwork.updateSearch(searchTerm)
 
-  # change start date
-  $("#startDate").on "change", (e) ->
-    start = new Date($(this).val())
-    end = new Date($("#endDate").val())
-
-    if isValidDateRange(start, end)
-      myNetwork.setDates(start, end)
-      myNetwork.toggleFilter("dateFilter")
-
-  # change end date
-  $("#endDate").on "change", (e) ->
-    end = new Date($(this).val())
-    start = new Date($("#startDate").val())
-
-    if isValidDateRange(start, end)
-      myNetwork.setDates(start, end)
-      myNetwork.toggleFilter("dateFilter")
+  # change term
+  $("#term_select").on "change", (e) ->
+    myNetwork.updateDataForTerm($(this).val())
 
   # start our visualization
   d3.json "data/fakeData.json", (json) ->
