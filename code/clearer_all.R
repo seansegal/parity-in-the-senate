@@ -81,7 +81,7 @@ colnames(outputall) <- c("Senator1","Senator2",
 
 rownames(againstall) <- tolower(rownames(againstall))
 
-write.csv(againstall,"votesagainstall.csv")
+write.csv(againstall,"parity-ri.csv")
 
 outputall$Senator1 <- tolower(outputall$Senator1)
 outputall$Senator2 <- tolower(outputall$Senator2)
@@ -89,44 +89,4 @@ outputall$Senator2 <- tolower(outputall$Senator2)
 write.csv(outputall,"senator_pairsall.csv",row.names = F)
 
 
-#################################
-#################################
-#################################
-#Extra stuff
 
-# outmat <- data.frame(matrix(0,nrow = length(sens), ncol = length(sens)))
-# 
-# for (i in c(1:length(sens))) {
-#   for (j in c(1:length(sens))) {
-#     YY <- jvY[,i]%*%jvY[,j] + jvN[,i]%*%jvN[,j]
-#     NN <- jvY[,i]%*%jvN[,j] + jvN[,i]%*%jvY[,j]
-#     outmat[i,j] <- YY/(YY+NN)
-#   }
-# }
-# 
-# colnames(outmat) <- sens
-# rownames(outmat) <- sens
-
-# minmaxdates <- data.frame(matrix(0, nrow = length(sens), ncol = 3))
-# 
-# for (i in c(1:length(sens))){
-#   minmaxdates[i,1] <- sens[i]
-#   minmaxdates[i,2] <- as.Date(min(votesFIN[jvYN[,i] == 1,"datec"]))
-#   minmaxdates[i,3] <- as.Date(max(votesFIN[jvYN[,i] == 1,"datec"]))
-# }
-# 
-# minmaxdates$X2 <- as.Date(minmaxdates$X2,origin = "1970-01-01")
-# minmaxdates$X3 <- as.Date(minmaxdates$X3,origin = "1970-01-01")
-# colnames(minmaxdates) <- c("Senator","FirstDate","LastDate")
-
-#write.csv(minmaxdates,"minmaxdates.csv",row.names = F)
-
-#extras
-# library(heatmaply)
-# heatmaply(normalize(outmat))
-# heatmaply(percentize(outmat))
-
-# vExtra <- votesFIN
-# vExtra$yay <- rowSums(jvY)
-# 
-# fails <- votesFIN[which(rowSums(jvY)<20),]

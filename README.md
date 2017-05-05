@@ -16,7 +16,8 @@ Created By: Sean Segal, Nate Myers, Ben Wesner
 	In terms of mechanics, we used Beautiful Soup in python to scrape from the RI Senate website, and we used the official Openstate python package to make requests from the API.
 	
 2. Data Cleaning and Calculations
-	After scraping the data from the RI Senate website, we used R to reformat the data to be input into our website. In addition to 
+	After scraping the data from the RI Senate website, we used R to reformat the data to be input into our website, the scripts can be found in the repository. In addition to reshaping the data, we also calculated a "weight" between each senator. The weight represents how many times a pair of senators agreed on a bill over the total number of times they voted together. This would result in senators with similar voting habits would have high weights (think two Democratic senators, for example) and senators with different voting habits would have low weights (think a Democratic Senator and a Republican Senator).
+	We soon realized that while this metric conveys some information, it 
 	
 
 ## Documentation
