@@ -1,6 +1,8 @@
 # ECON1660 Final Project
 Created By: Sean Segal, Nate Meyers, Ben Wesner
 
+Website: https://seansegal.github.io/parity-in-the-senate/
+
 ## Introduction
 
 # Initial goals:
