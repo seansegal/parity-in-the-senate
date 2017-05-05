@@ -56,7 +56,7 @@ for bill in bills:
 #         writer.writerow(vote)
 
 # UNCOMMENT TO WRITE SENATOR INFO TO FILE
-senators = {}
+senators = []
 for leg in legislators:
     try:
         fullLeg = myapi.get_legislator(leg)
@@ -76,7 +76,9 @@ for leg in legislators:
             'party': party,
             'district': district
         }
-        senators[leg] = senator
+        senators.append({
+            leg: senator
+        })
     except Exception as e:
         print('ERROR: ' + str(e))
 
