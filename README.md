@@ -44,7 +44,7 @@ Website: https://seansegal.github.io/parity-in-the-senate/
 
 - Figuring out the issues with the openstates API would allow us to add more data to our visualization which would allow users to compare Senate networks across states.
 
-- Finding a better method to 
+- Finding a better method to get text data from bills.
 	
 
 ## Documentation
