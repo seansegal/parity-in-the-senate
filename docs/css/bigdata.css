@@ -27,7 +27,7 @@
   margin: 0px;
   line-height: 35px;
   cursor: pointer;
-  /*
+  /*    
     .collapsed{
        .arrow:before{
                  font-family: FontAwesome;
@@ -142,4 +142,46 @@
 body {
   margin: 0px;
   padding: 0px;
+}
+
+.tooltip {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  -moz-border-radius:3px;
+  border-radius: 3px;
+  border: 2px solid #DDD;
+  background: #fff;
+  opacity: 1;
+  color: #000;
+  padding: 10px;
+  width: 300px;
+  font-size: 15px;
+  z-index: 120;
+}
+
+.tooltip p.main {
+  font-size: 15px;
+  text-align: center;
+  padding:0;
+  margin:0;
+}
+
+hr.tooltip-hr {
+  padding:3px 0 0 0;
+  margin:3px 0 3px 0;
+}
+
+.tooltip .title {
+  font-size: 20px;
+  line-height: 24px;
+}
+ 
+.tooltip .name {
+  font-weight:bold;
+}
+
+line.link {
+  fill: none;
+  stroke-width: 1.5px;
 }
