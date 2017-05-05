@@ -1,30 +1,36 @@
 const fs = require('fs');
 const districts = require('../data/districts');
 
+HEADERS_START = '"VotesAgainst'
 dates = {}
-
-
-
-
 parities = {}
-fs.readFile('../data/votesagainstall.csv', 'utf8', function(err, lines) {
-  lines.split('\n').forEach(function(line) {
-    elements = line.split(',');
-    if(elements.length != 16){
-      return;
+fs.readFile('../data/votesagainstall.csv', 'utf8', function(err, linesFull) {
+  lines = linesFull.split('\n');
+  header = lines[0].split(',');
+  for (let i = 1; i < lines.length; i++) {
+    console.log('LINE' + lines[i])
+    elements = lines[i].split(',');
+    if (elements.length <= 1) {
+      continue;
     }
     parity = {}
-    for(let year = 2003; year <= 2017; year++){
-      if(elements[year - 2003 + 1] !== 'NA'){
-        parity[String(year)] = Number(elements[year - 2003 + 1]);
+
+    header.forEach(function(col, index) {
+      if (col.startsWith(HEADERS_START)) {
+        year = col.substring(HEADERS_START.length)
+        year = year.substring(0, year.length -1);
+        parity[String(year)] = Number(elements[index]) || undefined
       }
-    }
+    });
 
+    console.log('PARITY')
     console.log(parity);
-
     parities[elements[0].substring(1, elements[0].length - 1)] = parity;
+  }
 
-  })
+
+
+
 
 
   fs.readFile('../data/senator-info.json', 'utf8', function(err, data) {
@@ -35,7 +41,7 @@ fs.readFile('../data/votesagainstall.csv', 'utf8', function(err, lines) {
       key = Object.keys(data)[0];
       console.log(key)
       senatorInfo = data[key] || data[key.toLowerCase()]
-      if(!senatorInfo){
+      if (!senatorInfo) {
         console.log('No found for ' + key);
         return
       }
