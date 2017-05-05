@@ -3,9 +3,9 @@ import csv
 import sys
 import uuid
 
-outputFile = "../data/data.json"
-linksFile = "../../data/senator_pairsall.csv"
-senatorsFile = "../../data/new-senator-info.json"
+outputFile = "../data/montana.json"
+linksFile = "../../data/weights-mt.csv"
+senatorsFile = "../../data/senator-info-mt.json"
 
 maxWeight = 800
 minWeight = 100
@@ -45,7 +45,13 @@ class Link:
 		return {"source": self.source, "target": self.target, "weight": self.weight, "term": self.term}
 
 def getInfoStr(infoItems):
-	return "District " + str(infoItems["district"]) + ": " + infoItems["location"]
+	districtStr = "Unknown district"
+	locationStr = "Unknown location"
+	if "district" in infoItems:
+		districtStr = infoItems["district"]
+	if "location" in infoItems:
+		locationStr = infoItems["location"]
+	return "District " + str(districtStr) + ": " + locationStr
 
 def getSenators():
 	senators = []
@@ -62,11 +68,13 @@ def getSenators():
 
 			info = getInfoStr(senatorData["info"])
 
-			party = "D"
-			if senatorData["info"]["party"] == "Rep":
-				party = "R"
-			elif senatorData["info"]["party"] == "Ind":
-				party = "I"
+			party = "Unknown Party"
+			if "party" in senatorData["info"]:
+				party = "D"
+				if senatorData["info"]["party"] == "Rep":
+					party = "R"
+				elif senatorData["info"]["party"] == "Ind":
+					party = "I"
 
 			for term in senatorData["parities"]:
 				terms.add(term)
