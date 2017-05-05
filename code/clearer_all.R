@@ -81,12 +81,12 @@ colnames(outputall) <- c("Senator1","Senator2",
 
 rownames(againstall) <- tolower(rownames(againstall))
 
-write.csv(againstall,"parity-ri.csv")
+#write.csv(againstall,"parity-ri.csv")
 
 outputall$Senator1 <- tolower(outputall$Senator1)
 outputall$Senator2 <- tolower(outputall$Senator2)
 
-write.csv(outputall,"senator_pairsall.csv",row.names = F)
+#write.csv(outputall,"weights-ri.csv",row.names = F)
 
 
 
