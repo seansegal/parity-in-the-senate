@@ -63,3 +63,10 @@ for (k in years){
   inc1 <- inc1 + 1
   print(inc1)
 }
+
+yearweights <- paste0("Weight",years)
+colnames(outputall) <- c("Senator1","Senator2",yearweights)
+
+write.csv(againstall,"votesagainstmt.csv")
+
+write.csv(outputall,"senator_pairsmt.csv",row.names = F)
