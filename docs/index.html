@@ -3,107 +3,121 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
 
-    <title>Parity at the State Level: Understanding our State Senates</title>
-    <meta name="description" content="Understanding Parity in State Senates">
-    <meta name="author" content="Nate Meyers, Ben Wesner, and Sean Segal">
+  <title>Parity at the State Level: Understanding our State Senates</title>
+  <meta name="description" content="Understanding Parity in State Senates">
+  <meta name="author" content="Nate Meyers, Ben Wesner, and Sean Segal">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <!-- <link href="css/simple-sidebar.css" rel="stylesheet"> -->
+  <link href='css/bigdata.css' rel='stylesheet'>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
 
 </head>
 
 <body>
 
-    <div id="wrapper">
+  <div class="nav-side-menu">
+      <div class="brand">Parity In the Senate</div>
+      <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
 
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    Parity in State Senates
-                </li>
-                <li class="section-header">
-                    DATA AND DISPLAY
-                </li>
-                <li>
-                    Shortcuts
-                </li>
-                <li>
-                    Overview
-                </li>
-                <li>
-                    Events
-                </li>
-                <li>
-                    About
-                </li>
-                <li>
-                    Services
-                </li>
-                <li>
-                    Contact
-                </li>
-                <div id="state_selection" class="control">
-                  
-        <h3>State</h3>
-        <select id="state_select">
-          <option value="fakeData.json">Rhode Island</option>
-          <option value="data.json">Montana</option>
-        </select>
+          <div class="menu-list">
+
+              <ul id="menu-content" class="menu-content collapse out">
+                  <li>
+                    <a href="#">
+                    <i class="fa fa-dashboard fa-lg"></i> Dashboard
+                    </a>
+                  </li>
+
+                  <li  data-toggle="collapse" data-target="#products" class="collapsed active">
+                    <a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>
+                  </li>
+                  <ul class="sub-menu collapse" id="products">
+                      <li class="active"><a href="#">CSS3 Animation</a></li>
+                      <li><a href="#">General</a></li>
+                      <li><a href="#">Buttons</a></li>
+                      <li><a href="#">Tabs Accordions</a></li>
+                      <li><a href="#">Typography</a></li>
+                      <li><a href="#">FontAwesome</a></li>
+                      <li><a href="#">Slider</a></li>
+                      <li><a href="#">Panels</a></li>
+                      <li><a href="#">Widgets</a></li>
+                      <li><a href="#">Bootstrap Model</a></li>
+                  </ul>
+
+
+                  <li data-toggle="collapse" data-target="#service" class="collapsed">
+                    <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
+                  </li>
+                  <ul class="sub-menu collapse" id="service">
+                    <li>New Service 1</li>
+                    <li>New Service 2</li>
+                    <li>New Service 3</li>
+                  </ul>
+
+
+                  <li data-toggle="collapse" data-target="#new" class="collapsed">
+                    <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
+                  </li>
+                  <ul class="sub-menu collapse" id="new">
+                    <li>New New 1</li>
+                    <li>New New 2</li>
+                    <li>New New 3</li>
+                  </ul>
+
+
+                   <li>
+                    <a href="#">
+                    <i class="fa fa-user fa-lg"></i> Profile
+                    </a>
+                    </li>
+
+                   <li>
+                    <a href="#">
+                    <i class="fa fa-users fa-lg"></i> Users
+                    </a>
+                  </li>
+              </ul>
+       </div>
+  </div>
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div id="vis"></div>
       </div>
-
-      <div id="term_selection" class="control">
-        <h3>Term</h3>
-        <select id="term_select">
-          <option value="2017">2017</option>
-          <option value="2016">2016</option>
-          <option value="2015">2015</option>
-          <option value="2014">2014</option>
-          <option value="2013">2013</option>
-          <option value="2012">2012</option>
-          <option value="2011">2011</option>
-          <option value="2010">2010</option>
-          <option value="2009">2009</option>
-        </select>
-      </div>
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div id="vis"></div>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
     </div>
-    <!-- /#wrapper -->
+    <!-- /#page-content-wrapper -->
 
-    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+  </div>
+  <!-- /#wrapper -->
 
-    <script defer src="js/plugins.js"></script>
-    <script defer src="js/script.js"></script>
-    <script src="js/libs/coffee-script.js"></script>
-    <script src="js/libs/d3.v2.js"></script>
-    <script src="js/Tooltip.js"></script>
-    <script type="text/coffeescript" src="coffee/vis.coffee"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')
+  </script>
+
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <script src="js/libs/coffee-script.js"></script>
+  <script src="js/libs/d3.v2.js"></script>
+  <script src="js/Tooltip.js"></script>
+  <script type="text/coffeescript" src="coffee/vis.coffee"></script>
 
 </body>
 
