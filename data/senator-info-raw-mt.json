@@ -1,0 +1,717 @@
+{
+  "MTL000068": {
+    "name": "Virginia Court",
+    "party": "Dem",
+    "district": "50"
+  },
+  "MTL000103": {
+    "name": "Sue Malek",
+    "party": "Dem",
+    "district": "46"
+  },
+  "MTL000407": {
+    "name": "Shane Morigeau",
+    "party": "Dem",
+    "district": "95"
+  },
+  "MTL000359": {
+    "name": "Russel Tempel",
+    "party": "Rep",
+    "district": "14"
+  },
+  "MTL000387": {
+    "name": "Steve Hinebauch",
+    "party": "Rep",
+    "district": "18"
+  },
+  "MTL000054": {
+    "name": "Dick Barrett",
+    "party": "Dem",
+    "district": "45"
+  },
+  "MTL000377": {
+    "name": "Casey Schreiner",
+    "party": "Dem",
+    "district": "26"
+  },
+  "MTL000388": {
+    "name": "Wendy Mckamey",
+    "party": "Rep",
+    "district": "19"
+  },
+  "MTL000067": {
+    "name": "Rob Cook",
+    "party": "Rep",
+    "district": "18"
+  },
+  "MTL000301": {
+    "name": "Zac Perry",
+    "party": "Dem",
+    "district": "3"
+  },
+  "MTL000381": {
+    "name": "Tom Richmond",
+    "party": "Rep",
+    "district": "28"
+  },
+  "MTL000362": {
+    "name": "Adam Hertz",
+    "party": "Rep",
+    "district": "96"
+  },
+  "MTL000172": {
+    "name": "Roger Webb",
+    "party": "Rep",
+    "district": "23"
+  },
+  "MTL000368": {
+    "name": "Walt Sales",
+    "party": "Rep",
+    "district": "69"
+  },
+  "MTL000010": {
+    "name": "Mary Caferro",
+    "party": "Dem",
+    "district": "41"
+  },
+  "MTL000069": {
+    "name": "Mike Cuffe",
+    "party": "Rep",
+    "district": "2"
+  },
+  "MTL000383": {
+    "name": "Terry Gauthier",
+    "party": "Rep",
+    "district": "40"
+  },
+  "MTL000012": {
+    "name": "Jeff Essmann",
+    "party": "Rep",
+    "district": "54"
+  },
+  "MTL000199": {
+    "name": "Ryan Lynch",
+    "party": "Dem",
+    "district": "76"
+  },
+  "MTL000212": {
+    "name": "Gordon Pierson",
+    "party": "Dem",
+    "district": "78"
+  },
+  "MTL000354": {
+    "name": "Jason Small",
+    "party": "Rep",
+    "district": "21"
+  },
+  "MTL000373": {
+    "name": "Ross Fitzgerald",
+    "party": "Rep",
+    "district": "17"
+  },
+  "MTL000107": {
+    "name": "Mary McNally",
+    "party": "Dem",
+    "district": "24"
+  },
+  "MTL000375": {
+    "name": "Wylie Galt",
+    "party": "Rep",
+    "district": "30"
+  },
+  "MTL000374": {
+    "name": "Sue Vinton",
+    "party": "Rep",
+    "district": "56"
+  },
+  "MTL000230": {
+    "name": "Denise Hayman",
+    "party": "Dem",
+    "district": "66"
+  },
+  "MTL000221": {
+    "name": "Kerry White",
+    "party": "Rep",
+    "district": "64"
+  },
+  "MTL000021": {
+    "name": "Llew Jones",
+    "party": "Rep",
+    "district": "9"
+  },
+  "MTL000280": {
+    "name": "Nels Swandal",
+    "party": "Rep",
+    "district": "30"
+  },
+  "MTL000181": {
+    "name": "Kimberly Dudik",
+    "party": "Dem",
+    "district": "94"
+  },
+  "MTL000079": {
+    "name": "Edward Greef",
+    "party": "Rep",
+    "district": "88"
+  },
+  "MTL000256": {
+    "name": "Brad Tschida",
+    "party": "Rep",
+    "district": "97"
+  },
+  "MTL000213": {
+    "name": "Jp Pomnichowski",
+    "party": "Dem",
+    "district": "33"
+  },
+  "MTL000269": {
+    "name": "Bob Brown",
+    "party": "Rep",
+    "district": "13"
+  },
+  "MTL000385": {
+    "name": "Daniel Salomon",
+    "party": "Rep",
+    "district": "47"
+  },
+  "MTL000404": {
+    "name": "Dennis Lenz",
+    "party": "Rep",
+    "district": "53"
+  },
+  "MTL000355": {
+    "name": "Barry Usher",
+    "party": "Rep",
+    "district": "40"
+  },
+  "MTL000384": {
+    "name": "Jim Hamilton",
+    "party": "Dem",
+    "district": "61"
+  },
+  "MTL000409": {
+    "name": "Jen Gross",
+    "party": "Dem",
+    "district": "25"
+  },
+  "MTL000378": {
+    "name": "Steve Gunderson",
+    "party": "Rep",
+    "district": "1"
+  },
+  "MTL000379": {
+    "name": "James O'hara",
+    "party": "Rep",
+    "district": "27"
+  },
+  "MTL000392": {
+    "name": "Kim Abbott",
+    "party": "Dem",
+    "district": "83"
+  },
+  "MTL000090": {
+    "name": "David Howard",
+    "party": "Rep",
+    "district": "29"
+  },
+  "MTL000349": {
+    "name": "Willis Curdy",
+    "party": "Dem",
+    "district": "98"
+  },
+  "MTL000225": {
+    "name": "Tom Woods",
+    "party": "Dem",
+    "district": "62"
+  },
+  "MTL000336": {
+    "name": "Theresa Manzella",
+    "party": "Rep",
+    "district": "85"
+  },
+  "MTL000367": {
+    "name": "Dave Fern",
+    "party": "Dem",
+    "district": "5"
+  },
+  "MTL000289": {
+    "name": "Bob Keenan",
+    "party": "Rep",
+    "district": "5"
+  },
+  "MTL000398": {
+    "name": "Casey Knudsen",
+    "party": "Rep",
+    "district": "33"
+  },
+  "MTL000369": {
+    "name": "Steve Fitzpatrick",
+    "party": "Rep",
+    "district": "10"
+  },
+  "MTL000246": {
+    "name": "Jessica Karjala",
+    "party": "Dem",
+    "district": "48"
+  },
+  "MTL000099": {
+    "name": "Steve Lavin",
+    "party": "Rep",
+    "district": "8"
+  },
+  "MTL000190": {
+    "name": "Greg Hertz",
+    "party": "Rep",
+    "district": "12"
+  },
+  "MTL000320": {
+    "name": "Mark Noland",
+    "party": "Rep",
+    "district": "10"
+  },
+  "MTL000057": {
+    "name": "Bryce Bennett",
+    "party": "Dem",
+    "district": "91"
+  },
+  "MTL000325": {
+    "name": "Zach Brown",
+    "party": "Dem",
+    "district": "63"
+  },
+  "MTL000334": {
+    "name": "Nate Mcconnell",
+    "party": "Dem",
+    "district": "89"
+  },
+  "MTL000044": {
+    "name": "Gene Vuckovich",
+    "party": "Dem",
+    "district": "39"
+  },
+  "MTL000405": {
+    "name": "Fred Anderson",
+    "party": "Rep",
+    "district": "20"
+  },
+  "MTL000193": {
+    "name": "Donald Jones",
+    "party": "Rep",
+    "district": "46"
+  },
+  "MTL000341": {
+    "name": "Seth Berglee",
+    "party": "Rep",
+    "district": "58"
+  },
+  "MTL000400": {
+    "name": "Peggy Webb",
+    "party": "Rep",
+    "district": "43"
+  },
+  "MTL000222": {
+    "name": "Lea Whitford",
+    "party": "Dem",
+    "district": "8"
+  },
+  "MTL000159": {
+    "name": "Dee Brown",
+    "party": "Rep",
+    "district": "2"
+  },
+  "MTL000118": {
+    "name": "Ryan Osmundson",
+    "party": null,
+    "district": null
+  },
+  "MTL000395": {
+    "name": "Lola Sheldon-galloway",
+    "party": "Rep",
+    "district": "22"
+  },
+  "MTL000262": {
+    "name": "Andrea Olsen",
+    "party": "Dem",
+    "district": "100"
+  },
+  "MTL000023": {
+    "name": "Jim Keane",
+    "party": null,
+    "district": null
+  },
+  "MTL000328": {
+    "name": "Geraldine Custer",
+    "party": "Rep",
+    "district": "39"
+  },
+  "MTL000371": {
+    "name": "Frank Smith",
+    "party": "Dem",
+    "district": "16"
+  },
+  "MTL000318": {
+    "name": "Kathy Kelker",
+    "party": "Dem",
+    "district": "47"
+  },
+  "MTL000214": {
+    "name": "Alan Redfield",
+    "party": "Rep",
+    "district": "59"
+  },
+  "MTL000403": {
+    "name": "Jacob Bachmeier",
+    "party": "Dem",
+    "district": "28"
+  },
+  "MTL000339": {
+    "name": "Moffie Funk",
+    "party": "Dem",
+    "district": "82"
+  },
+  "MTL000402": {
+    "name": "Keith Regier",
+    "party": "Rep",
+    "district": "3"
+  },
+  "MTL000171": {
+    "name": "Fred Thomas",
+    "party": "Rep",
+    "district": "44"
+  },
+  "MTL000173": {
+    "name": "Nancy Ballance",
+    "party": "Rep",
+    "district": "87"
+  },
+  "MTL000394": {
+    "name": "Jeffrey Welborn",
+    "party": "Rep",
+    "district": "36"
+  },
+  "MTL000013": {
+    "name": "Tom Facey",
+    "party": "Dem",
+    "district": "50"
+  },
+  "MTL000133": {
+    "name": "Jon Sesso",
+    "party": "Dem",
+    "district": "37"
+  },
+  "MTL000051": {
+    "name": "Duane Ankney",
+    "party": "Rep",
+    "district": "20"
+  },
+  "MTL000356": {
+    "name": "Jeremy Trebas",
+    "party": "Rep",
+    "district": "25"
+  },
+  "MTL000396": {
+    "name": "John Fleming",
+    "party": "Dem",
+    "district": "93"
+  },
+  "MTL000211": {
+    "name": "Rae Peppers",
+    "party": "Dem",
+    "district": "41"
+  },
+  "MTL000410": {
+    "name": "Denley Loge",
+    "party": "Rep",
+    "district": "14"
+  },
+  "MTL000168": {
+    "name": "Scott Sales",
+    "party": "Rep",
+    "district": "35"
+  },
+  "MTL000043": {
+    "name": "Chas Vincent",
+    "party": "Rep",
+    "district": "1"
+  },
+  "MTL000063": {
+    "name": "Randy Brodehl",
+    "party": "Rep",
+    "district": "9"
+  },
+  "MTL000143": {
+    "name": "Gordon Vance",
+    "party": "Rep",
+    "district": "34"
+  },
+  "MTL000064": {
+    "name": "Tom Burnett",
+    "party": "Rep",
+    "district": "67"
+  },
+  "MTL000237": {
+    "name": "Dale Mortensen",
+    "party": "Rep",
+    "district": "44"
+  },
+  "MTL000275": {
+    "name": "Cynthia Wolken",
+    "party": "Dem",
+    "district": "48"
+  },
+  "MTL000217": {
+    "name": "Ray Shaw",
+    "party": "Rep",
+    "district": "71"
+  },
+  "MTL000122": {
+    "name": "Jean Price",
+    "party": "Dem",
+    "district": "24"
+  },
+  "MTL000098": {
+    "name": "Austin Knudsen",
+    "party": "Rep",
+    "district": "34"
+  },
+  "MTL000324": {
+    "name": "Scott Staffanson",
+    "party": "Rep",
+    "district": "35"
+  },
+  "MTL000066": {
+    "name": "Pat Connell",
+    "party": "Rep",
+    "district": "43"
+  },
+  "MTL000366": {
+    "name": "Derek Skees",
+    "party": "Rep",
+    "district": "11"
+  },
+  "MTL000304": {
+    "name": "Kenneth Holmlund",
+    "party": "Rep",
+    "district": "38"
+  },
+  "MTL000399": {
+    "name": "Bruce Grubbs",
+    "party": "Rep",
+    "district": "68"
+  },
+  "MTL000316": {
+    "name": "Susan Webber",
+    "party": "Dem",
+    "district": "16"
+  },
+  "MTL000305": {
+    "name": "Jill Cohenour",
+    "party": "Dem",
+    "district": "42"
+  },
+  "MTL000393": {
+    "name": "Jon Knokey",
+    "party": "Rep",
+    "district": "65"
+  },
+  "MTL000201": {
+    "name": "Kelly McCarthy",
+    "party": "Dem",
+    "district": "49"
+  },
+  "MTL000161": {
+    "name": "Jennifer Fielder",
+    "party": "Rep",
+    "district": "7"
+  },
+  "MTL000312": {
+    "name": "Frank Garner",
+    "party": "Rep",
+    "district": "7"
+  },
+  "MTL000389": {
+    "name": "Dan Bartel",
+    "party": "Rep",
+    "district": "29"
+  },
+  "MTL000357": {
+    "name": "Jimmy Patelis",
+    "party": "Rep",
+    "district": "52"
+  },
+  "MTL000391": {
+    "name": "Tom Welch",
+    "party": "Rep",
+    "district": "72"
+  },
+  "MTL000236": {
+    "name": "George Kipp",
+    "party": "Dem",
+    "district": "15"
+  },
+  "MTL000226": {
+    "name": "Daniel Zolnikov",
+    "party": "Rep",
+    "district": "45"
+  },
+  "MTL000027": {
+    "name": "Frederick Moore",
+    "party": "Rep",
+    "district": "19"
+  },
+  "MTL000303": {
+    "name": "Janet Ellis",
+    "party": "Dem",
+    "district": "81"
+  },
+  "MTL000076": {
+    "name": "Kelly Flynn",
+    "party": "Rep",
+    "district": "70"
+  },
+  "MTL000364": {
+    "name": "Laurie Bishop",
+    "party": "Dem",
+    "district": "60"
+  },
+  "MTL000411": {
+    "name": "Mike Hopkins",
+    "party": "Rep",
+    "district": "92"
+  },
+  "MTL000365": {
+    "name": "Matt Regier",
+    "party": "Rep",
+    "district": "4"
+  },
+  "MTL000397": {
+    "name": "Marilyn Ryan",
+    "party": "Dem",
+    "district": "99"
+  },
+  "MTL000192": {
+    "name": "Tom Jacobson",
+    "party": "Dem",
+    "district": "21"
+  },
+  "MTL000009": {
+    "name": "Edward Buttrey",
+    "party": "Rep",
+    "district": "11"
+  },
+  "MTL000363": {
+    "name": "Albert Olszewski",
+    "party": "Rep",
+    "district": "6"
+  },
+  "MTL000060": {
+    "name": "Mark Blasdel",
+    "party": "Rep",
+    "district": "4"
+  },
+  "MTL000072": {
+    "name": "Ron Ehli",
+    "party": "Rep",
+    "district": "86"
+  },
+  "MTL000309": {
+    "name": "Vince Ricci",
+    "party": "Rep",
+    "district": "55"
+  },
+  "MTL000406": {
+    "name": "Adam Rosendale",
+    "party": "Rep",
+    "district": "51"
+  },
+  "MTL000307": {
+    "name": "Mary ann Dunwell",
+    "party": "Dem",
+    "district": "84"
+  },
+  "MTL000185": {
+    "name": "Carl Glimm",
+    "party": "Rep",
+    "district": "6"
+  },
+  "MTL000372": {
+    "name": "Bill Harris",
+    "party": "Rep",
+    "district": "37"
+  },
+  "MTL000220": {
+    "name": "Kirk Wagoner",
+    "party": "Rep",
+    "district": "75"
+  },
+  "MTL000121": {
+    "name": "Mike Phillips",
+    "party": "Dem",
+    "district": "31"
+  },
+  "MTL000048": {
+    "name": "Jonathan Windy Boy",
+    "party": null,
+    "district": null
+  },
+  "MTL000370": {
+    "name": "Amanda Curtis",
+    "party": "Dem",
+    "district": "74"
+  },
+  "MTL000131": {
+    "name": "Diane Sands",
+    "party": "Dem",
+    "district": "49"
+  },
+  "MTL000248": {
+    "name": "Jedediah Hinkle",
+    "party": "Rep",
+    "district": "32"
+  },
+  "MTL000229": {
+    "name": "Forrest Mandeville",
+    "party": "Rep",
+    "district": "57"
+  },
+  "MTL000089": {
+    "name": "Brian Hoven",
+    "party": "Rep",
+    "district": "13"
+  },
+  "MTL000141": {
+    "name": "Kathy Swanson",
+    "party": "Dem",
+    "district": "77"
+  },
+  "MTL000137": {
+    "name": "Cary Smith",
+    "party": "Rep",
+    "district": "27"
+  },
+  "MTL000390": {
+    "name": "Becky Beard",
+    "party": "Rep",
+    "district": "80"
+  },
+  "MTL000180": {
+    "name": "Alan Doane",
+    "party": "Rep",
+    "district": "36"
+  },
+  "MTL000218": {
+    "name": "Bridget Smith",
+    "party": "Dem",
+    "district": "31"
+  },
+  "MTL000408": {
+    "name": "Mike Lang",
+    "party": "Rep",
+    "district": "17"
+  },
+  "MTL000380": {
+    "name": "Sharon Stewart-peregoy",
+    "party": "Dem",
+    "district": "42"
+  }
+}

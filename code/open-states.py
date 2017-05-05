@@ -80,6 +80,6 @@ for leg in legislators:
     except Exception as e:
         print('ERROR: ' + str(e))
 
-filename = '../data/%s-senatorInfo.json' % st
+filename = '../data/senator-info-raw-%s.json' % st
 with open(filename, 'w') as outfile:
     json.dump(senators, outfile)

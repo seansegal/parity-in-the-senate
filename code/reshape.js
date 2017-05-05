@@ -1,10 +1,14 @@
 const fs = require('fs');
 const districts = require('../data/districts');
 
+STATE = 'ri'
 HEADERS_START = '"VotesAgainst'
+VOTES_FILE = '../data/parity-<state>.csv'.replace("<state>", STATE);
+SENATOR_FILE = "../data/senator-info-raw-<state>.json".replace("<state>", STATE);
+OUTFILE = '../data/senator-info-<state>.json'.replace("<state>", STATE);
 dates = {}
 parities = {}
-fs.readFile('../data/votesagainstall.csv', 'utf8', function(err, linesFull) {
+fs.readFile(VOTES_FILE, 'utf8', function(err, linesFull) {
   lines = linesFull.split('\n');
   header = lines[0].split(',');
   for (let i = 1; i < lines.length; i++) {
@@ -22,18 +26,10 @@ fs.readFile('../data/votesagainstall.csv', 'utf8', function(err, linesFull) {
         parity[String(year)] = Number(elements[index]) || undefined
       }
     });
-
-    console.log('PARITY')
-    console.log(parity);
     parities[elements[0].substring(1, elements[0].length - 1)] = parity;
   }
 
-
-
-
-
-
-  fs.readFile('../data/senator-info.json', 'utf8', function(err, data) {
+  fs.readFile(SENATOR_FILE, 'utf8', function(err, data) {
     if (err) throw err;
     const senators = JSON.parse(data);
     newData = [];
@@ -58,7 +54,7 @@ fs.readFile('../data/votesagainstall.csv', 'utf8', function(err, linesFull) {
     })
 
     jsonOutput = JSON.stringify(newData);
-    fs.writeFile('../data/new-senator-info.json', jsonOutput, 'utf8', function() {
+    fs.writeFile(OUTFILE, jsonOutput, 'utf8', function() {
       if (err) throw err;
       console.log('File Written');
     });

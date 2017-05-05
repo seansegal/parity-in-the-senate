@@ -1,2 +1,6 @@
 **/.DS_Store
+**/.RData
+**/.RHistory
+**/__pycache__
+**/.Rapp.history
 python_env
