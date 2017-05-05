@@ -2,8 +2,17 @@ root = exports ? this
 
 Network = () ->
   # width and height of visualization (should be based off css spacing on page)
-  width = 805
-  height = 500
+  container = document.getElementById("page-content-wrapper")
+  width = container.offsetWidth
+  height = screen.height
+  console.log width
+  console.log height
+
+  nodePadding = 2.0
+  maxRadius = 0
+
+  maxScale = 2.0
+  minScale = 0.75
 
   # allData will store the unfiltered data
   fullJson = null
@@ -26,9 +35,8 @@ Network = () ->
 
   # our force directed layout
   force = d3.layout.force().gravity(.05)
-
-  # drag currently doesn't work...
-  drag = force.drag
+  vis = null  
+  child = null
 
   # color function used to color nodes
   nodeColors = d3.scale.linear().domain([0.0, 1.0]).range(["#1f77b4", "#d62728"])
@@ -48,8 +56,10 @@ Network = () ->
       .attr("width", width)
       .attr("height", height)
       .attr("align", "center")
-    linksG = vis.append("g").attr("id", "links")
-    nodesG = vis.append("g").attr("id", "nodes")
+      .call(d3.behavior.zoom().scaleExtent([minScale, maxScale]).on("zoom", redraw))
+    child = vis.append("g")
+    linksG = child.append("g").attr("id", "links")
+    nodesG = child.append("g").attr("id", "nodes")
 
     # setup the size of the force environment
     force.size([width, height])
@@ -64,6 +74,11 @@ Network = () ->
 
     # perform rendering and start force layout
     update()
+
+  redraw = ->
+    console.log 'here', d3.event.translate, d3.event.scale
+    child.attr 'transform', 'translate(' + d3.event.translate + ')' + ' scale(' + d3.event.scale + ')'
+    return
 
   # The update() function performs the bulk of the
   # work to setup our visualization based on the
@@ -108,7 +123,7 @@ Network = () ->
         d.searched = true
       else
         d.searched = false
-        element.style("fill", (d) -> nodeColors(d.parity))
+        element.style("fill", (d) -> nodeColors(d.parities[currTerm]))
           .style("stroke-width", 1.0)
 
   # Public function to update data
@@ -130,7 +145,6 @@ Network = () ->
   updateTerms = (data) ->
     # change term dropdown  
     $("#term_select").empty()
-    console.log data
     data.terms.forEach (t) ->
       $("#term_select").append $('<option value="' + t + '">' + t + '</option>')
 
@@ -162,6 +176,8 @@ Network = () ->
 
       # Set radius
       n.radius = n.importance
+      console.log n.radius
+      maxRadius = Math.max(maxRadius, n.radius)
 
     # id's -> node objects
     nodesMap = mapNodes(data.nodes)
@@ -176,8 +192,7 @@ Network = () ->
 
       # linkedByIndex is used for link sorting
       linkedByIndex["#{l.source.id},#{l.target.id}"] = 1
-    console.log minParity
-    console.log maxParity
+
     nodeColors.domain([minParity, maxParity])
 
     data
@@ -218,7 +233,7 @@ Network = () ->
   # enter/exit display for nodes
   updateNodes = () ->
     node = nodesG.selectAll("circle.node")
-      .data(curNodesData, (d) -> d.id).call(drag)
+      .data(curNodesData, (d) -> d.id)
 
     node.enter().append("circle")
       .attr("class", "node")
@@ -256,6 +271,7 @@ Network = () ->
   # tick function for force directed layout
   forceTick = (e) ->
     node
+      .each(dontCollide(0.5))
       .attr("cx", (d) -> d.x)
       .attr("cy", (d) -> d.y)
 
@@ -265,9 +281,32 @@ Network = () ->
       .attr("x2", (d) -> d.target.x)
       .attr("y2", (d) -> d.target.y)
 
+  dontCollide = (alpha) ->
+    quadtree = d3.geom.quadtree(allData.nodes)
+    (d) ->
+      r = d.radius + maxRadius + nodePadding
+      nx1 = d.x - r
+      nx2 = d.x + r
+      ny1 = d.y - r
+      ny2 = d.y + r
+      quadtree.visit (quad, x1, y1, x2, y2) ->
+        if quad.point and quad.point != d
+          x = d.x - (quad.point.x)
+          y = d.y - (quad.point.y)
+          l = Math.sqrt(x * x + y * y)
+          r = d.radius + quad.point.radius + nodePadding
+          if l < r
+            l = (l - r) / l * alpha
+            d.x -= x *= l
+            d.y -= y *= l
+            quad.point.x += x
+            quad.point.y += y
+        x1 > nx2 or x2 < nx1 or y1 > ny2 or y2 < ny1
+      return
+
   # Helper function that returns stroke color for particular node.
   strokeFor = (d) ->
-    d3.rgb(nodeColors(d.parity)).darker().toString()
+    d3.rgb(nodeColors(d.parities[currTerm])).darker().toString()
 
   # Mouseover tooltip function
   showDetails = (d,i) ->

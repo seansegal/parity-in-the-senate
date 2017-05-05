@@ -7,10 +7,10 @@ outputFile = "../data/data.json"
 linksFile = "../../data/senator_pairsall.csv"
 senatorsFile = "../../data/new-senator-info.json"
 
-maxWeight = 400
-minWeight = 50
+maxWeight = 800
+minWeight = 100
 
-importance = 12
+importance = 15
 
 senatorIDs = {}
 

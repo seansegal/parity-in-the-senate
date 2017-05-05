@@ -1,37 +1,65 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Parity at the State Level: Understanding our State Senates</title>
-  <meta name="description" content="Understanding Parity in State Senates">
-  <meta name="author" content="Nate Meyers, Ben Wesner, and Sean Segal">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Parity at the State Level: Understanding our State Senates</title>
+    <meta name="description" content="Understanding Parity in State Senates">
+    <meta name="author" content="Nate Meyers, Ben Wesner, and Sean Segal">
 
-  <!-- CSS concatenated and minified via ant build script-->
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <!-- end CSS-->
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/libs/modernizr-2.0.6.min.js"></script>
+
 </head>
 
 <body>
-  <div id="container" class="container">
-    <header>
-      <h1>Parity in State Senates</h1>
-      <p>State senators who tend to vote together are linked closer together. Senators are colored by their parity.<br>
-      The date range includes all senators who served for at least one of the days in the specified range.</p>
-    </header>
 
-    <div id="controls">
-      <div id="state_selection" class="control">
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    Parity in State Senates
+                </li>
+                <li class="section-header">
+                    DATA AND DISPLAY
+                </li>
+                <li>
+                    Shortcuts
+                </li>
+                <li>
+                    Overview
+                </li>
+                <li>
+                    Events
+                </li>
+                <li>
+                    About
+                </li>
+                <li>
+                    Services
+                </li>
+                <li>
+                    Contact
+                </li>
+                <div id="state_selection" class="control">
+                  
         <h3>State</h3>
         <select id="state_select">
           <option value="fakeData.json">Rhode Island</option>
@@ -53,43 +81,30 @@
           <option value="2009">2009</option>
         </select>
       </div>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
 
-      <div id="search_section" class="control">
-        <h3>Search</h3>
-        <input type="text" class="text-input" id="search" value="" placeholder="Search for a senator..." />
-      </div>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div id="vis"></div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
     </div>
+    <!-- /#wrapper -->
 
-    <div id="main" role="main">
-      <div id="vis"></div>
-    </div>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 
-    <footer>
-    <p>Data scraped from official State General Assembly websites. <br/>&copy 2017 by Nate Meyers, Ben Wesner, and Sean Segal. All rights reserved.</p>
-    </footer>
-  </div> <!--! end of #container -->
+    <script defer src="js/plugins.js"></script>
+    <script defer src="js/script.js"></script>
+    <script src="js/libs/coffee-script.js"></script>
+    <script src="js/libs/d3.v2.js"></script>
+    <script src="js/Tooltip.js"></script>
+    <script type="text/coffeescript" src="coffee/vis.coffee"></script>
 
-  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
-
-  <script defer src="js/plugins.js"></script>
-  <script defer src="js/script.js"></script>
-  <script src="js/libs/coffee-script.js"></script>
-  <script src="js/libs/d3.v2.js"></script>
-  <script src="js/Tooltip.js"></script>
-  <script type="text/coffeescript" src="coffee/vis.coffee"></script>
-
-  <script> // Change UA-XXXXX-X to be your site's ID
-    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
-    Modernizr.load({
-      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-    });
-  </script>
-
-  <!--[if lt IE 7 ]>
-    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->
-  
 </body>
+
 </html>
