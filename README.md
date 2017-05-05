@@ -1,5 +1,5 @@
 # ECON1660 Final Project
-Created By: Sean Segal, Nate Myers, Ben Wesner
+Created By: Sean Segal, Nate Meyers, Ben Wesner
 
 ## Introduction
 
