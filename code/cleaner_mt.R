@@ -2,6 +2,7 @@ setwd("/Users/nathanmeyers/Documents/bigdatafinal/data/")
 
 library(tidyr)
 library(qdapRegex)
+library(lubridate)
 
 votes <- read.csv("montana-votes.csv", header = T)
 votes$date <- year(votes$date)
@@ -67,6 +68,11 @@ for (k in years){
 yearweights <- paste0("Weight",years)
 colnames(outputall) <- c("Senator1","Senator2",yearweights)
 
-write.csv(againstall,"votesagainstmt.csv")
+rownames(againstall) <- tolower(rownames(againstall))
 
-write.csv(outputall,"senator_pairsmt.csv",row.names = F)
+write.csv(againstall,"parity-mt.csv")
+
+outputall$Senator1 <- tolower(outputall$Senator1)
+outputall$Senator2 <- tolower(outputall$Senator2)
+
+write.csv(outputall,"weights-mt.csv",row.names = F)
