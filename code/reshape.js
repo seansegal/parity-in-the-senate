@@ -1,5 +1,5 @@
 const fs = require('fs');
-const districts = require('../data/districts');
+// const districts = require('../data/districts');
 
 if(process.argv.length !== 3){
   console.log('Usage: ./reshape <state>')
