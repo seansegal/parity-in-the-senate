@@ -8,7 +8,7 @@ if len(sys.argv) != 2:
 
 st = sys.argv[1]
 
-outputFile = "../data/complete/%s.json" % st
+outputFile = "../data/complete/data-%s.json" % st
 linksFile = "../data/%s/weights-%s.csv" % (st, st)
 senatorsFile = "../data/%s/senator-info-%s.json" % (st, st)
 
