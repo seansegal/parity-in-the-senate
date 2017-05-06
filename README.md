@@ -3,7 +3,7 @@ Created By: Sean Segal, Nate Meyers, Ben Wesner
 
 Website: https://seansegal.github.io/parity-in-the-senate/
 
-![both_houses](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/both_houses.png)
+![both_houses](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/both_houses.png "Both Senate and House")
 
 ## Introduction
 
@@ -28,7 +28,8 @@ Website: https://seansegal.github.io/parity-in-the-senate/
 	
 	We soon realized that while this metric conveys some information, it is not particularly informative within the RI Senate. This is because the RI Senate is overwhelming dominated by Democrats (there are 38 active senators, and only 33 are Democrats), Democrats propose almost all of the bills in the data set, and Democrats almost always vote yes on the bills they propose. As a result, the weights we generated were almost always close to 1, and even for the most conservative senators, the weights were still pretty high. Below is a histogram demonstrating how the average Senate bill in our data set receives well over the 20 votes needed to pass legislation.
 	
-![YesVotesHist](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/yes_votes_hist.png)
+![YesVotesHist](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/yes_votes_hist.png "Histogram of Yes Votes")
+	
 	
 	In addition to the weights, we also calculated a parity statistic to see how frequently the Senator went against the will of the majority. The idea behind this statistic was to determine how willing the senator is to go against the majority opinion in the senate. This was calculated by taking the number of votes the senator went against the majority over the total number of votes that the senator participated in. Similarly to the weights statistic, this wasn't a very revealing statistic in RI; most times Democrats sided with the majority, and the people who sided with the majority less were almost always republicans. Still, it appeared that most Republican RI Senators voted for Democratic bills the vast majority of the time.
 	
