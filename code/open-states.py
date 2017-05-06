@@ -26,6 +26,8 @@ for bill in bills:
     print('Requesting: ', bill['bill_id'], 'Count: ', count)
     fullBill = pyopenstates.get_bill(uid=bill['id'])
     for vote in fullBill['votes']:
+        if not vote:
+            continue
         voteRecord = {
             'description': fullBill['title'],
             'date': vote['date']
