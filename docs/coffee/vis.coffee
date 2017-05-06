@@ -10,7 +10,7 @@ Network = () ->
   maxRadius = 0
 
   maxScale = 2.0
-  minScale = 0.75
+  minScale = 0.4
 
   # allData will store the unfiltered data
   fullJson = null
@@ -49,7 +49,7 @@ Network = () ->
     updateTerms(fullJson)
     allData = setupData(data)
 
-    zoom = d3.behavior.zoom().scaleExtent([minScale, maxScale]).on("zoom", redraw)
+    zoom = d3.behavior.zoom().translate([width/4, height/8]).scale(0.6).scaleExtent([minScale, maxScale]).on("zoom", redraw)
 
     # create our svg and groups
     vis = d3.select(selection).append("svg")
@@ -60,6 +60,8 @@ Network = () ->
     child = vis.append("g")
     linksG = child.append("g").attr("id", "links")
     nodesG = child.append("g").attr("id", "nodes")
+
+    child.attr("transform", "translate(" + width/4 + "," + height/8 + ")scale(0.6)")
 
     # setup the size of the force environment
     force.size([width, height])
@@ -82,26 +84,8 @@ Network = () ->
     vis.attr("width", width).attr("height", height)
 
   redraw = ->
-    console.log 'here', d3.event.translate, d3.event.scale
-    translation = d3.event.translate
-    tx = translation[0]
-    ty = translation[1]
-
-    minX = -600 * d3.event.scale
-    maxX = 1100 * d3.event.scale
-    minY = -400 * d3.event.scale
-    maxY = 800 * d3.event.scale
-
-    if translation[0] < minX
-      tx = minX
-    else if translation[0] > maxX
-      tx = maxX
-
-    if translation[1] < minY
-      ty = minY
-    else if translation[1] > maxY
-      ty = maxY
-    child.attr 'transform', 'translate(' + [tx, ty] + ')' + ' scale(' + d3.event.scale + ')'
+    # console.log 'here', d3.event.translate, d3.event.scale
+    child.attr 'transform', 'translate(' + d3.event.translate + ')' + ' scale(' + d3.event.scale + ')'
     return
 
   # The update() function performs the bulk of the
