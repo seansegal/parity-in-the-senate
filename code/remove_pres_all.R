@@ -1,9 +1,17 @@
+#######################################################################
+# This script standardizes the scraped votes, fixing capitalization,
+# attributes votes by Mr. President and Madam President to the correct
+# senators, and a few other cleaning issues.
+#######################################################################
+
 setwd("/Users/nathanmeyers/Documents/bigdatafinal/data/")
 
 library('stringr')
 library('data.table')
 
 votes <- read.csv("data-all.csv", header = T, stringsAsFactors=FALSE)
+
+#Standardize voting conventions
 votes2 = data.frame(votes)
 votes2[votes2 == "n"] <- "N"
 votes2[votes2 == "y"] <- "Y"
@@ -12,6 +20,7 @@ votes2[votes2 == "E"] <- "N/A"
 #Attributes all votes by Mr. Presient to Ruggerio and
 #all votes by Madam President to Paiva.Weed
 
+#Standardize names of senators.
 proper <- c('Bates',
             'Ciccone',
             'Cote',
@@ -79,13 +88,17 @@ for (i in c(1:(length(proper)))){
 }
 
 votes2 <- votes2[ , !(names(votes2) %in% upper)]
+
+#Fixes Lynch.prata column and drops Test.member column
 colnames(votes2) <- str_to_title(colnames(votes2))
 votes2[votes2[,"Lynch"] == "N/A","Lynch"] <- votes2[votes2[,"Lynch"] == "N/A","Lynch.prata"]
 votes2 <- votes2[ , !(names(votes2) %in% c("Test.member","Lynch.prata"))]
 
+#Standardizes a few selected names
 setnames(votes2, old = c("Da.ponte","Paiva.weed","O.neill","Cool.rumsey","Description","Date"), 
          new = c("Ponte","Weed","Neill","Rumsey","description","date"))
 
+#Fixes votes by Mr. President and Madam President
 madprez <- votes2[votes2$Madam.president != "N/A",]
 mrprez <- votes2[votes2$Mr..President != "N/A",]
 
@@ -93,4 +106,5 @@ votes2[votes2[,"Ruggerio"] == "N/A","Ruggerio"] <- votes2[votes2[,"Ruggerio"] ==
 votes2[votes2[,"Weed"] == "N/A","Weed"] <- votes2[votes2[,"Weed"] == "N/A","Madam.president"]
 votes2 <- votes2[,-c(which(colnames(votes2)=="Mr..President"),which(colnames(votes2)=="Madam.president"))]
 
-write.csv(votes2,"data2all.csv", row.names = F)
+#Uncomment to export as csv
+#write.csv(votes2,"data2all.csv", row.names = F)
