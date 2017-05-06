@@ -4,7 +4,7 @@ library(tidyr)
 library(qdapRegex)
 library(lubridate)
 
-votes <- read.csv("montana-votes.csv", header = T)
+votes <- read.csv("votes-mt.csv", header = T)
 votes$date <- year(votes$date)
 
 sens <- colnames(votes)
@@ -70,9 +70,9 @@ colnames(outputall) <- c("Senator1","Senator2",yearweights)
 
 rownames(againstall) <- tolower(rownames(againstall))
 
-write.csv(againstall,"parity-mt.csv")
-
 outputall$Senator1 <- tolower(outputall$Senator1)
 outputall$Senator2 <- tolower(outputall$Senator2)
+
+write.csv(againstall,"parity-mt.csv")
 
 write.csv(outputall,"weights-mt.csv",row.names = F)
