@@ -1,1688 +1,2416 @@
 [{
-  "id": "mtl000090",
-  "name": "David Howard",
-  "parities": {
-    "2011": 0.2,
-    "2013": 0.164814814814815,
-    "2015": 0.235869565217391,
-    "2017": 0.240628778718259
-  },
+  "id": "mtl000189",
+  "name": "David Halvorson",
   "info": {
     "party": "Rep",
-    "location": "Warwick",
-    "district": 29
-  }
-}, {
-  "id": "mtl000137",
-  "name": "Cary Smith",
-  "parities": {
-    "2011": 0.270664505672609,
-    "2013": 0.228102189781022,
-    "2015": 0.307845084409136,
-    "2017": 0.242890995260664
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Cranston",
-    "district": 27
-  }
-}, {
-  "id": "mtl000118",
-  "name": "Ryan Osmundson",
-  "parities": {
-    "2011": 0.172839506172839,
-    "2013": 0.140115163147793,
-    "2015": 0.167464114832536,
-    "2017": 0.156670746634027
-  },
-  "info": {
-    "party": null,
     "district": 0
   }
 }, {
-  "id": "mtl000369",
-  "name": "Steve Fitzpatrick",
+  "id": "mtl000070",
+  "name": "Robyn Driscoll",
   "parities": {
-    "2017": 0.159855769230769
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Tiverton & Warren",
-    "district": 10
-  }
-}, {
-  "id": "mtl000364",
-  "name": "Laurie Bishop",
-  "parities": {
-    "2017": 0.276143790849673
+    "2013": 0.259187620889749,
+    "2015": 0.27116935483871
   },
   "info": {
     "party": "Dem",
-    "district": 60
+    "district": 0
   }
 }, {
-  "id": "mtl000190",
-  "name": "Greg Hertz",
-  "parities": {
-    "2013": 0.141025641025641,
-    "2015": 0.220030349013657,
-    "2017": 0.215547703180212
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Little Compton & Middletown",
-    "district": 12
-  }
-}, {
-  "id": "mtl000378",
-  "name": "Steve Gunderson",
-  "parities": {
-    "2017": 0.220869565217391
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Providence",
-    "district": 1
-  }
-}, {
-  "id": "mtl000051",
-  "name": "Duane Ankney",
-  "parities": {
-    "2011": 0.104631217838765,
-    "2013": 0.124756335282651,
-    "2015": 0.132478632478632,
-    "2017": 0.100478468899522
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Woonsocket",
-    "district": 20
-  }
-}, {
-  "id": "mtl000392",
-  "name": "Kim Abbott",
-  "parities": {
-    "2017": 0.259450171821306
-  },
+  "id": "mtl000219",
+  "name": "Tom Steenberg",
   "info": {
     "party": "Dem",
-    "district": 83
+    "district": 0
   }
 }, {
-  "id": "mtl000388",
-  "name": "Wendy Mckamey",
-  "parities": {
-    "2017": 0.133099824868651
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Cumberland",
-    "district": 19
-  }
-}, {
-  "id": "mtl000368",
-  "name": "Walt Sales",
-  "parities": {
-    "2017": 0.143344709897611
-  },
-  "info": {
-    "party": "Rep",
-    "district": 69
-  }
-}, {
-  "id": "mtl000381",
-  "name": "Tom Richmond",
-  "parities": {
-    "2017": 0.0892641737032569
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Cranston",
-    "district": 28
-  }
-}, {
-  "id": "mtl000222",
-  "name": "Lea Whitford",
-  "parities": {
-    "2013": 0.247582205029014,
-    "2015": 0.31885593220339,
-    "2017": 0.292623941958888
-  },
+  "id": "mtl000057",
+  "name": "Bryce Bennett",
   "info": {
     "party": "Dem",
-    "location": "Pawtucket",
-    "district": 8
-  }
-}, {
-  "id": "mtl000391",
-  "name": "Tom Welch",
-  "parities": {
-    "2017": 0.145797598627787
-  },
-  "info": {
-    "party": "Rep",
-    "district": 72
-  }
-}, {
-  "id": "mtl000374",
-  "name": "Sue Vinton",
-  "parities": {
-    "2017": 0.20777027027027
-  },
-  "info": {
-    "party": "Rep",
-    "district": 56
-  }
-}, {
-  "id": "mtl000280",
-  "name": "Nels Swandal",
-  "parities": {
-    "2015": 0.15174672489083,
-    "2017": 0.187425860023725
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Warwick",
-    "district": 30
-  }
-}, {
-  "id": "mtl000173",
-  "name": "Nancy Ballance",
-  "parities": {
-    "2013": 0.132075471698113,
-    "2015": 0.282208588957055,
-    "2017": 0.202443280977312
-  },
-  "info": {
-    "party": "Rep",
-    "district": 87
-  }
-}, {
-  "id": "mtl000359",
-  "name": "Russel Tempel",
-  "parities": {
-    "2017": 0.0885750962772786
-  },
-  "info": {
-    "party": "Rep",
-    "location": "East Providence & Pawtucket",
-    "district": 14
-  }
-}, {
-  "id": "mtl000214",
-  "name": "Alan Redfield",
-  "parities": {
-    "2013": 0.223423423423423,
-    "2015": 0.211800302571861,
-    "2017": 0.260945709281961
-  },
-  "info": {
-    "party": "Rep",
-    "district": 59
-  }
-}, {
-  "id": "mtl000318",
-  "name": "Kathy Kelker",
-  "parities": {
-    "2015": 0.341389728096677,
-    "2017": 0.275526742301459
-  },
-  "info": {
-    "party": "Dem",
-    "district": 47
-  }
-}, {
-  "id": "mtl000405",
-  "name": "Fred Anderson",
-  "parities": {
-    "2017": 0.158163265306122
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Woonsocket",
-    "district": 20
-  }
-}, {
-  "id": "mtl000230",
-  "name": "Denise Hayman",
-  "parities": {
-    "2015": 0.345808383233533,
-    "2017": 0.298969072164948
-  },
-  "info": {
-    "party": "Dem",
-    "district": 66
-  }
-}, {
-  "id": "mtl000143",
-  "name": "Gordon Vance",
-  "parities": {
-    "2011": 0.2109375,
-    "2013": 0.192377495462795,
-    "2015": 0.281615302869288,
-    "2017": 0.23590333716916
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Exeter, Hopkinton, Richmond, & West Greenwich",
-    "district": 34
-  }
-}, {
-  "id": "mtl000172",
-  "name": "Roger Webb",
-  "parities": {
-    "2013": 0.190647482014388,
-    "2015": 0.233820459290188,
-    "2017": 0.204600484261501
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Burrillville & Glocester",
-    "district": 23
-  }
-}, {
-  "id": "mtl000237",
-  "name": "Dale Mortensen",
-  "parities": {
-    "2015": 0.261313868613139,
-    "2017": 0.295867768595041
-  },
-  "info": {
-    "party": "Rep",
-    "district": 44
-  }
-}, {
-  "id": "mtl000027",
-  "name": "Frederick Moore",
-  "parities": {
-    "2011": 0.182370820668693,
-    "2013": 0.220319634703196,
-    "2017": 0.103267973856209
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Cumberland",
-    "district": 19
-  }
-}, {
-  "id": "mtl000325",
-  "name": "Zach Brown",
-  "parities": {
-    "2015": 0.323880597014925,
-    "2017": 0.239168110918544
-  },
-  "info": {
-    "party": "Dem",
-    "district": 63
+    "district": 91
   }
 }, {
   "id": "mtl000305",
   "name": "Jill Cohenour",
   "parities": {
-    "2015": 0.289791437980241,
-    "2017": 0.290012033694344
+    "2015": 0.267050912584054,
+    "2017": 0.290625
   },
   "info": {
     "party": "Dem",
     "district": 42
   }
 }, {
-  "id": "mtl000218",
-  "name": "Bridget Smith",
-  "parities": {
-    "2013": 0.241758241758242,
-    "2015": 0.289473684210526,
-    "2017": 0.243432574430823
-  },
+  "id": "mtl000112",
+  "name": "Mike Milburn",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000393",
+  "name": "Jon Knokey",
+  "info": {
+    "party": "Rep",
+    "district": 65
+  }
+}, {
+  "id": "mtl000236",
+  "name": "George Kipp",
   "info": {
     "party": "Dem",
-    "location": "Warwick",
-    "district": 31
+    "district": 15
   }
 }, {
-  "id": "mtl000408",
-  "name": "Mike Lang",
+  "id": "mtl000056",
+  "name": "Tony Belcourt",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000339",
+  "name": "Moffie Funk",
+  "info": {
+    "party": "Dem",
+    "district": 82
+  }
+}, {
+  "id": "mtl000181",
+  "name": "Kimberly Dudik",
+  "info": {
+    "party": "Dem",
+    "district": 94
+  }
+}, {
+  "id": "mtl000398",
+  "name": "Casey Knudsen",
+  "info": {
+    "party": "Rep",
+    "district": 33
+  }
+}, {
+  "id": "mtl000199",
+  "name": "Ryan Lynch",
+  "info": {
+    "party": "Dem",
+    "district": 76
+  }
+}, {
+  "id": "mtl000188",
+  "name": "Dave Hagstrom",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000119",
+  "name": "Carolyn Pease-Lopez",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000149",
+  "name": "Franke Wilmer",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000060",
+  "name": "Mark Blasdel",
   "parities": {
-    "2017": 0.156553398058252
+    "2015": 0.233826247689464,
+    "2017": 0.180482686253935
   },
   "info": {
     "party": "Rep",
-    "location": "Lincoln",
-    "district": 17
+    "district": 4
   }
 }, {
-  "id": "mtl000072",
-  "name": "Ron Ehli",
+  "id": "mtl000063",
+  "name": "Randy Brodehl",
+  "info": {
+    "party": "Rep",
+    "district": 9
+  }
+}, {
+  "id": "mtl000091",
+  "name": "Chuck Hunter",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000381",
+  "name": "Tom Richmond",
   "parities": {
-    "2011": 0.0994940978077572,
-    "2013": 0.100189035916824,
-    "2015": 0.193251533742331,
-    "2017": 0.124548736462094
+    "2017": 0.10880829015544
   },
   "info": {
     "party": "Rep",
-    "district": 86
+    "district": 28
+  }
+}, {
+  "id": "mtl000105",
+  "name": "Edith McClafferty",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000050",
+  "name": "Ryan Zinke",
+  "parities": {
+    "2011": 0.160493827160494
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000387",
+  "name": "Steve Hinebauch",
+  "parities": {
+    "2017": 0.261599210266535
+  },
+  "info": {
+    "party": "Rep",
+    "district": 18
+  }
+}, {
+  "id": "mtl000065",
+  "name": "Christy Clark",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000126",
+  "name": "Scott Reichner",
+  "info": {
+    "party": "Rep",
+    "district": 0
   }
 }, {
   "id": "mtl000161",
   "name": "Jennifer Fielder",
   "parities": {
-    "2013": 0.243575418994413,
-    "2015": 0.262693156732892,
-    "2017": 0.270886075949367
+    "2013": 0.251901140684411,
+    "2015": 0.267564966313763,
+    "2017": 0.249187432286024
   },
   "info": {
     "party": "Rep",
-    "location": "North Providence",
     "district": 7
+  }
+}, {
+  "id": "mtl000406",
+  "name": "Adam Rosendale",
+  "info": {
+    "party": "Rep",
+    "district": 51
+  }
+}, {
+  "id": "mtl000042",
+  "name": "Kendall Van Dyk",
+  "parities": {
+    "2011": 0.388581952117864,
+    "2013": 0.267317073170732
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000098",
+  "name": "Austin Knudsen",
+  "info": {
+    "party": "Rep",
+    "district": 34
+  }
+}, {
+  "id": "mtl000020",
+  "name": "Larry Jent",
+  "parities": {
+    "2011": 0.337522441651706,
+    "2013": 0.242596810933941
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000046",
+  "name": "David Wanzenried",
+  "parities": {
+    "2011": 0.339382940108893,
+    "2013": 0.301867219917012
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000397",
+  "name": "Marilyn Ryan",
+  "info": {
+    "party": "Dem",
+    "district": 99
+  }
+}, {
+  "id": "mtl000128",
+  "name": "Don Roberts",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000044",
+  "name": "Gene Vuckovich",
+  "parities": {
+    "2011": 0.297199638663053,
+    "2013": 0.217131474103586,
+    "2015": 0.214352283317801,
+    "2017": 0.252270433905146
+  },
+  "info": {
+    "party": "Dem",
+    "district": 39
+  }
+}, {
+  "id": "mtl000369",
+  "name": "Steve Fitzpatrick",
+  "parities": {
+    "2017": 0.15511892450879
+  },
+  "info": {
+    "party": "Rep",
+    "district": 10
+  }
+}, {
+  "id": "mtl000176",
+  "name": "Clarena Brockie",
+  "info": {
+    "party": "Dem",
+    "district": 0
   }
 }, {
   "id": "mtl000362",
   "name": "Adam Hertz",
-  "parities": {
-    "2017": 0.230228471001757
-  },
   "info": {
     "party": "Rep",
     "district": 96
   }
 }, {
-  "id": "mtl000372",
-  "name": "Bill Harris",
+  "id": "mtl000043",
+  "name": "Chas Vincent",
   "parities": {
-    "2017": 0.299186991869919
+    "2011": 0.210433244916004,
+    "2013": 0.242334322453017,
+    "2015": 0.25444340505145,
+    "2017": 0.205521472392638
   },
   "info": {
     "party": "Rep",
-    "location": "Block Island & South Kingstown",
-    "district": 37
+    "district": 1
   }
 }, {
-  "id": "mtl000304",
-  "name": "Kenneth Holmlund",
-  "parities": {
-    "2015": 0.134969325153374,
-    "2017": 0.102230483271375
-  },
+  "id": "mtl000237",
+  "name": "Dale Mortensen",
   "info": {
     "party": "Rep",
-    "location": "Westerly & Charlestown",
-    "district": 38
+    "district": 44
   }
 }, {
-  "id": "mtl000217",
-  "name": "Ray Shaw",
+  "id": "mtl000131",
+  "name": "Diane Sands",
   "parities": {
-    "2013": 0.158759124087591,
-    "2015": 0.12520325203252,
-    "2017": 0.0468164794007491
-  },
-  "info": {
-    "party": "Rep",
-    "district": 71
-  }
-}, {
-  "id": "mtl000341",
-  "name": "Seth Berglee",
-  "parities": {
-    "2015": 0.251851851851852,
-    "2017": 0.26578073089701
-  },
-  "info": {
-    "party": "Rep",
-    "district": 58
-  }
-}, {
-  "id": "mtl000193",
-  "name": "Donald Jones",
-  "parities": {
-    "2013": 0.130188679245283,
-    "2015": 0.194805194805195,
-    "2017": 0.142857142857143
-  },
-  "info": {
-    "party": "Rep",
-    "district": 46
-  }
-}, {
-  "id": "mtl000410",
-  "name": "Denley Loge",
-  "parities": {
-    "2017": 0.0946196660482375
-  },
-  "info": {
-    "party": "Rep",
-    "location": "East Providence & Pawtucket",
-    "district": 14
-  }
-}, {
-  "id": "mtl000371",
-  "name": "Frank Smith",
-  "parities": {
-    "2017": 0.313588850174216
+    "2015": 0.255747126436782,
+    "2017": 0.283300198807157
   },
   "info": {
     "party": "Dem",
-    "location": "Central Falls",
-    "district": 16
-  }
-}, {
-  "id": "mtl000067",
-  "name": "Rob Cook",
-  "parities": {
-    "2011": 0.102693602693603,
-    "2013": 0.113421550094518,
-    "2015": 0.225806451612903,
-    "2017": 0.144851657940663
-  },
-  "info": {
-    "party": "Rep",
-    "location": "East Providence",
-    "district": 18
-  }
-}, {
-  "id": "mtl000010",
-  "name": "Mary Caferro",
-  "parities": {
-    "2011": 0.33197139938713,
-    "2013": 0.238095238095238,
-    "2015": 0.299054373522459,
-    "2017": 0.258103241296519
-  },
-  "info": {
-    "party": "Dem",
-    "district": 41
-  }
-}, {
-  "id": "mtl000377",
-  "name": "Casey Schreiner",
-  "parities": {
-    "2017": 0.312714776632302
-  },
-  "info": {
-    "party": "Dem",
-    "location": "Cranston",
-    "district": 26
-  }
-}, {
-  "id": "mtl000395",
-  "name": "Lola Sheldon-galloway",
-  "parities": {
-    "2017": 0.373287671232877
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Smithfield, Johnston, & North Providence",
-    "district": 22
-  }
-}, {
-  "id": "mtl000363",
-  "name": "Albert Olszewski",
-  "parities": {
-    "2017": 0.186298076923077
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Providence",
-    "district": 6
+    "district": 49
   }
 }, {
   "id": "mtl000404",
   "name": "Dennis Lenz",
-  "parities": {
-    "2017": 0.153119092627599
-  },
   "info": {
     "party": "Rep",
     "district": 53
   }
 }, {
+  "id": "mtl000207",
+  "name": "Reilly Neill",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000008",
+  "name": "Taylor Brown",
+  "parities": {
+    "2011": 0.106617647058824,
+    "2013": 0.132075471698113,
+    "2015": 0.113026819923372
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000281",
+  "name": "Christopher Pope",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000132",
+  "name": "Trudi Schmidt",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000024",
+  "name": "Bob Lake",
+  "parities": {
+    "2011": 0.168478260869565
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000356",
+  "name": "Jeremy Trebas",
+  "info": {
+    "party": "Rep",
+    "district": 25
+  }
+}, {
+  "id": "mtl000125",
+  "name": "Keith Regier",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000084",
+  "name": "Gordon Hendrick",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000095",
+  "name": "Krayton Kerns",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000184",
+  "name": "Wylie Galt",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000246",
+  "name": "Jessica Karjala",
+  "info": {
+    "party": "Dem",
+    "district": 48
+  }
+}, {
+  "id": "mtl000003",
+  "name": "Joe Balyeat",
+  "parities": {
+    "2011": 0.248447204968944
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000389",
+  "name": "Dan Bartel",
+  "info": {
+    "party": "Rep",
+    "district": 29
+  }
+}, {
+  "id": "mtl000118",
+  "name": "Ryan Osmundson",
+  "parities": {
+    "2017": 0.150526315789474
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000049",
+  "name": "Art Wittich",
+  "parities": {
+    "2011": 0.248860528714676,
+    "2013": 0.330776605944391
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000110",
+  "name": "Robert Mehlhoff",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000137",
+  "name": "Cary Smith",
+  "parities": {
+    "2015": 0.305531167690957,
+    "2017": 0.224279835390947
+  },
+  "info": {
+    "party": "Rep",
+    "district": 27
+  }
+}, {
+  "id": "mtl000031",
+  "name": "Alan Olson",
+  "parities": {
+    "2011": 0.122926829268293,
+    "2013": 0.106382978723404
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000087",
+  "name": "Roy Hollandsworth",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000405",
+  "name": "Fred Anderson",
+  "info": {
+    "party": "Rep",
+    "district": 20
+  }
+}, {
+  "id": "mtl000120",
+  "name": "Ken Peterson",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000109",
+  "name": "Walter McNutt",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000324",
+  "name": "Scott Staffanson",
+  "info": {
+    "party": "Rep",
+    "district": 35
+  }
+}, {
+  "id": "mtl000256",
+  "name": "Brad Tschida",
+  "info": {
+    "party": "Rep",
+    "district": 97
+  }
+}, {
+  "id": "mtl000215",
+  "name": "Casey Schreiner",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000055",
+  "name": "Bill Beck",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000276",
+  "name": "Wendy Mckamey",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000052",
+  "name": "Elsie Arntzen",
+  "parities": {
+    "2013": 0.178207739307536,
+    "2015": 0.204062788550323
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000099",
+  "name": "Steve Lavin",
+  "info": {
+    "party": "Rep",
+    "district": 8
+  }
+}, {
+  "id": "mtl000185",
+  "name": "Carl Glimm",
+  "info": {
+    "party": "Rep",
+    "district": 6
+  }
+}, {
+  "id": "mtl000367",
+  "name": "Dave Fern",
+  "info": {
+    "party": "Dem",
+    "district": 5
+  }
+}, {
+  "id": "mtl000248",
+  "name": "Jedediah Hinkle",
+  "parities": {
+    "2015": 0.257703081232493,
+    "2017": 0.233766233766234
+  },
+  "info": {
+    "party": "Rep",
+    "district": 32
+  }
+}, {
+  "id": "mtl000392",
+  "name": "Kim Abbott",
+  "info": {
+    "party": "Dem",
+    "district": 83
+  }
+}, {
+  "id": "mtl000115",
+  "name": "Pat Noonan",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000077",
+  "name": "Tim Furey",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000409",
+  "name": "Jen Gross",
+  "parities": {
+    "2017": 0.300804828973843
+  },
+  "info": {
+    "party": "Dem",
+    "district": 25
+  }
+}, {
+  "id": "mtl000402",
+  "name": "Keith Regier",
+  "parities": {
+    "2017": 0.212660731948566
+  },
+  "info": {
+    "party": "Rep",
+    "district": 3
+  }
+}, {
+  "id": "mtl000400",
+  "name": "Peggy Webb",
+  "info": {
+    "party": "Rep",
+    "district": 43
+  }
+}, {
+  "id": "mtl000377",
+  "name": "Casey Schreiner",
+  "info": {
+    "party": "Dem",
+    "district": 26
+  }
+}, {
+  "id": "mtl000370",
+  "name": "Amanda Curtis",
+  "info": {
+    "party": "Dem",
+    "district": 74
+  }
+}, {
+  "id": "mtl000004",
+  "name": "Debby Barrett",
+  "parities": {
+    "2011": 0.164420485175202,
+    "2013": 0.204761904761905,
+    "2015": 0.145077720207254
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000061",
+  "name": "Joanne Blyton",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000411",
+  "name": "Mike Hopkins",
+  "info": {
+    "party": "Rep",
+    "district": 92
+  }
+}, {
+  "id": "mtl000102",
+  "name": "Gary MacLaren",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000325",
+  "name": "Zach Brown",
+  "info": {
+    "party": "Dem",
+    "district": 63
+  }
+}, {
+  "id": "mtl000092",
+  "name": "Pat Ingraham",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000290",
+  "name": "Tom Richmond",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000090",
+  "name": "David Howard",
+  "parities": {
+    "2015": 0.24573055028463,
+    "2017": 0.229319371727749
+  },
+  "info": {
+    "party": "Rep",
+    "district": 29
+  }
+}, {
+  "id": "mtl000396",
+  "name": "John Fleming",
+  "info": {
+    "party": "Dem",
+    "district": 93
+  }
+}, {
+  "id": "mtl000273",
+  "name": "Debra Lamm",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000139",
+  "name": "Carolyn Squires",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000073",
+  "name": "John Esp",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000410",
+  "name": "Denley Loge",
+  "info": {
+    "party": "Rep",
+    "district": 14
+  }
+}, {
+  "id": "mtl000218",
+  "name": "Bridget Smith",
+  "info": {
+    "party": "Dem",
+    "district": 31
+  }
+}, {
+  "id": "mtl000269",
+  "name": "Bob Brown",
+  "info": {
+    "party": "Rep",
+    "district": 13
+  }
+}, {
+  "id": "mtl000064",
+  "name": "Tom Burnett",
+  "info": {
+    "party": "Rep",
+    "district": 67
+  }
+}, {
+  "id": "mtl000320",
+  "name": "Mark Noland",
+  "info": {
+    "party": "Rep",
+    "district": 10
+  }
+}, {
+  "id": "mtl000262",
+  "name": "Andrea Olsen",
+  "info": {
+    "party": "Dem",
+    "district": 100
+  }
+}, {
+  "id": "mtl000364",
+  "name": "Laurie Bishop",
+  "info": {
+    "party": "Dem",
+    "district": 60
+  }
+}, {
+  "id": "mtl000373",
+  "name": "Ross Fitzgerald",
+  "info": {
+    "party": "Rep",
+    "district": 17
+  }
+}, {
+  "id": "mtl000068",
+  "name": "Virginia Court",
+  "info": {
+    "party": "Dem",
+    "district": 50
+  }
+}, {
+  "id": "mtl000016",
+  "name": "Bradley Hamlett",
+  "parities": {
+    "2011": 0.267326732673267,
+    "2013": 0.166,
+    "2015": 0.202402957486137
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000197",
+  "name": "Dennis Lenz",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000014",
+  "name": "Steve Gallus",
+  "parities": {
+    "2011": 0.312734082397004
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000220",
+  "name": "Kirk Wagoner",
+  "info": {
+    "party": "Rep",
+    "district": 75
+  }
+}, {
+  "id": "mtl000193",
+  "name": "Donald Jones",
+  "info": {
+    "party": "Rep",
+    "district": 46
+  }
+}, {
+  "id": "mtl000103",
+  "name": "Sue Malek",
+  "parities": {
+    "2013": 0.247687564234327,
+    "2015": 0.288951841359773,
+    "2017": 0.28774062816616
+  },
+  "info": {
+    "party": "Dem",
+    "district": 46
+  }
+}, {
+  "id": "mtl000341",
+  "name": "Seth Berglee",
+  "info": {
+    "party": "Rep",
+    "district": 58
+  }
+}, {
+  "id": "mtl000177",
+  "name": "Forrestina Calf Boss Ribs",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000080",
+  "name": "Alan Hale",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000304",
+  "name": "Kenneth Holmlund",
+  "info": {
+    "party": "Rep",
+    "district": 38
+  }
+}, {
+  "id": "mtl000217",
+  "name": "Ray Shaw",
+  "info": {
+    "party": "Rep",
+    "district": 71
+  }
+}, {
+  "id": "mtl000138",
+  "name": "Frank Smith",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000037",
+  "name": "Donald Steinbeisser",
+  "parities": {
+    "2011": 0.187388987566607
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000075",
+  "name": "Steve Fitzpatrick",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000045",
+  "name": "Edward Walker",
+  "parities": {
+    "2011": 0.218214607754734,
+    "2013": 0.220739219712526
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000018",
+  "name": "Greg Hinkle",
+  "parities": {
+    "2011": 0.26431718061674
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000006",
+  "name": "Gary Branae",
+  "parities": {
+    "2011": 0.340639269406393
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000196",
+  "name": "Sarah Laszloffy",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000383",
+  "name": "Terry Gauthier",
+  "parities": {
+    "2017": 0.110503282275711
+  },
+  "info": {
+    "party": "Rep",
+    "district": 40
+  }
+}, {
+  "id": "mtl000391",
+  "name": "Tom Welch",
+  "info": {
+    "party": "Rep",
+    "district": 72
+  }
+}, {
+  "id": "mtl000179",
+  "name": "Amanda Curtis",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000011",
+  "name": "Ron Erickson",
+  "parities": {
+    "2011": 0.415285451197053
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000124",
+  "name": "Joe Read",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000114",
+  "name": "Michael More",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000224",
+  "name": "Nancy Wilson",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000186",
+  "name": "Jenifer Gursky",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000027",
+  "name": "Frederick Moore",
+  "parities": {
+    "2011": 0.172445255474453,
+    "2013": 0.23444976076555,
+    "2017": 0.0875
+  },
+  "info": {
+    "party": "Rep",
+    "district": 19
+  }
+}, {
+  "id": "mtl000375",
+  "name": "Wylie Galt",
+  "info": {
+    "party": "Rep",
+    "district": 30
+  }
+}, {
+  "id": "mtl000225",
+  "name": "Tom Woods",
+  "info": {
+    "party": "Dem",
+    "district": 62
+  }
+}, {
+  "id": "mtl000129",
+  "name": "Matthew Rosendale",
+  "parities": {
+    "2013": 0.203960396039604,
+    "2015": 0.195696721311475
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000158",
+  "name": "Scott Boulanger",
+  "parities": {
+    "2013": 0.216926070038911
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000005",
+  "name": "Anders Blewett",
+  "parities": {
+    "2011": 0.389041095890411,
+    "2013": 0.293279022403259
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000088",
+  "name": "Galen Hollenbaugh",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000078",
+  "name": "Steve Gibson",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000081",
+  "name": "Betsy Hands",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000071",
+  "name": "Champ Edmunds",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000343",
+  "name": "Matthew Monforton",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000051",
+  "name": "Duane Ankney",
+  "parities": {
+    "2015": 0.128759398496241,
+    "2017": 0.112487100103199
+  },
+  "info": {
+    "party": "Rep",
+    "district": 20
+  }
+}, {
+  "id": "mtl000007",
+  "name": "John Brenden",
+  "parities": {
+    "2011": 0.203636363636364,
+    "2013": 0.256015399422522,
+    "2015": 0.252611585944919
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000328",
+  "name": "Geraldine Custer",
+  "info": {
+    "party": "Rep",
+    "district": 39
+  }
+}, {
+  "id": "mtl000378",
+  "name": "Steve Gunderson",
+  "info": {
+    "party": "Rep",
+    "district": 1
+  }
+}, {
+  "id": "mtl000147",
+  "name": "Jeffrey Welborn",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000394",
+  "name": "Jeffrey Welborn",
+  "parities": {
+    "2017": 0.0992196209587514
+  },
+  "info": {
+    "party": "Rep",
+    "district": 36
+  }
+}, {
+  "id": "mtl000130",
+  "name": "Daniel Salomon",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000366",
+  "name": "Derek Skees",
+  "info": {
+    "party": "Rep",
+    "district": 11
+  }
+}, {
+  "id": "mtl000357",
+  "name": "Jimmy Patelis",
+  "info": {
+    "party": "Rep",
+    "district": 52
+  }
+}, {
+  "id": "mtl000308",
+  "name": "Randall Pinocci",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
   "id": "mtl000012",
   "name": "Jeff Essmann",
   "parities": {
-    "2011": 0.200795228628231,
-    "2013": 0.177458033573141,
-    "2015": 0.178082191780822,
-    "2017": 0.141843971631206
+    "2011": 0.186379928315412,
+    "2013": 0.179671457905544
   },
   "info": {
     "party": "Rep",
     "district": 54
   }
 }, {
-  "id": "mtl000171",
-  "name": "Fred Thomas",
+  "id": "mtl000025",
+  "name": "Cliff Larsen",
   "parities": {
-    "2013": 0.163383545770568,
-    "2015": 0.177117711771177,
-    "2017": 0.087067861715749
-  },
-  "info": {
-    "party": "Rep",
-    "district": 44
-  }
-}, {
-  "id": "mtl000336",
-  "name": "Theresa Manzella",
-  "parities": {
-    "2015": 0.361516034985423,
-    "2017": 0.315091210613599
-  },
-  "info": {
-    "party": "Rep",
-    "district": 85
-  }
-}, {
-  "id": "mtl000069",
-  "name": "Mike Cuffe",
-  "parities": {
-    "2011": 0.189830508474576,
-    "2013": 0.152380952380952,
-    "2015": 0.188650306748466,
-    "2017": 0.229166666666667
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Providence",
-    "district": 2
-  }
-}, {
-  "id": "mtl000339",
-  "name": "Moffie Funk",
-  "parities": {
-    "2015": 0.322239031770045,
-    "2017": 0.302721088435374
+    "2011": 0.377597109304426,
+    "2013": 0.256062075654704,
+    "2015": 0.238049713193117
   },
   "info": {
     "party": "Dem",
-    "district": 82
+    "district": 0
   }
 }, {
-  "id": "mtl000199",
-  "name": "Ryan Lynch",
-  "parities": {
-    "2013": 0.267730496453901,
-    "2015": 0.345132743362832,
-    "2017": 0.265734265734266
-  },
-  "info": {
-    "party": "Dem",
-    "district": 76
-  }
-}, {
-  "id": "mtl000131",
-  "name": "Diane Sands",
-  "parities": {
-    "2011": 0.338308457711443,
-    "2015": 0.268508287292818,
-    "2017": 0.279582366589327
-  },
-  "info": {
-    "party": "Dem",
-    "district": 49
-  }
-}, {
-  "id": "mtl000366",
-  "name": "Derek Skees",
-  "parities": {
-    "2017": 0.251290877796902
-  },
+  "id": "mtl000079",
+  "name": "Edward Greef",
   "info": {
     "party": "Rep",
-    "location": "Bristol & Portsmouth",
-    "district": 11
+    "district": 88
   }
 }, {
-  "id": "mtl000349",
-  "name": "Willis Curdy",
-  "parities": {
-    "2015": 0.364963503649635,
-    "2017": 0.269491525423729
-  },
-  "info": {
-    "party": "Dem",
-    "district": 98
-  }
-}, {
-  "id": "mtl000383",
-  "name": "Terry Gauthier",
-  "parities": {
-    "2017": 0.10440251572327
-  },
+  "id": "mtl000355",
+  "name": "Barry Usher",
   "info": {
     "party": "Rep",
     "district": 40
   }
 }, {
-  "id": "mtl000375",
-  "name": "Wylie Galt",
+  "id": "mtl000028",
+  "name": "Lynda Moss",
   "parities": {
-    "2017": 0.23951048951049
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Warwick",
-    "district": 30
-  }
-}, {
-  "id": "mtl000180",
-  "name": "Alan Doane",
-  "parities": {
-    "2013": 0.244360902255639,
-    "2015": 0.266165413533835,
-    "2017": 0.252086811352254
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Narragansett",
-    "district": 36
-  }
-}, {
-  "id": "mtl000068",
-  "name": "Virginia Court",
-  "parities": {
-    "2011": 0.302180685358255,
-    "2013": 0.276785714285714,
-    "2015": 0.380323054331865,
-    "2017": 0.32843137254902
+    "2011": 0.385304659498208
   },
   "info": {
     "party": "Dem",
-    "district": 50
+    "district": 0
   }
 }, {
-  "id": "mtl000307",
-  "name": "Mary ann Dunwell",
-  "parities": {
-    "2015": 0.342342342342342,
-    "2017": 0.281833616298812
-  },
+  "id": "mtl000212",
+  "name": "Gordon Pierson",
   "info": {
     "party": "Dem",
-    "district": 84
+    "district": 78
   }
 }, {
-  "id": "mtl000370",
-  "name": "Amanda Curtis",
+  "id": "mtl000041",
+  "name": "Bruce Tutvedt",
   "parities": {
-    "2017": 0.311336717428088
-  },
-  "info": {
-    "party": "Dem",
-    "district": 74
-  }
-}, {
-  "id": "mtl000168",
-  "name": "Scott Sales",
-  "parities": {
-    "2013": 0.306122448979592,
-    "2015": 0.308452250274424,
-    "2017": 0.251764705882353
+    "2011": 0.174800354924579,
+    "2013": 0.139,
+    "2015": 0.122330097087379
   },
   "info": {
     "party": "Rep",
-    "location": "North Kingstown, & Narragansett",
-    "district": 35
+    "district": 0
+  }
+}, {
+  "id": "mtl000407",
+  "name": "Shane Morigeau",
+  "info": {
+    "party": "Dem",
+    "district": 95
+  }
+}, {
+  "id": "mtl000133",
+  "name": "Jon Sesso",
+  "parities": {
+    "2013": 0.21390937829294,
+    "2015": 0.217213114754098,
+    "2017": 0.1993281075028
+  },
+  "info": {
+    "party": "Dem",
+    "district": 37
   }
 }, {
   "id": "mtl000289",
   "name": "Bob Keenan",
   "parities": {
-    "2015": 0.227564102564103,
-    "2017": 0.192010309278351
+    "2015": 0.228383458646617,
+    "2017": 0.186800894854586
   },
   "info": {
     "party": "Rep",
-    "location": "Providence",
     "district": 5
   }
 }, {
-  "id": "mtl000099",
-  "name": "Steve Lavin",
-  "parities": {
-    "2011": 0.150943396226415,
-    "2013": 0.153985507246377,
-    "2015": 0.145061728395062,
-    "2017": 0.163444639718805
-  },
+  "id": "mtl000113",
+  "name": "Mike Miller",
   "info": {
     "party": "Rep",
-    "location": "Pawtucket",
-    "district": 8
+    "district": 0
   }
 }, {
-  "id": "mtl000389",
-  "name": "Dan Bartel",
+  "id": "mtl000371",
+  "name": "Frank Smith",
   "parities": {
-    "2017": 0.25609756097561
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Warwick",
-    "district": 29
-  }
-}, {
-  "id": "mtl000390",
-  "name": "Becky Beard",
-  "parities": {
-    "2017": 0.248251748251748
-  },
-  "info": {
-    "party": "Rep",
-    "district": 80
-  }
-}, {
-  "id": "mtl000248",
-  "name": "Jedediah Hinkle",
-  "parities": {
-    "2015": 0.250800426894344,
-    "2017": 0.256083429895713
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Barrington",
-    "district": 32
-  }
-}, {
-  "id": "mtl000103",
-  "name": "Sue Malek",
-  "parities": {
-    "2011": 0.359300476947536,
-    "2013": 0.266099635479951,
-    "2015": 0.314715359828142,
-    "2017": 0.282840236686391
+    "2017": 0.310891089108911
   },
   "info": {
     "party": "Dem",
-    "district": 46
+    "district": 16
   }
 }, {
-  "id": "mtl000122",
-  "name": "Jean Price",
-  "parities": {
-    "2011": 0.328455284552846,
-    "2013": 0.279491833030853,
-    "2015": 0.320300751879699,
-    "2017": 0.272413793103448
-  },
+  "id": "mtl000108",
+  "name": "Jonathan McNiven",
   "info": {
-    "party": "Dem",
-    "location": "North Smithfield",
-    "district": 24
+    "party": "Rep",
+    "district": 0
   }
 }, {
-  "id": "mtl000309",
-  "name": "Vince Ricci",
+  "id": "mtl000039",
+  "name": "Craig Tilleman",
   "parities": {
-    "2015": 0.22575976845152,
-    "2017": 0.21630615640599
+    "2011": 0.144846796657382
   },
   "info": {
     "party": "Rep",
-    "district": 55
+    "district": 0
   }
 }, {
-  "id": "mtl000043",
-  "name": "Chas Vincent",
+  "id": "mtl000135",
+  "name": "Derek Skees",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000029",
+  "name": "Carmine Mowbray",
   "parities": {
-    "2011": 0.226824457593688,
-    "2013": 0.23760092272203,
-    "2015": 0.266025641025641,
-    "2017": 0.209964412811388
+    "2011": 0.139670223084384
   },
   "info": {
     "party": "Rep",
-    "location": "Providence",
-    "district": 1
+    "district": 0
   }
 }, {
-  "id": "mtl000211",
-  "name": "Rae Peppers",
+  "id": "mtl000142",
+  "name": "Janna Taylor",
   "parities": {
-    "2013": 0.267631103074141,
-    "2015": 0.366003062787136,
-    "2017": 0.302447552447552
+    "2013": 0.197791164658635,
+    "2015": 0.218336483931947
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000159",
+  "name": "Dee Brown",
+  "parities": {
+    "2013": 0.239613526570048,
+    "2015": 0.261228230980752,
+    "2017": 0.242362525458248
+  },
+  "info": {
+    "party": "Rep",
+    "district": 2
+  }
+}, {
+  "id": "mtl000010",
+  "name": "Mary Caferro",
+  "parities": {
+    "2011": 0.352831940575673,
+    "2013": 0.233805668016194,
+    "2015": 0.281603288797533,
+    "2017": 0.252849740932643
   },
   "info": {
     "party": "Dem",
     "district": 41
   }
 }, {
-  "id": "mtl000076",
-  "name": "Kelly Flynn",
+  "id": "mtl000066",
+  "name": "Pat Connell",
   "parities": {
-    "2011": 0.272131147540984,
-    "2013": 0.159633027522936,
-    "2015": 0.242559523809524,
-    "2017": 0.222996515679443
-  },
-  "info": {
-    "party": "Rep",
-    "district": 70
-  }
-}, {
-  "id": "mtl000380",
-  "name": "Sharon Stewart-peregoy",
-  "parities": {
-    "2017": 0.303030303030303
-  },
-  "info": {
-    "party": "Dem",
-    "district": 42
-  }
-}, {
-  "id": "mtl000064",
-  "name": "Tom Burnett",
-  "parities": {
-    "2011": 0.212121212121212,
-    "2015": 0.295558958652374,
-    "2017": 0.27689594356261
-  },
-  "info": {
-    "party": "Rep",
-    "district": 67
-  }
-}, {
-  "id": "mtl000354",
-  "name": "Jason Small",
-  "parities": {
-    "2017": 0.041388518024032
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Coventry, Foster, Scituate&West Greenwich",
-    "district": 21
-  }
-}, {
-  "id": "mtl000060",
-  "name": "Mark Blasdel",
-  "parities": {
-    "2011": 0.216887417218543,
-    "2013": 0.131725417439703,
-    "2015": 0.229800629590766,
-    "2017": 0.186503067484663
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Providence",
-    "district": 4
-  }
-}, {
-  "id": "mtl000044",
-  "name": "Gene Vuckovich",
-  "parities": {
-    "2011": 0.268924302788845,
-    "2013": 0.223792697290931,
-    "2015": 0.218550106609808,
-    "2017": 0.252358490566038
-  },
-  "info": {
-    "party": "Dem",
-    "district": 39
-  }
-}, {
-  "id": "mtl000399",
-  "name": "Bruce Grubbs",
-  "parities": {
-    "2017": 0.121107266435986
-  },
-  "info": {
-    "party": "Rep",
-    "district": 68
-  }
-}, {
-  "id": "mtl000054",
-  "name": "Dick Barrett",
-  "parities": {
-    "2011": 0.352850539291217,
-    "2013": 0.258724428399519,
-    "2015": 0.280662983425414,
-    "2017": 0.263537906137184
-  },
-  "info": {
-    "party": "Dem",
-    "district": 45
-  }
-}, {
-  "id": "mtl000229",
-  "name": "Forrest Mandeville",
-  "parities": {
-    "2015": 0.176646706586826,
-    "2017": 0.284734133790738
-  },
-  "info": {
-    "party": "Rep",
-    "district": 57
-  }
-}, {
-  "id": "mtl000269",
-  "name": "Bob Brown",
-  "parities": {
-    "2015": 0.410294117647059,
-    "2017": 0.32463295269168
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Newport & Jamestown",
-    "district": 13
-  }
-}, {
-  "id": "mtl000411",
-  "name": "Mike Hopkins",
-  "parities": {
-    "2017": 0.242530755711775
-  },
-  "info": {
-    "party": "Rep",
-    "district": 92
-  }
-}, {
-  "id": "mtl000387",
-  "name": "Steve Hinebauch",
-  "parities": {
-    "2017": 0.279816513761468
-  },
-  "info": {
-    "party": "Rep",
-    "location": "East Providence",
-    "district": 18
-  }
-}, {
-  "id": "mtl000393",
-  "name": "Jon Knokey",
-  "parities": {
-    "2017": 0.119850187265918
-  },
-  "info": {
-    "party": "Rep",
-    "district": 65
-  }
-}, {
-  "id": "mtl000303",
-  "name": "Janet Ellis",
-  "parities": {
-    "2015": 0.355283307810107,
-    "2017": 0.282229965156794
-  },
-  "info": {
-    "party": "Dem",
-    "district": 81
-  }
-}, {
-  "id": "mtl000009",
-  "name": "Edward Buttrey",
-  "parities": {
-    "2011": 0.153217568947906,
-    "2013": 0.117159763313609,
-    "2015": 0.133986928104575,
-    "2017": 0.127250900360144
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Bristol & Portsmouth",
-    "district": 11
-  }
-}, {
-  "id": "mtl000089",
-  "name": "Brian Hoven",
-  "parities": {
-    "2011": 0.193650793650794,
-    "2013": 0.140035906642729,
-    "2015": 0.14500537056928,
-    "2017": 0.120987654320988
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Newport & Jamestown",
-    "district": 13
-  }
-}, {
-  "id": "mtl000201",
-  "name": "Kelly McCarthy",
-  "parities": {
-    "2013": 0.224952741020794,
-    "2015": 0.297090352220521,
-    "2017": 0.250871080139373
-  },
-  "info": {
-    "party": "Dem",
-    "district": 49
-  }
-}, {
-  "id": "mtl000098",
-  "name": "Austin Knudsen",
-  "parities": {
-    "2011": 0.206299212598425,
-    "2013": 0.122840690978887,
-    "2015": 0.123475609756098,
-    "2017": 0.170774647887324
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Exeter, Hopkinton, Richmond, & West Greenwich",
-    "district": 34
-  }
-}, {
-  "id": "mtl000048",
-  "name": "Jonathan Windy Boy",
-  "parities": {
-    "2011": 0.359840954274354,
-    "2013": 0.210462287104623,
-    "2015": 0.262926292629263,
-    "2017": 0.27008547008547
-  },
-  "info": {
-    "party": null,
-    "district": 0
-  }
-}, {
-  "id": "mtl000079",
-  "name": "Edward Greef",
-  "parities": {
-    "2011": 0.181533646322379,
-    "2013": 0.145719489981785,
-    "2015": 0.143504531722054,
-    "2017": 0.133217993079585
-  },
-  "info": {
-    "party": "Rep",
-    "district": 88
-  }
-}, {
-  "id": "mtl000373",
-  "name": "Ross Fitzgerald",
-  "parities": {
-    "2017": 0.0875232774674116
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Lincoln",
-    "district": 17
-  }
-}, {
-  "id": "mtl000403",
-  "name": "Jacob Bachmeier",
-  "parities": {
-    "2017": 0.253032928942808
-  },
-  "info": {
-    "party": "Dem",
-    "location": "Cranston",
-    "district": 28
-  }
-}, {
-  "id": "mtl000406",
-  "name": "Adam Rosendale",
-  "parities": {
-    "2017": 0.353140916808149
-  },
-  "info": {
-    "party": "Rep",
-    "district": 51
-  }
-}, {
-  "id": "mtl000226",
-  "name": "Daniel Zolnikov",
-  "parities": {
-    "2013": 0.282287822878229,
-    "2015": 0.354489164086687,
-    "2017": 0.324786324786325
-  },
-  "info": {
-    "party": "Rep",
-    "district": 45
-  }
-}, {
-  "id": "mtl000396",
-  "name": "John Fleming",
-  "parities": {
-    "2017": 0.248704663212435
-  },
-  "info": {
-    "party": "Dem",
-    "district": 93
-  }
-}, {
-  "id": "mtl000107",
-  "name": "Mary McNally",
-  "parities": {
-    "2011": 0.293478260869565,
-    "2013": 0.25,
-    "2015": 0.251916757940854,
-    "2017": 0.247894103489771
-  },
-  "info": {
-    "party": "Dem",
-    "location": "North Smithfield",
-    "district": 24
-  }
-}, {
-  "id": "mtl000141",
-  "name": "Kathy Swanson",
-  "parities": {
-    "2011": 0.340073529411765,
-    "2013": 0.286486486486487,
-    "2015": 0.333841463414634,
-    "2017": 0.274782608695652
-  },
-  "info": {
-    "party": "Dem",
-    "district": 77
-  }
-}, {
-  "id": "mtl000133",
-  "name": "Jon Sesso",
-  "parities": {
-    "2011": 0.27891156462585,
-    "2013": 0.223048327137546,
-    "2015": 0.238372093023256,
-    "2017": 0.209032258064516
-  },
-  "info": {
-    "party": "Dem",
-    "location": "Block Island & South Kingstown",
-    "district": 37
-  }
-}, {
-  "id": "mtl000357",
-  "name": "Jimmy Patelis",
-  "parities": {
-    "2017": 0.163732394366197
-  },
-  "info": {
-    "party": "Rep",
-    "district": 52
-  }
-}, {
-  "id": "mtl000400",
-  "name": "Peggy Webb",
-  "parities": {
-    "2017": 0.182291666666667
+    "2015": 0.159709618874773,
+    "2017": 0.150943396226415
   },
   "info": {
     "party": "Rep",
     "district": 43
   }
 }, {
+  "id": "mtl000069",
+  "name": "Mike Cuffe",
+  "info": {
+    "party": "Rep",
+    "district": 2
+  }
+}, {
+  "id": "mtl000408",
+  "name": "Mike Lang",
+  "parities": {
+    "2017": 0.13277133825079
+  },
+  "info": {
+    "party": "Rep",
+    "district": 17
+  }
+}, {
+  "id": "mtl000035",
+  "name": "Jim Shockley",
+  "parities": {
+    "2011": 0.170645446507515
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000148",
+  "name": "Kathleen Williams",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000279",
+  "name": "Stephanie Hess",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000019",
+  "name": "Verdell Jackson",
+  "parities": {
+    "2011": 0.185840707964602,
+    "2013": 0.224371373307544
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000036",
+  "name": "Jon Sonju",
+  "parities": {
+    "2011": 0.180970149253731,
+    "2013": 0.205852674066599
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000053",
+  "name": "Liz Bangerter",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000097",
+  "name": "James Knox",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000380",
+  "name": "Sharon Stewart-peregoy",
+  "info": {
+    "party": "Dem",
+    "district": 42
+  }
+}, {
+  "id": "mtl000226",
+  "name": "Daniel Zolnikov",
+  "info": {
+    "party": "Rep",
+    "district": 45
+  }
+}, {
+  "id": "mtl000096",
+  "name": "Harry Klock",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000047",
+  "name": "Carol Williams",
+  "parities": {
+    "2011": 0.362167300380228
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000192",
+  "name": "Tom Jacobson",
+  "info": {
+    "party": "Dem",
+    "district": 21
+  }
+}, {
+  "id": "mtl000395",
+  "name": "Lola Sheldon-galloway",
+  "info": {
+    "party": "Rep",
+    "district": 22
+  }
+}, {
+  "id": "mtl000023",
+  "name": "Jim Keane",
+  "parities": {
+    "2011": 0.297272727272727,
+    "2013": 0.227272727272727,
+    "2015": 0.249080882352941
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000374",
+  "name": "Sue Vinton",
+  "info": {
+    "party": "Rep",
+    "district": 56
+  }
+}, {
+  "id": "mtl000214",
+  "name": "Alan Redfield",
+  "info": {
+    "party": "Rep",
+    "district": 59
+  }
+}, {
+  "id": "mtl000082",
+  "name": "Kristin Hansen",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000190",
+  "name": "Greg Hertz",
+  "info": {
+    "party": "Rep",
+    "district": 12
+  }
+}, {
+  "id": "mtl000365",
+  "name": "Matt Regier",
+  "info": {
+    "party": "Rep",
+    "district": 4
+  }
+}, {
+  "id": "mtl000187",
+  "name": "Roger Hagan",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000144",
+  "name": "Bob Wagner",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000127",
+  "name": "Michele Reinhart",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000354",
+  "name": "Jason Small",
+  "parities": {
+    "2017": 0.0403690888119954
+  },
+  "info": {
+    "party": "Rep",
+    "district": 21
+  }
+}, {
+  "id": "mtl000216",
+  "name": "Nicholas Schwaderer",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000363",
+  "name": "Albert Olszewski",
+  "parities": {
+    "2017": 0.175493250259605
+  },
+  "info": {
+    "party": "Rep",
+    "district": 6
+  }
+}, {
+  "id": "mtl000379",
+  "name": "James O'hara",
+  "info": {
+    "party": "Rep",
+    "district": 27
+  }
+}, {
+  "id": "mtl000307",
+  "name": "Mary ann Dunwell",
+  "info": {
+    "party": "Dem",
+    "district": 84
+  }
+}, {
+  "id": "mtl000145",
+  "name": "Wendy Warburton",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000384",
+  "name": "Jim Hamilton",
+  "info": {
+    "party": "Dem",
+    "district": 61
+  }
+}, {
+  "id": "mtl000168",
+  "name": "Scott Sales",
+  "parities": {
+    "2013": 0.31304347826087,
+    "2015": 0.311538461538462,
+    "2017": 0.239019407558733
+  },
+  "info": {
+    "party": "Rep",
+    "district": 35
+  }
+}, {
+  "id": "mtl000083",
+  "name": "Bill Harris",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000173",
+  "name": "Nancy Ballance",
+  "info": {
+    "party": "Rep",
+    "district": 87
+  }
+}, {
+  "id": "mtl000106",
+  "name": "Tom McGillvray",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000280",
+  "name": "Nels Swandal",
+  "parities": {
+    "2015": 0.187145557655955,
+    "2017": 0.195718654434251
+  },
+  "info": {
+    "party": "Rep",
+    "district": 30
+  }
+}, {
+  "id": "mtl000094",
+  "name": "Dan Kennedy",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000121",
+  "name": "Mike Phillips",
+  "parities": {
+    "2013": 0.255102040816327,
+    "2015": 0.263513513513513,
+    "2017": 0.24295010845987
+  },
+  "info": {
+    "party": "Dem",
+    "district": 31
+  }
+}, {
+  "id": "mtl000183",
+  "name": "Clayton Fiscus",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000230",
+  "name": "Denise Hayman",
+  "info": {
+    "party": "Dem",
+    "district": 66
+  }
+}, {
+  "id": "mtl000123",
+  "name": "Lee Randall",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000134",
+  "name": "Dan Skattum",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000172",
+  "name": "Roger Webb",
+  "parities": {
+    "2013": 0.195718654434251,
+    "2015": 0.232686980609418,
+    "2017": 0.185263157894737
+  },
+  "info": {
+    "party": "Rep",
+    "district": 23
+  }
+}, {
+  "id": "mtl000076",
+  "name": "Kelly Flynn",
+  "info": {
+    "party": "Rep",
+    "district": 70
+  }
+}, {
+  "id": "mtl000275",
+  "name": "Cynthia Wolken",
+  "parities": {
+    "2015": 0.249263984298332,
+    "2017": 0.228295819935691
+  },
+  "info": {
+    "party": "Dem",
+    "district": 48
+  }
+}, {
+  "id": "mtl000303",
+  "name": "Janet Ellis",
+  "info": {
+    "party": "Dem",
+    "district": 81
+  }
+}, {
+  "id": "mtl000403",
+  "name": "Jacob Bachmeier",
+  "info": {
+    "party": "Dem",
+    "district": 28
+  }
+}, {
+  "id": "mtl000368",
+  "name": "Walt Sales",
+  "info": {
+    "party": "Rep",
+    "district": 69
+  }
+}, {
+  "id": "mtl000062",
+  "name": "Cydnie Boland",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000318",
+  "name": "Kathy Kelker",
+  "info": {
+    "party": "Dem",
+    "district": 47
+  }
+}, {
+  "id": "mtl000180",
+  "name": "Alan Doane",
+  "info": {
+    "party": "Rep",
+    "district": 36
+  }
+}, {
+  "id": "mtl000072",
+  "name": "Ron Ehli",
+  "info": {
+    "party": "Rep",
+    "district": 86
+  }
+}, {
+  "id": "mtl000399",
+  "name": "Bruce Grubbs",
+  "info": {
+    "party": "Rep",
+    "district": 68
+  }
+}, {
+  "id": "mtl000040",
+  "name": "Mitch Tropila",
+  "parities": {
+    "2011": 0.374227714033539,
+    "2013": 0.259
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000116",
+  "name": "Jesse O'Hara",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000009",
+  "name": "Edward Buttrey",
+  "parities": {
+    "2011": 0.12987012987013,
+    "2013": 0.0998990918264379,
+    "2015": 0.134541984732824,
+    "2017": 0.134020618556701
+  },
+  "info": {
+    "party": "Rep",
+    "district": 11
+  }
+}, {
+  "id": "mtl000312",
+  "name": "Frank Garner",
+  "info": {
+    "party": "Rep",
+    "district": 7
+  }
+}, {
+  "id": "mtl000032",
+  "name": "Jim Peterson",
+  "parities": {
+    "2011": 0.126447016918967,
+    "2013": 0.120039682539683
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000015",
+  "name": "Kim Gillan",
+  "parities": {
+    "2011": 0.316776007497657
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
   "id": "mtl000385",
   "name": "Daniel Salomon",
   "parities": {
-    "2017": 0.0688311688311688
+    "2017": 0.0598870056497175
   },
   "info": {
     "party": "Rep",
     "district": 47
   }
 }, {
+  "id": "mtl000178",
+  "name": "Douglas Coffin",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000117",
+  "name": "Jerry O'Neil",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000030",
+  "name": "Terry Murphy",
+  "parities": {
+    "2011": 0.151898734177215,
+    "2013": 0.18252427184466
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000026",
+  "name": "Dave Lewis",
+  "parities": {
+    "2011": 0.111318989710009,
+    "2013": 0.127382146439318
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000001",
+  "name": "Ron Arthun",
+  "parities": {
+    "2011": 0.141952983725136,
+    "2013": 0.133200795228628
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000034",
+  "name": "Rick Ripley",
+  "parities": {
+    "2011": 0.172477064220183,
+    "2013": 0.204926108374384,
+    "2015": 0.221702525724977
+  },
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000309",
+  "name": "Vince Ricci",
+  "info": {
+    "party": "Rep",
+    "district": 55
+  }
+}, {
+  "id": "mtl000074",
+  "name": "Lila Evans",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000089",
+  "name": "Brian Hoven",
+  "parities": {
+    "2015": 0.155367231638418,
+    "2017": 0.12273212379936
+  },
+  "info": {
+    "party": "Rep",
+    "district": 13
+  }
+}, {
+  "id": "mtl000316",
+  "name": "Susan Webber",
+  "info": {
+    "party": "Dem",
+    "district": 16
+  }
+}, {
+  "id": "mtl000390",
+  "name": "Becky Beard",
+  "info": {
+    "party": "Rep",
+    "district": 80
+  }
+}, {
+  "id": "mtl000022",
+  "name": "Christine Kaufmann",
+  "parities": {
+    "2011": 0.434703196347032,
+    "2013": 0.300198807157058,
+    "2015": 0.310084825636192
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000150",
+  "name": "Max Yates",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
   "id": "mtl000021",
   "name": "Llew Jones",
   "parities": {
-    "2011": 0.145985401459854,
-    "2013": 0.0962441314553991,
-    "2015": 0.139281828073993,
-    "2017": 0.0792682926829268
+    "2011": 0.122525918944392,
+    "2013": 0.0958083832335329,
+    "2015": 0.132820019249278,
+    "2017": 0.0878306878306878
   },
   "info": {
     "party": "Rep",
-    "location": "West Warwick",
     "district": 9
   }
 }, {
-  "id": "mtl000225",
-  "name": "Tom Woods",
+  "id": "mtl000093",
+  "name": "Doug Kary",
+  "info": {
+    "party": "Rep",
+    "district": 22
+  }
+}, {
+  "id": "mtl000222",
+  "name": "Lea Whitford",
   "parities": {
-    "2013": 0.247148288973384,
-    "2015": 0.355283307810107,
-    "2017": 0.303135888501742
+    "2015": 0.293246993524514,
+    "2017": 0.287211740041929
   },
   "info": {
     "party": "Dem",
-    "district": 62
+    "district": 8
   }
 }, {
-  "id": "mtl000356",
-  "name": "Jeremy Trebas",
+  "id": "mtl000017",
+  "name": "Bob Hawks",
   "parities": {
-    "2017": 0.164383561643836
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Johnston",
-    "district": 25
-  }
-}, {
-  "id": "mtl000320",
-  "name": "Mark Noland",
-  "parities": {
-    "2015": 0.285917496443812,
-    "2017": 0.273504273504274
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Tiverton & Warren",
-    "district": 10
-  }
-}, {
-  "id": "mtl000213",
-  "name": "Jp Pomnichowski",
-  "parities": {
-    "2013": 0.291071428571429,
-    "2015": 0.310690423162583,
-    "2017": 0.313559322033898
+    "2011": 0.337316176470588
   },
   "info": {
     "party": "Dem",
-    "location": "East Greenwich",
-    "district": 33
+    "district": 0
+  }
+}, {
+  "id": "mtl000048",
+  "name": "Jonathan Windy Boy",
+  "parities": {
+    "2011": 0.375784753363229,
+    "2013": 0.213114754098361,
+    "2015": 0.25
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000302",
+  "name": "Andrew Person",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000002",
+  "name": "Shannon Augare",
+  "parities": {
+    "2011": 0.338532110091743,
+    "2013": 0.257796257796258
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000221",
+  "name": "Kerry White",
+  "info": {
+    "party": "Rep",
+    "district": 64
+  }
+}, {
+  "id": "mtl000206",
+  "name": "David Moore",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000211",
+  "name": "Rae Peppers",
+  "info": {
+    "party": "Dem",
+    "district": 41
+  }
+}, {
+  "id": "mtl000136",
+  "name": "Sterling Small",
+  "info": {
+    "party": "Rep",
+    "district": 0
   }
 }, {
   "id": "mtl000013",
   "name": "Tom Facey",
   "parities": {
-    "2011": 0.334657398212512,
-    "2013": 0.278099652375435,
-    "2015": 0.291139240506329,
-    "2017": 0.287878787878788
+    "2011": 0.35067264573991,
+    "2013": 0.270428015564202,
+    "2015": 0.27966881324747,
+    "2017": 0.292
   },
   "info": {
     "party": "Dem",
     "district": 50
   }
 }, {
-  "id": "mtl000063",
-  "name": "Randy Brodehl",
-  "parities": {
-    "2011": 0.203361344537815,
-    "2013": 0.22117202268431,
-    "2015": 0.348159509202454,
-    "2017": 0.302447552447552
-  },
+  "id": "mtl000058",
+  "name": "Jerry Bennett",
   "info": {
     "party": "Rep",
-    "location": "West Warwick",
-    "district": 9
-  }
-}, {
-  "id": "mtl000181",
-  "name": "Kimberly Dudik",
-  "parities": {
-    "2013": 0.24007561436673,
-    "2015": 0.339477726574501,
-    "2017": 0.29009009009009
-  },
-  "info": {
-    "party": "Dem",
-    "district": 94
-  }
-}, {
-  "id": "mtl000246",
-  "name": "Jessica Karjala",
-  "parities": {
-    "2015": 0.309171597633136,
-    "2017": 0.293718166383701
-  },
-  "info": {
-    "party": "Dem",
-    "district": 48
-  }
-}, {
-  "id": "mtl000121",
-  "name": "Mike Phillips",
-  "parities": {
-    "2011": 0.310679611650485,
-    "2013": 0.269090909090909,
-    "2015": 0.288693743139407,
-    "2017": 0.24
-  },
-  "info": {
-    "party": "Dem",
-    "location": "Warwick",
-    "district": 31
-  }
-}, {
-  "id": "mtl000256",
-  "name": "Brad Tschida",
-  "parities": {
-    "2015": 0.315966386554622,
-    "2017": 0.279232111692845
-  },
-  "info": {
-    "party": "Rep",
-    "district": 97
-  }
-}, {
-  "id": "mtl000328",
-  "name": "Geraldine Custer",
-  "parities": {
-    "2015": 0.17357910906298,
-    "2017": 0.132530120481928
-  },
-  "info": {
-    "party": "Rep",
-    "district": 39
-  }
-}, {
-  "id": "mtl000262",
-  "name": "Andrea Olsen",
-  "parities": {
-    "2015": 0.399147727272727,
-    "2017": 0.370497427101201
-  },
-  "info": {
-    "party": "Dem",
-    "district": 100
-  }
-}, {
-  "id": "mtl000275",
-  "name": "Cynthia Wolken",
-  "parities": {
-    "2015": 0.272321428571429,
-    "2017": 0.220149253731343
-  },
-  "info": {
-    "party": "Dem",
-    "district": 48
-  }
-}, {
-  "id": "mtl000312",
-  "name": "Frank Garner",
-  "parities": {
-    "2015": 0.145482388973966,
-    "2017": 0.116724738675958
-  },
-  "info": {
-    "party": "Rep",
-    "location": "North Providence",
-    "district": 7
-  }
-}, {
-  "id": "mtl000212",
-  "name": "Gordon Pierson",
-  "parities": {
-    "2013": 0.238434163701068,
-    "2015": 0.32183908045977,
-    "2017": 0.271356783919598
-  },
-  "info": {
-    "party": "Dem",
-    "district": 78
-  }
-}, {
-  "id": "mtl000394",
-  "name": "Jeffrey Welborn",
-  "parities": {
-    "2017": 0.10012836970475
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Narragansett",
-    "district": 36
-  }
-}, {
-  "id": "mtl000220",
-  "name": "Kirk Wagoner",
-  "parities": {
-    "2013": 0.171220400728597,
-    "2015": 0.333333333333333,
-    "2017": 0.237623762376238
-  },
-  "info": {
-    "party": "Rep",
-    "district": 75
-  }
-}, {
-  "id": "mtl000221",
-  "name": "Kerry White",
-  "parities": {
-    "2013": 0.196750902527076,
-    "2015": 0.299107142857143,
-    "2017": 0.263431542461005
-  },
-  "info": {
-    "party": "Rep",
-    "district": 64
-  }
-}, {
-  "id": "mtl000192",
-  "name": "Tom Jacobson",
-  "parities": {
-    "2013": 0.213893967093236,
-    "2015": 0.273001508295626,
-    "2017": 0.206837606837607
-  },
-  "info": {
-    "party": "Dem",
-    "location": "Coventry, Foster, Scituate&West Greenwich",
-    "district": 21
-  }
-}, {
-  "id": "mtl000023",
-  "name": "Jim Keane",
-  "parities": {
-    "2011": 0.27906976744186,
-    "2013": 0.233091787439614,
-    "2015": 0.260643821391485,
-    "2017": 0.228621291448517
-  },
-  "info": {
-    "party": null,
     "district": 0
   }
 }, {
-  "id": "mtl000236",
-  "name": "George Kipp",
-  "parities": {
-    "2015": 0.305647840531561,
-    "2017": 0.25981308411215
-  },
+  "id": "mtl000336",
+  "name": "Theresa Manzella",
   "info": {
-    "party": "Dem",
-    "location": "Pawtucket",
-    "district": 15
+    "party": "Rep",
+    "district": 85
   }
 }, {
-  "id": "mtl000407",
-  "name": "Shane Morigeau",
+  "id": "mtl000140",
+  "name": "Wayne Stahl",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000261",
+  "name": "Albert Olszewski",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000213",
+  "name": "Jp Pomnichowski",
   "parities": {
-    "2017": 0.278293135435993
+    "2015": 0.285853658536585,
+    "2017": 0.30503144654088
   },
   "info": {
     "party": "Dem",
-    "district": 95
+    "district": 33
+  }
+}, {
+  "id": "mtl000182",
+  "name": "Jenny Eck",
+  "info": {
+    "party": "Dem",
+    "district": 79
+  }
+}, {
+  "id": "mtl000038",
+  "name": "Sharon Stewart-Peregoy",
+  "parities": {
+    "2011": 0.359673024523161,
+    "2013": 0.292850146914789,
+    "2015": 0.269724770642202
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000100",
+  "name": "Cleve Loney",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000163",
+  "name": "Greg Jergeson",
+  "parities": {
+    "2013": 0.226415094339623
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000059",
+  "name": "Tom Berry",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000086",
+  "name": "Cynthia Hiner",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000195",
+  "name": "Mike Lang",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000229",
+  "name": "Forrest Mandeville",
+  "info": {
+    "party": "Rep",
+    "district": 57
+  }
+}, {
+  "id": "mtl000201",
+  "name": "Kelly McCarthy",
+  "info": {
+    "party": "Dem",
+    "district": 49
+  }
+}, {
+  "id": "mtl000101",
+  "name": "Margaret MacDonald",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000359",
+  "name": "Russel Tempel",
+  "parities": {
+    "2017": 0.0702341137123746
+  },
+  "info": {
+    "party": "Rep",
+    "district": 14
+  }
+}, {
+  "id": "mtl000146",
+  "name": "Ted Washburn",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000247",
+  "name": "Mary sheehy Moe",
+  "parities": {
+    "2015": 0.247787610619469
+  },
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000372",
+  "name": "Bill Harris",
+  "info": {
+    "party": "Rep",
+    "district": 37
+  }
+}, {
+  "id": "mtl000107",
+  "name": "Mary McNally",
+  "parities": {
+    "2015": 0.23777564717162,
+    "2017": 0.252336448598131
+  },
+  "info": {
+    "party": "Dem",
+    "district": 24
   }
 }, {
   "id": "mtl000301",
   "name": "Zac Perry",
-  "parities": {
-    "2015": 0.318862275449102,
-    "2017": 0.252442996742671
-  },
   "info": {
     "party": "Dem",
-    "location": "Providence",
     "district": 3
   }
 }, {
-  "id": "mtl000316",
-  "name": "Susan Webber",
+  "id": "mtl000054",
+  "name": "Dick Barrett",
   "parities": {
-    "2015": 0.3202416918429,
-    "2017": 0.304794520547945
+    "2013": 0.248219735503561,
+    "2015": 0.259438528557599,
+    "2017": 0.267285861713106
   },
   "info": {
     "party": "Dem",
-    "location": "Central Falls",
-    "district": 16
+    "district": 45
   }
 }, {
-  "id": "mtl000397",
-  "name": "Marilyn Ryan",
+  "id": "mtl000171",
+  "name": "Fred Thomas",
   "parities": {
-    "2017": 0.290940766550523
+    "2013": 0.179385530227948,
+    "2015": 0.193301435406699,
+    "2017": 0.0811111111111111
   },
+  "info": {
+    "party": "Rep",
+    "district": 44
+  }
+}, {
+  "id": "mtl000313",
+  "name": "G. bruce Meyers",
+  "info": {
+    "party": "Rep",
+    "district": 0
+  }
+}, {
+  "id": "mtl000141",
+  "name": "Kathy Swanson",
   "info": {
     "party": "Dem",
-    "district": 99
+    "district": 77
   }
 }, {
-  "id": "mtl000324",
-  "name": "Scott Staffanson",
-  "parities": {
-    "2015": 0.261669024045262,
-    "2017": 0.229565217391304
-  },
-  "info": {
-    "party": "Rep",
-    "location": "North Kingstown, & Narragansett",
-    "district": 35
-  }
-}, {
-  "id": "mtl000367",
-  "name": "Dave Fern",
-  "parities": {
-    "2017": 0.224561403508772
-  },
+  "id": "mtl000085",
+  "name": "Ellie Boldman Hill",
   "info": {
     "party": "Dem",
-    "location": "Providence",
-    "district": 5
+    "district": 0
   }
 }, {
-  "id": "mtl000409",
-  "name": "Jen Gross",
-  "parities": {
-    "2017": 0.300584795321637
-  },
+  "id": "mtl000198",
+  "name": "Ed Lieser",
   "info": {
     "party": "Dem",
-    "location": "Johnston",
-    "district": 25
+    "district": 0
   }
 }, {
-  "id": "mtl000185",
-  "name": "Carl Glimm",
+  "id": "mtl000349",
+  "name": "Willis Curdy",
+  "info": {
+    "party": "Dem",
+    "district": 98
+  }
+}, {
+  "id": "mtl000122",
+  "name": "Jean Price",
+  "info": {
+    "party": "Dem",
+    "district": 24
+  }
+}, {
+  "id": "mtl000388",
+  "name": "Wendy Mckamey",
+  "info": {
+    "party": "Rep",
+    "district": 19
+  }
+}, {
+  "id": "mtl000033",
+  "name": "Jason Priest",
   "parities": {
-    "2013": 0.18984962406015,
-    "2015": 0.330781010719755,
-    "2017": 0.278745644599303
+    "2011": 0.161588180978763,
+    "2013": 0.217587373167982
   },
   "info": {
     "party": "Rep",
-    "location": "Providence",
-    "district": 6
+    "district": 0
   }
 }, {
-  "id": "mtl000402",
-  "name": "Keith Regier",
+  "id": "mtl000111",
+  "name": "Mike Menahan",
+  "info": {
+    "party": "Dem",
+    "district": 0
+  }
+}, {
+  "id": "mtl000143",
+  "name": "Gordon Vance",
   "parities": {
-    "2017": 0.221064814814815
+    "2015": 0.29089219330855,
+    "2017": 0.23767258382643
   },
   "info": {
     "party": "Rep",
-    "location": "Providence",
-    "district": 3
+    "district": 34
   }
 }, {
-  "id": "mtl000379",
-  "name": "James O'hara",
-  "parities": {
-    "2017": 0.172473867595819
-  },
+  "id": "mtl000067",
+  "name": "Rob Cook",
   "info": {
     "party": "Rep",
-    "location": "Cranston",
-    "district": 27
+    "district": 18
+  }
+}, {
+  "id": "mtl000104",
+  "name": "Bill McChesney",
+  "info": {
+    "party": "Dem",
+    "district": 0
   }
 }, {
   "id": "mtl000334",
   "name": "Nate Mcconnell",
-  "parities": {
-    "2015": 0.352592592592593,
-    "2017": 0.289036544850498
-  },
   "info": {
     "party": "Dem",
     "district": 89
-  }
-}, {
-  "id": "mtl000159",
-  "name": "Dee Brown",
-  "parities": {
-    "2013": 0.231386025200458,
-    "2015": 0.269874476987448,
-    "2017": 0.246428571428571
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Providence",
-    "district": 2
-  }
-}, {
-  "id": "mtl000355",
-  "name": "Barry Usher",
-  "parities": {
-    "2017": 0.275080906148867
-  },
-  "info": {
-    "party": "Rep",
-    "district": 40
-  }
-}, {
-  "id": "mtl000066",
-  "name": "Pat Connell",
-  "parities": {
-    "2011": 0.160513643659711,
-    "2013": 0.126785714285714,
-    "2015": 0.161658031088083,
-    "2017": 0.131548311990687
-  },
-  "info": {
-    "party": "Rep",
-    "district": 43
-  }
-}, {
-  "id": "mtl000398",
-  "name": "Casey Knudsen",
-  "parities": {
-    "2017": 0.305460750853242
-  },
-  "info": {
-    "party": "Rep",
-    "location": "East Greenwich",
-    "district": 33
-  }
-}, {
-  "id": "mtl000384",
-  "name": "Jim Hamilton",
-  "parities": {
-    "2017": 0.237762237762238
-  },
-  "info": {
-    "party": "Dem",
-    "district": 61
-  }
-}, {
-  "id": "mtl000365",
-  "name": "Matt Regier",
-  "parities": {
-    "2017": 0.32258064516129
-  },
-  "info": {
-    "party": "Rep",
-    "location": "Providence",
-    "district": 4
-  }
-}, {
-  "id": "mtl000057",
-  "name": "Bryce Bennett",
-  "parities": {
-    "2011": 0.323671497584541,
-    "2013": 0.293900184842884,
-    "2015": 0.328267477203647,
-    "2017": 0.294627383015598
-  },
-  "info": {
-    "party": "Dem",
-    "district": 91
   }
 }]
