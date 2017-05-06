@@ -1,6 +1,7 @@
 setwd("/Users/nathanmeyers/Desktop/MONTANA/")
 
 library(stringi)
+library(lubridate)
 
 bills <- read.csv("mt_bills.csv", stringsAsFactors = F, header=T)
 bill_votes <- read.csv("mt_bill_votes.csv", stringsAsFactors = F, header=T)
