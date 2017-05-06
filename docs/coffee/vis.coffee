@@ -353,10 +353,17 @@ $ ->
   myNetwork = Network()
 
   # change state file
-  $("#state_select").on "change", (e) ->
-    stateFile = $(this).val()
-    d3.json "data/#{stateFile}", (json) ->
-      myNetwork.updateData(json)
+  $("#states li").on "click", (e) ->
+    # if this list item is the active one
+    if not ($(this).text() == $("#states .active").text())
+      stateFile = $(this).text().toLowerCase().replace(" ", "_")
+
+      # change the active list item
+      $("#states li").removeClass("active")
+      $(this).addClass("active")
+
+      # d3.json "data/#{stateFile}", (json) ->
+      #   myNetwork.updateData(json)
   
   # search for a senator
   $("#search").keyup () ->
