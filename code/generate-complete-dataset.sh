@@ -11,7 +11,6 @@ fi
 # Get the state and set up directory for data
 STATE=$1
 mkdir ../data/$STATE
-mkdir ../data/complete
 REDIRECT=
 
 
@@ -38,6 +37,8 @@ python makeJson.py $STATE $REDIRECT
 if [ $? -ne 0 ]; then
   echo 'ERROR: Failed to complete makeJson.js'
 fi
+
+rm -r ../data/$STATE
 
 
 echo 'Completed'

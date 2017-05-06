@@ -1,0 +1,4615 @@
+{
+    "terms": [
+        "2017"
+    ],
+    "nodes": [
+        {
+            "name": "Doug Broxson",
+            "id": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "info": "District 1: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.49738219895288
+            }
+        },
+        {
+            "name": "Travis Hutson",
+            "id": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "info": "District 7: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.595833333333333
+            }
+        },
+        {
+            "name": "Audrey Gibson",
+            "id": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "info": "District 6: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.734146341463415
+            }
+        },
+        {
+            "name": "Bobby Powell",
+            "id": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "info": "District 30: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.748837209302326
+            }
+        },
+        {
+            "name": "Rene Garcia",
+            "id": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "info": "District 36: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.676258992805755
+            }
+        },
+        {
+            "name": "Perry E Thurston",
+            "id": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "info": "District 33: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.731034482758621
+            }
+        },
+        {
+            "name": "David Simmons",
+            "id": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "info": "District 9: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.744791666666667
+            }
+        },
+        {
+            "name": "Dennis Baxley",
+            "id": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "info": "District 12: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.696485623003195
+            }
+        },
+        {
+            "name": "Victor M Torres",
+            "id": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "info": "District 15: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.475609756097561
+            }
+        },
+        {
+            "name": "Debbie Mayfield",
+            "id": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "info": "District 17: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.696048632218845
+            }
+        },
+        {
+            "name": "Randolph Bracy",
+            "id": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "info": "District 11: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.784708249496982
+            }
+        },
+        {
+            "name": "Rob Bradley",
+            "id": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "info": "District 5: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.771855010660981
+            }
+        },
+        {
+            "name": "Kelli Stargel",
+            "id": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "info": "District 22: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.723646723646724
+            }
+        },
+        {
+            "name": "Jeff Brandes",
+            "id": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "info": "District 24: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.773547094188377
+            }
+        },
+        {
+            "name": "Wilton Simpson",
+            "id": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "info": "District 10: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.767386091127098
+            }
+        },
+        {
+            "name": "Dana D. Young",
+            "id": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "info": "District 18: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.58974358974359
+            }
+        },
+        {
+            "name": "Keith Perry",
+            "id": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "info": "District 8: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.523364485981308
+            }
+        },
+        {
+            "name": "Jack Latvala",
+            "id": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "info": "District 16: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.73371104815864
+            }
+        },
+        {
+            "name": "Linda Stewart",
+            "id": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "info": "District 13: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.603174603174603
+            }
+        },
+        {
+            "name": "George B. Gainer",
+            "id": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "info": "District 2: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.73469387755102
+            }
+        },
+        {
+            "name": "Denise Grimsley",
+            "id": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "info": "District 26: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.747126436781609
+            }
+        },
+        {
+            "name": "Aaron Bean",
+            "id": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "info": "District 4: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.753731343283582
+            }
+        },
+        {
+            "name": "Bill Galvano",
+            "id": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "info": "District 21: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.80316742081448
+            }
+        },
+        {
+            "name": "Joe Negron",
+            "id": "20e19769-2d42-473b-a051-27bc469435d3",
+            "info": "District 25: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.0128205128205128
+            }
+        },
+        {
+            "name": "Gary M Farmer",
+            "id": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "info": "District 34: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.617886178861789
+            }
+        },
+        {
+            "name": "Greg Steube",
+            "id": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "info": "District 23: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.643122676579926
+            }
+        },
+        {
+            "name": "Anitere Flores",
+            "id": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "info": "District 39: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.815384615384615
+            }
+        },
+        {
+            "name": "Daphne Campbell",
+            "id": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "info": "District 38: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.552036199095023
+            }
+        },
+        {
+            "name": "Darryl Ervin Rouson",
+            "id": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "info": "District 19: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.69205298013245
+            }
+        },
+        {
+            "name": "Kevin J. Rader",
+            "id": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "info": "District 29: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.585
+            }
+        },
+        {
+            "name": "Oscar Braynon",
+            "id": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "info": "District 35: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.767932489451477
+            }
+        },
+        {
+            "name": "Bill Montford",
+            "id": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "info": "District 3: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.781970649895178
+            }
+        },
+        {
+            "name": "Kathleen Passidomo",
+            "id": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "info": "District 28: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.543778801843318
+            }
+        },
+        {
+            "name": "Dorothy L. Hukill",
+            "id": "91aedc86-8e90-4a78-9a15-3b3ddf58cf63",
+            "info": "District 14: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {}
+        },
+        {
+            "name": "Jose Javier Rodriguez",
+            "id": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "info": "District 37: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.558951965065502
+            }
+        },
+        {
+            "name": "Frank Artiles",
+            "id": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "info": "District 40: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.708108108108108
+            }
+        },
+        {
+            "name": "Jeff Clemens",
+            "id": "f832752f-6e35-4198-982f-754e82914329",
+            "info": "District 31: Unknown location",
+            "party": "D",
+            "importance": 15,
+            "parities": {
+                "2017": 0.553097345132743
+            }
+        },
+        {
+            "name": "Lizbeth Benacquisto",
+            "id": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "info": "District 27: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.797131147540984
+            }
+        },
+        {
+            "name": "Tom Lee",
+            "id": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "info": "District 20: Unknown location",
+            "party": "R",
+            "importance": 15,
+            "parities": {
+                "2017": 0.726962457337884
+            }
+        }
+    ],
+    "links": [
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "weight": 142.51012145749144,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "weight": 404.7895500725712,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "weight": 436.538461538461,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "weight": 191.09311740890863,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "weight": 451.17056856187196,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "weight": 135.7385976855009,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "weight": 143.42431761786605,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "weight": 431.92834562697726,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "weight": 168.44850065189087,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "weight": 417.63180639585005,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "weight": 138.4615384615366,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "weight": 156.87973997833336,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 226.20192307692332,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 133.37571519389562,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 138.09869375907164,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 145.8916083916071,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 436.538461538461,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 141.63362410784904,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 164.6153846153848,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 170.23411371237432,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 146.4190981432352,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 151.7751479289949,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 586.1111111111106,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 142.9623567921426,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 187.79264214047012,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 418.8259109311761,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 344.7552447552468,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 498.86039886039777,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 478.60576923076997,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 296.9981238273922,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 141.63362410784904,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 548.7179487179493,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 523.0769230769246,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 141.63362410784904,
+            "term": "2017"
+        },
+        {
+            "source": "4f01b5ec-9240-4124-baeb-678614b54668",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 234.61538461538348,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "weight": 438.7096774193536,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "weight": 403.64372469635686,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "weight": 147.51131221719493,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "weight": 552.3076923076931,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "weight": 187.79264214047012,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "weight": 553.7597234226467,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "weight": 136.38253638253653,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "weight": 395.4971857410886,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "weight": 197.7047146401995,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "weight": 226.20192307692332,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 284.96770405167285,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 142.06730769230896,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 181.1751063007354,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 191.78321678321822,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 191.09311740890863,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 283.56643356643195,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 228.20512820512934,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 146.4190981432352,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 185.02024291497838,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 544.6012702893441,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 196.9230769230772,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 144.378698224852,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 357.77414075286634,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 403.97022332506236,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 402.8846153846158,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 410.65088757396535,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 269.2768309534793,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 152.10918114144079,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 415.5048076923083,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 176.19738751814282,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 525.1012145749,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 213.7594799566631,
+            "term": "2017"
+        },
+        {
+            "source": "f90e6e3c-ddbc-4a64-bb5c-01e8f3007b41",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 202.23953261928153,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "weight": 220.19230769230882,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "weight": 429.67032967032844,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "weight": 278.16742081447796,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "weight": 296.9981238273922,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "weight": 490.8188585607944,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "weight": 264.835164835164,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "weight": 482.33955393718884,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "weight": 229.13685152057067,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "weight": 311.6935483870983,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "weight": 349.4802494802508,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 421.400053233963,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 316.94214876033163,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 440.9090909090901,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 441.7159763313631,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 323.4721799939209,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 184.13461538461434,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 344.31973720229826,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 325.32188841201764,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 327.97766749379764,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 309.5428156748908,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 467.1328671328684,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 324.3589743589767,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 467.1328671328684,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 316.1049652688465,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 270.0404858299608,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 228.88707037643138,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 143.89632107023306,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 174.23642533936862,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 230.74156059767424,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 352.40384615384664,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 298.6128625472911,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 431.0214375788147,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 268.2692307692323,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 341.10218140068775,
+            "term": "2017"
+        },
+        {
+            "source": "efc5c997-1578-4043-9469-fad39ef7bf62",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 453.3653846153854,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "weight": 514.2011834319551,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "weight": 210.94674556212863,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "weight": 374.6153846153849,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "weight": 428.330206378987,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "weight": 189.74358974358915,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "weight": 508.38375108038116,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "weight": 225.02976899261583,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "weight": 382.5261158594516,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "weight": 398.6186348862411,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 444.36493738819223,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 347.2527472527462,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 458.9743589743602,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 449.48224852071263,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 344.7552447552468,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 184.13461538461434,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 366.10017889087663,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 384.8707309288231,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 389.61078761875785,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 399.14529914529925,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 572.0279720279735,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 234.61538461538348,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 495.0668896321086,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 360.5459057071963,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 185.02024291497838,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 142.9623567921426,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 137.39316239316128,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 166.4767331433992,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 236.43451143451253,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 346.7948717948718,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 226.20192307692332,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 326.8798617113234,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 184.13461538461434,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 398.7027765134277,
+            "term": "2017"
+        },
+        {
+            "source": "34d4d20f-d101-48d1-84a3-fe3a6841f552",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 453.3653846153854,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "weight": 481.7451205510928,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "weight": 146.95885509838925,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "weight": 244.23076923077076,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "weight": 428.330206378987,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "weight": 259.41295546558604,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "weight": 452.8752800597466,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "weight": 146.95885509838925,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "weight": 227.1956390066631,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 240.87656529517182,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 193.9177101967785,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 148.65616311399333,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 146.95885509838925,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 249.57264957264962,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 290.04524886877977,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 475.0000000000012,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 141.2087912087909,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 218.77828054298533,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 150.48076923076914,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 158.52842809364407,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 634.5022624434416,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 198.02091112770694,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 248.7854251012153,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 372.86902286902506,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 299.9238385377023,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 273.0769230769241,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 332.42944106253356,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 334.79427549195077,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 146.95885509838925,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 378.5145888594157,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 196.1538461538469,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 480.090497737559,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 153.4895568008159,
+            "term": "2017"
+        },
+        {
+            "source": "5369c447-7736-4494-9ba5-c0fcb8f04250",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 263.72141372141596,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "weight": 509.69899665551964,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "weight": 503.84615384615455,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "weight": 193.9177101967785,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "weight": 506.85993111366145,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "weight": 212.17948717948835,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "weight": 467.1328671328684,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "weight": 534.2431761786604,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 711.4005516395965,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 439.10745742806887,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 584.6153846153856,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 608.782556026652,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 402.8846153846158,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 217.91128579449844,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 531.7851959361413,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 484.61538461538436,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 490.8188585607944,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 482.01663201663416,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 591.1642411642438,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 338.8337468982651,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 544.91525423729,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 414.52192667146136,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 188.75739644970446,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 144.87179487179435,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 146.4190981432352,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 197.81740750598829,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 233.97739701057264,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 446.15384615384784,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 231.68896321070272,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 431.0214375788147,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 187.79264214047012,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 484.61538461538436,
+            "term": "2017"
+        },
+        {
+            "source": "e59cf0d6-10e7-43a0-b06d-4bcc16339d33",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 567.414529914532,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "weight": 185.92471358428878,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "weight": 588.1656804733742,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "weight": 127.10376871450653,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "weight": 321.51898734177075,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "weight": 146.5976331360928,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "weight": 180.4474410052118,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 215.79818031430932,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 114.27018211470656,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 247.38910724312015,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 169.62864721485482,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 374.21652421652374,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 133.23836657169937,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 132.83302063789893,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 169.15173867228702,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 607.6923076923098,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 130.25064822817689,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 363.3779264214059,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 391.0602910602913,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 444.7467166979385,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 352.40384615384664,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 267.6342525399127,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 580.0968262506736,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 173.4265734265727,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 653.2139093782939,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "748ea4e5-e3fc-4d08-8249-38f9930e19fb",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 172.11538461538538,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "weight": 517.7718832891254,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "weight": 142.9623567921426,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "weight": 393.7062937062953,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "weight": 237.36263736263822,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "weight": 197.7047146401995,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 348.946259220231,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 141.2087912087909,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 188.75739644970446,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 170.23411371237432,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 195.02262443438988,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 457.8383641674793,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 216.21472053126678,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 175.72115384615415,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 209.14760914760913,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 696.5909090909115,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 187.79264214047012,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 235.74660633484095,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 407.27424749163896,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 353.39366515837287,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 458.9743589743602,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 534.2431761786604,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 400.73649754500894,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 199.3064312736438,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 534.2431761786604,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 159.38914027149266,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 534.5180136319394,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 185.92471358428878,
+            "term": "2017"
+        },
+        {
+            "source": "e85f80db-d158-4d28-b121-a2308cb8e57b",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 255.32544378698063,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "weight": 583.2347140039471,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "weight": 245.9684893419836,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "weight": 503.84615384615455,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "weight": 442.24250325945127,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 593.5897435897436,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 543.7869822485222,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 604.8076923076933,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 588.1656804733742,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 543.2457786116348,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 279.48717948717785,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 588.1656804733742,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 517.7718832891254,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 571.1538461538485,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 635.2177942539412,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 708.5353003161223,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 375.3496503496502,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 604.8076923076933,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 513.0244755244751,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 245.26840066408528,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 314.431586113001,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 255.32544378698063,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 223.6263736263731,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 277.5147928994089,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 625.000000000001,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 198.49906191369632,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 462.42603550296025,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 189.74358974358915,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 588.1656804733742,
+            "term": "2017"
+        },
+        {
+            "source": "b5269e84-790b-4988-8c5b-1b6b7c586d4e",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 575.113122171945,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "weight": 436.538461538461,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "weight": 138.09869375907164,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "weight": 182.41758241758222,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 224.90087232355117,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 142.51012145749144,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 141.2087912087909,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 142.06730769230896,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 397.31005191128133,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 230.27295285359816,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 170.23411371237432,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 168.44850065189087,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 130.13777267508536,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 151.7751479289949,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 671.0955710955704,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 175.8396533044433,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 185.92471358428878,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 400.3814367450727,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 369.23076923077105,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 493.99624765478444,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 414.37125748502854,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 347.2527472527462,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 141.2087912087909,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 592.4953095684807,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 516.3362410785115,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 148.95104895104848,
+            "term": "2017"
+        },
+        {
+            "source": "aa60e81c-5cbf-433d-8844-5ea0140cf531",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 207.21579305650226,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "weight": 368.2894029047863,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "weight": 400.3814367450727,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 449.0028490028508,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 353.53570196619603,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 428.330206378987,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 459.5890410958912,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 318.29521829521826,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 145.37597234226558,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 392.4403183023866,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 366.8586919688245,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 337.55656108597475,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 336.3977485928725,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 446.15384615384784,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 388.4615384615371,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 437.9465722561972,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 304.1918755401906,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 190.75194468453114,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 185.31960996749643,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 175.01786139557095,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 266.8785759694862,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 369.23076923077105,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 190.75194468453114,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 495.92760180995367,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 231.1188811188794,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 371.700776287934,
+            "term": "2017"
+        },
+        {
+            "source": "2cdca4b8-302d-465c-8636-eeda273999c7",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 369.23076923077105,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "weight": 211.7360899969587,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 248.1098363738958,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 158.6985688729868,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 244.23076923077076,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 386.1901877649896,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 151.11976630963875,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 171.4771953710018,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 213.360323886638,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 125.88757396449566,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 617.7514792899409,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 196.1538461538469,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 357.77414075286634,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 454.7297297297312,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 402.8846153846158,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 396.61016949152685,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 322.5047679593125,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 482.591093117409,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 173.4265734265727,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 548.7179487179493,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 134.81432360742562,
+            "term": "2017"
+        },
+        {
+            "source": "c2efdcb9-f28e-4a60-a8d9-473da01a99e7",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 203.5502958579898,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "weight": 260.8948820104191,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 151.11976630963875,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 214.29608127721445,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 211.15031757233413,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 221.850132625993,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 516.3362410785115,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 165.40018685767836,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 168.1596884128545,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 131.92459714198878,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 193.0521091811421,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 255.32544378698063,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 721.3017751479307,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 210.13986013985925,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 215.79818031430932,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 404.2676501580629,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 440.0809716599216,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 490.8188585607944,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 429.67032967032844,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 310.96440872560197,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 228.20512820512934,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 540.5594405594411,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 201.80995475112968,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 586.1111111111106,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 167.02840727737026,
+            "term": "2017"
+        },
+        {
+            "source": "659d84eb-4aba-41a8-9b6b-c059122b32d3",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 299.4301994302011,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "weight": 260.6206293706284,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 286.3905325443784,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 418.1818181818195,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 329.61152559814843,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 478.60576923076997,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 196.1538461538469,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 169.32981181908283,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 313.874910136591,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 243.30024813895824,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 204.89510489510513,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 773.0769230769255,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 258.99454875833055,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 278.69298842750004,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 520.0000000000007,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 487.2497365648055,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 467.1328671328684,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 510.1562500000008,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 407.27424749163896,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 176.19738751814282,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 721.3017751479307,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 298.6128625472911,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 635.2177942539412,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 265.2567381467642,
+            "term": "2017"
+        },
+        {
+            "source": "17f6490a-dc8a-4f51-8258-82e92ae49647",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 334.3749999999992,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "weight": 142.51012145749144,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 141.2087912087909,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 185.02024291497838,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 471.9635627530383,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 116.8269230769244,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 136.38253638253653,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 134.369885433714,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 123.47942754919463,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 151.7751479289949,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 672.8314238952561,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 142.51012145749144,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 181.70297910182168,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 352.40384615384664,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 429.67032967032844,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 525.1012145749,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 400.4807692307701,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 283.56643356643195,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 137.39316239316128,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 557.9698651863606,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 516.3362410785115,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 123.20954907161962,
+            "term": "2017"
+        },
+        {
+            "source": "2b5b2751-5525-4a5d-a694-1e18f77c9aaf",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 190.54846498792642,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "weight": 128.64157119476144,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 235.74660633484095,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 400.73649754500894,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 196.9230769230772,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 139.59276018099362,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 185.92471358428878,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 633.3817126269956,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 132.56823821339864,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 144.87179487179435,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 419.8781416603194,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 393.7062937062953,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 457.8383641674793,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 413.05903398926637,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 306.0439560439553,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 202.89073983341336,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 484.61538461538436,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 165.13647642680087,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 527.1449704142027,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 186.53846153846007,
+            "term": "2017"
+        },
+        {
+            "source": "310eb2f6-a0c4-4189-9586-547ef1e08164",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 190.75194468453114,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "weight": 190.75194468453114,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 391.4353687549559,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 182.41758241758222,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 142.51012145749144,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 331.5041646251832,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 676.9230769230787,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 160.72874493926957,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 143.42431761786605,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 498.1581798483227,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 440.0809716599216,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 424.93368700265495,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 436.538461538461,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 359.3507410021156,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 685.2842809364558,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 163.10096153846166,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 704.5601105481346,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 163.59781950333132,
+            "term": "2017"
+        },
+        {
+            "source": "1902f20d-dc38-43e3-b9f1-941f2080a0ea",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 301.9230769230775,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "weight": 371.81952662721807,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 179.4972743791655,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 194.79956663055322,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 188.17601612361386,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 195.3967292549952,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 215.38461538461743,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 588.1656804733742,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 193.9177101967785,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 237.36263736263822,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 332.0954907161805,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 381.75313059034005,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 487.2497365648055,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 368.3363148479414,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 255.7863501483669,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 246.85314685314583,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 507.2398190045264,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 174.786324786323,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 513.0244755244751,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 209.5176010430264,
+            "term": "2017"
+        },
+        {
+            "source": "22816806-14e4-45bc-9fa0-c9c7a6e0f6a6",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 325.9279182356114,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "weight": 474.70261697065797,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 424.25603593487006,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 478.60576923076997,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 436.538461538461,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 467.1328671328684,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 349.28774928774817,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 400.73649754500894,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 345.8193979933101,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 185.02024291497838,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 125.55988315482139,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 160.72874493926957,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 174.10021171489075,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 183.26724821570212,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 391.4353687549559,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 226.20192307692332,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 404.7895500725712,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 268.2692307692323,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 391.4353687549559,
+            "term": "2017"
+        },
+        {
+            "source": "d917f5b7-b767-446f-9861-cd63d1d0561c",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 528.863172226006,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "weight": 153.13765182186216,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 149.65321563682167,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 134.22425032594342,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 203.5502958579898,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 727.5987525987523,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 284.96770405167285,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 235.97513597513742,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 394.4711538461556,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 359.61538461538373,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 375.3496503496502,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 430.79548437910364,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 274.9514023882252,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 252.97202797202857,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 580.7692307692314,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 166.20428751576355,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 557.9698651863606,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 132.56823821339864,
+            "term": "2017"
+        },
+        {
+            "source": "9dfb333d-c98d-42c9-aa69-2dc0202786f9",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 299.4301994302011,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "weight": 130.0257363454382,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 134.369885433714,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 158.52842809364407,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 553.2967032967056,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 143.89632107023306,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 170.23411371237432,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 496.63461538461746,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 352.40384615384664,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 479.6844181459573,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 386.0576923076914,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 276.98437021146157,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 139.2083644510843,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 452.564102564102,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 146.4190981432352,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 553.7597234226467,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 135.58115892917778,
+            "term": "2017"
+        },
+        {
+            "source": "351742c9-42cb-4a16-a4ff-d44532d672cd",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 191.78321678321822,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "weight": 156.61394680086258,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 203.5502958579898,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 683.3333333333328,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 185.92471358428878,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 182.08255159474888,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 379.39042089985577,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 357.2268495835397,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 548.7179487179493,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 398.5633043998802,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 291.5475828519322,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 172.11538461538538,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 581.8618881118897,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 173.4265734265727,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 597.0414201183437,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 150.90497737556686,
+            "term": "2017"
+        },
+        {
+            "source": "895221aa-cee2-460e-8bb0-0cc26b030c43",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 283.56643356643195,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "20e19769-2d42-473b-a051-27bc469435d3",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 634.5022624434416,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 165.13647642680087,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 428.71198568872927,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 404.7895500725712,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 500.7633587786265,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 371.9502719502712,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 306.4389284836582,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 564.190981432361,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 143.42431761786605,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 610.1214574898788,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "d5cffc98-8eeb-4394-87ae-8969c9c99423",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 180.36739380023073,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "weight": 800.0,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 154.57380457380276,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 467.1328671328684,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 530.769230769233,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 555.9553349875953,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 519.580419580421,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 462.42603550296025,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 624.4755244755261,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 173.4265734265727,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 624.4755244755261,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "20e19769-2d42-473b-a051-27bc469435d3",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 226.20192307692332,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "weight": 653.6600496277912,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 610.8897126969445,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 372.25583405358896,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 328.59216255442846,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 261.538461538462,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 429.67032967032844,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 364.1984184040282,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 676.9230769230787,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 324.3589743589767,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 687.4125874125906,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 388.4615384615371,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 676.9230769230787,
+            "term": "2017"
+        },
+        {
+            "source": "e5834d4d-9cd7-4cd0-b586-0aa7136facfe",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 700.7628734901458,
+            "term": "2017"
+        },
+        {
+            "source": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "target": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "weight": 142.28755537656207,
+            "term": "2017"
+        },
+        {
+            "source": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 364.1984184040282,
+            "term": "2017"
+        },
+        {
+            "source": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 451.17056856187196,
+            "term": "2017"
+        },
+        {
+            "source": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 436.538461538461,
+            "term": "2017"
+        },
+        {
+            "source": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 401.0033444816051,
+            "term": "2017"
+        },
+        {
+            "source": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 397.5708502024306,
+            "term": "2017"
+        },
+        {
+            "source": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 515.1689432063272,
+            "term": "2017"
+        },
+        {
+            "source": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 176.19738751814282,
+            "term": "2017"
+        },
+        {
+            "source": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 572.5859247135866,
+            "term": "2017"
+        },
+        {
+            "source": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 142.51012145749144,
+            "term": "2017"
+        },
+        {
+            "source": "4b9eecc9-1f33-4f36-bf30-8dd0ad49f2eb",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 203.5502958579898,
+            "term": "2017"
+        },
+        {
+            "source": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "target": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "weight": 321.8934911242609,
+            "term": "2017"
+        },
+        {
+            "source": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 369.23076923077105,
+            "term": "2017"
+        },
+        {
+            "source": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 369.23076923077105,
+            "term": "2017"
+        },
+        {
+            "source": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 278.7860576923068,
+            "term": "2017"
+        },
+        {
+            "source": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 252.1739130434793,
+            "term": "2017"
+        },
+        {
+            "source": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 133.37571519389562,
+            "term": "2017"
+        },
+        {
+            "source": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 451.17056856187196,
+            "term": "2017"
+        },
+        {
+            "source": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 198.49906191369632,
+            "term": "2017"
+        },
+        {
+            "source": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 495.0668896321086,
+            "term": "2017"
+        },
+        {
+            "source": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 152.85944422070037,
+            "term": "2017"
+        },
+        {
+            "source": "99e844fa-4f0f-489e-be38-9b3ef83ec1f6",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 251.98511166253297,
+            "term": "2017"
+        },
+        {
+            "source": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "target": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "weight": 272.5838264299818,
+            "term": "2017"
+        },
+        {
+            "source": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 251.4423076923079,
+            "term": "2017"
+        },
+        {
+            "source": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 227.53036437246982,
+            "term": "2017"
+        },
+        {
+            "source": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 215.38461538461743,
+            "term": "2017"
+        },
+        {
+            "source": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 394.4711538461556,
+            "term": "2017"
+        },
+        {
+            "source": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 329.45804195804305,
+            "term": "2017"
+        },
+        {
+            "source": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 357.77414075286634,
+            "term": "2017"
+        },
+        {
+            "source": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 434.2175066312997,
+            "term": "2017"
+        },
+        {
+            "source": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 394.4711538461556,
+            "term": "2017"
+        },
+        {
+            "source": "47cefe82-d38c-4b0a-a0cf-fa2be90e2cec",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 431.0214375788147,
+            "term": "2017"
+        },
+        {
+            "source": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "target": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "weight": 193.9177101967785,
+            "term": "2017"
+        },
+        {
+            "source": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 185.92471358428878,
+            "term": "2017"
+        },
+        {
+            "source": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 136.38253638253653,
+            "term": "2017"
+        },
+        {
+            "source": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 440.0809716599216,
+            "term": "2017"
+        },
+        {
+            "source": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 337.55656108597475,
+            "term": "2017"
+        },
+        {
+            "source": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 371.81952662721807,
+            "term": "2017"
+        },
+        {
+            "source": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 279.48717948717785,
+            "term": "2017"
+        },
+        {
+            "source": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 440.0809716599216,
+            "term": "2017"
+        },
+        {
+            "source": "24bbc5f6-ab4f-45c0-8c1c-3e2a2b915586",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 513.0244755244751,
+            "term": "2017"
+        },
+        {
+            "source": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "target": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "weight": 100.0,
+            "term": "2017"
+        },
+        {
+            "source": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 247.7485928705463,
+            "term": "2017"
+        },
+        {
+            "source": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 377.14932126696834,
+            "term": "2017"
+        },
+        {
+            "source": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 149.85754985755108,
+            "term": "2017"
+        },
+        {
+            "source": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 490.8188585607944,
+            "term": "2017"
+        },
+        {
+            "source": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 249.57264957264962,
+            "term": "2017"
+        },
+        {
+            "source": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 403.97022332506236,
+            "term": "2017"
+        },
+        {
+            "source": "31ecba77-af1f-4492-9196-a13c06ae2bb3",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 456.33484162895957,
+            "term": "2017"
+        },
+        {
+            "source": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "target": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "weight": 247.8873239436616,
+            "term": "2017"
+        },
+        {
+            "source": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 427.4428274428279,
+            "term": "2017"
+        },
+        {
+            "source": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 174.786324786323,
+            "term": "2017"
+        },
+        {
+            "source": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 540.5594405594411,
+            "term": "2017"
+        },
+        {
+            "source": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 226.20192307692332,
+            "term": "2017"
+        },
+        {
+            "source": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 374.35200668896516,
+            "term": "2017"
+        },
+        {
+            "source": "c931ae8c-7f50-47a6-a4a7-9bbd245c0bb1",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 455.71941012355535,
+            "term": "2017"
+        },
+        {
+            "source": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "target": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "weight": 325.7525083612027,
+            "term": "2017"
+        },
+        {
+            "source": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 319.14132379248736,
+            "term": "2017"
+        },
+        {
+            "source": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 352.40384615384664,
+            "term": "2017"
+        },
+        {
+            "source": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 286.9658119658109,
+            "term": "2017"
+        },
+        {
+            "source": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 304.0711947626843,
+            "term": "2017"
+        },
+        {
+            "source": "af85c26d-9c3c-4a26-90da-8e2b442d9629",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 399.88575780654935,
+            "term": "2017"
+        },
+        {
+            "source": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "target": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "weight": 503.84615384615455,
+            "term": "2017"
+        },
+        {
+            "source": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 145.8916083916071,
+            "term": "2017"
+        },
+        {
+            "source": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 557.9698651863606,
+            "term": "2017"
+        },
+        {
+            "source": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 131.55048076923083,
+            "term": "2017"
+        },
+        {
+            "source": "ae1cf7f9-a47f-4063-99ff-78ba653a3a0c",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 190.75194468453114,
+            "term": "2017"
+        },
+        {
+            "source": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "target": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "weight": 698.290598290599,
+            "term": "2017"
+        },
+        {
+            "source": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 472.34042553191705,
+            "term": "2017"
+        },
+        {
+            "source": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 516.3362410785115,
+            "term": "2017"
+        },
+        {
+            "source": "896ca2c8-21a2-4aa7-8a44-3995e4bfb072",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 528.3216783216787,
+            "term": "2017"
+        },
+        {
+            "source": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "target": "f832752f-6e35-4198-982f-754e82914329",
+            "weight": 548.7179487179493,
+            "term": "2017"
+        },
+        {
+            "source": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 166.20428751576355,
+            "term": "2017"
+        },
+        {
+            "source": "3d3af1c2-4cb4-4db7-a121-e71ada61367e",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 381.75313059034005,
+            "term": "2017"
+        },
+        {
+            "source": "f832752f-6e35-4198-982f-754e82914329",
+            "target": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "weight": 557.9698651863606,
+            "term": "2017"
+        },
+        {
+            "source": "f832752f-6e35-4198-982f-754e82914329",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 676.9230769230787,
+            "term": "2017"
+        },
+        {
+            "source": "8fea0101-e586-41da-b51a-026c72eb7b53",
+            "target": "24001d3c-6ad8-40c2-8799-54b59b81e711",
+            "weight": 183.26724821570212,
+            "term": "2017"
+        }
+    ]
+}

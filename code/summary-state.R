@@ -5,6 +5,9 @@ args <- commandArgs(trailingOnly = TRUE)
 state <- args[1] 
 folder <- args[2]
 
+state <- "al"
+folder <- "/Users/nathanmeyers/Documents/parity-in-the-senate/code"
+
 setwd(folder)
 
 library(jsonlite)
@@ -17,6 +20,9 @@ if (state == "ri"){
 }
 
 years = sort(substr(colnames(info[,c(3:(length(info)-offset))]),10,13))
+if (length(years) == 0){
+  years = "2017"
+}
 
 out <- matrix(0,nrow = length(years),ncol = 4)
 colnames(out) <- c("Dem","Rep","Ind","Unk")
