@@ -4,8 +4,8 @@ import sys
 import uuid
 
 outputFile = "../data/data-mt.json"
-linksFile = "../../data/weights-mt.csv"
-senatorsFile = "../../data/senator-info-mt.json"
+linksFile = "../../data/mt/weights-mt.csv"
+senatorsFile = "../../data/mt/senator-info-mt.json"
 
 maxWeight = 800
 minWeight = 100
