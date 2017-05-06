@@ -144,9 +144,14 @@ Network = () ->
 
   updateTerms = (data) ->
     # change term dropdown  
-    $("#term_select").empty()
+    $("#terms").empty()
+    first = true
     data.terms.forEach (t) ->
-      $("#term_select").append $('<option value="' + t + '">' + t + '</option>')
+      if first
+        first = false
+        $("#terms").append $('<li class="active">' + t + '</li>')
+      else
+        $("#terms").append $('<li>' + t + '</li>')
 
   # called once to clean up raw data and switch links to point to node instances
   # Returns modified data
@@ -362,8 +367,8 @@ $ ->
       $("#states li").removeClass("active")
       $(this).addClass("active")
 
-      # d3.json "data/#{stateFile}", (json) ->
-      #   myNetwork.updateData(json)
+      d3.json "data/#{stateFile}", (json) ->
+        myNetwork.updateData(json)
   
   # search for a senator
   $("#search").keyup () ->
@@ -371,8 +376,14 @@ $ ->
     myNetwork.updateSearch(searchTerm)
 
   # change term
-  $("#term_select").on "change", (e) ->
-    myNetwork.updateDataForTerm($(this).val())
+  $("#terms li").on "click", (e) ->
+    if not ($(this).text() == $("#terms .active").text())
+
+      # change the active list item
+      $("#terms li").removeClass("active")
+      $(this).addClass("active")
+
+      myNetwork.updateDataForTerm($(this).text())
 
   # start our visualization
   d3.json "data/data.json", (json) ->
