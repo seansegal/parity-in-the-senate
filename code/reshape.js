@@ -53,7 +53,7 @@ fs.readFile(VOTES_FILE, 'utf8', function(err, linesFull) {
         parities: parities[key.toLowerCase()],
         info: {
           party: senatorInfo.party,
-          location: senatorInfo.location || districts[senatorInfo.district],
+          location: senatorInfo.location, //|| districts[senatorInfo.district],
           district: Number(data[key].district),
         },
       })

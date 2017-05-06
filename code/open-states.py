@@ -1,19 +1,18 @@
-# import pyopenstates
-import myapi
+import pyopenstates
 import csv
 import pprint
 import json
 
 pp = pprint.PrettyPrinter(indent=4)
 
-fb = myapi.get_bill(uid='NEB00005643');
-pp.pprint(fb)
+# fb = pyopenstates.get_bill(uid='NEB00005643');
+# pp.pprint(fb)
 
 st = 'mt'
 OUTFILE = '../data/montana-votes.csv'
 
 #
-bills = myapi.search_bills(state=st, search_window='session', fields=['id', 'bill_id'])
+bills = pyopenstates.search_bills(state=st, search_window='all', fields=['id', 'bill_id'])
 print('BILLS: ', len(bills))
 
 legislators = set()
@@ -24,7 +23,7 @@ for bill in bills:
     if 'SB' not in bill['bill_id']:
         continue
     print('Requesting: ', bill['bill_id'], 'Count: ', count)
-    fullBill = myapi.get_bill(uid=bill['id'])
+    fullBill = pyopenstates.get_bill(uid=bill['id'])
     for vote in fullBill['votes']:
         voteRecord = {
             'description': fullBill['title'],
@@ -59,7 +58,7 @@ for bill in bills:
 senators = []
 for leg in legislators:
     try:
-        fullLeg = myapi.get_legislator(leg)
+        fullLeg = pyopenstates.get_legislator(leg)
         party, district = None, None
         try:
             district = fullLeg['roles'][0]['district']
@@ -68,9 +67,17 @@ for leg in legislators:
         try:
             party = fullLeg['party'][:3]
         except Exception as e:
+            jsonAsString = str(fullLeg)
+            republican = 'Republican' in jsonAsString
+            democrat = 'Democrat' in jsonAsString
+            indepdent = 'Independent' in jsonAsString
+            if republican and not democrat:
+                party = 'Rep'
+            if not republican and democrat:
+                party = 'Dem'
+            if indepdent:
+                party = 'Ind'
             pass
-        # pp = pprint.PrettyPrinter(indent=4)
-        # pp.pprint(fullLeg)
         senator = {
             'name': "%s %s" % (fullLeg['first_name'], fullLeg['last_name']),
             'party': party,
