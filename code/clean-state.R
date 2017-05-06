@@ -1,5 +1,5 @@
 ## Example command input should be:
-## Rscript clean-mt2.R "mt" "/Users/nathanmeyers/Documents/parity-in-the-senate/data/"
+## Rscript clean-mt2.R "mt" "/Users/nathanmeyers/Documents/parity-in-the-senate/code"
 
 args <- commandArgs(trailingOnly = TRUE)
 
@@ -12,7 +12,7 @@ library(tidyr)
 library(qdapRegex)
 library(lubridate)
 
-votes <- read.csv(paste0(state,"/votes-",state,".csv"), header = T)
+votes <- read.csv(paste0("../data/",state,"/votes-",state,".csv"), header = T)
 votes$date <- year(votes$date)
 
 sens <- colnames(votes)
@@ -81,5 +81,5 @@ rownames(againstall) <- tolower(rownames(againstall))
 outputall$Senator1 <- tolower(outputall$Senator1)
 outputall$Senator2 <- tolower(outputall$Senator2)
 
-write.csv(againstall,paste0(state,"/parity-",state,".csv"))
-write.csv(outputall,paste0(state,"/weights-",state,".csv"),row.names = F)
+write.csv(againstall,paste0("../data/",state,"/parity-",state,".csv"))
+write.csv(outputall,paste0("../data/",state,"/weights-",state,".csv"),row.names = F)
