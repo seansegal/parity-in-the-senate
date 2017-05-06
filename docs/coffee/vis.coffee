@@ -150,8 +150,10 @@ Network = () ->
       if first
         first = false
         $("#terms").append $('<li class="active">' + t + '</li>')
+        console.log '<li class="active">' + t + '</li>'
       else
         $("#terms").append $('<li>' + t + '</li>')
+        console.log '<li>' + t + '</li>'
 
   # called once to clean up raw data and switch links to point to node instances
   # Returns modified data
@@ -367,7 +369,7 @@ $ ->
       $("#states li").removeClass("active")
       $(this).addClass("active")
 
-      d3.json "data/#{stateFile}", (json) ->
+      d3.json "data/#{stateFile}.json", (json) ->
         myNetwork.updateData(json)
   
   # search for a senator
