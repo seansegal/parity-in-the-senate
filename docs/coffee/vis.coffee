@@ -386,5 +386,5 @@ $ ->
     myNetwork.updateSearch(searchTerm)
 
   # start our visualization
-  d3.json "data/data.json", (json) ->
+  d3.json "data/dataRI.json", (json) ->
     myNetwork("#vis", json)
