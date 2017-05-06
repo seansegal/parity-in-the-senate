@@ -35,6 +35,7 @@ Network = () ->
   force = d3.layout.force().gravity(.05)
   vis = null  
   child = null
+  zoom = null
 
   # color function used to color nodes
   nodeColors = d3.scale.linear().domain([0.0, 1.0]).range(["#1f77b4", "#d62728"])
@@ -108,6 +109,8 @@ Network = () ->
     # always show links in force layout
     force.links(curLinksData)
     updateLinks()
+
+    # child.attr("transform", "translate(" + width/4 + "," + height/8 + ")scale(0.6)")
 
     # start me up!
     force.start()
