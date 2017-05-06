@@ -46,10 +46,9 @@ TODO: explain basic visualization, process etc.
 	We were able to get some information for each senator that pops up when you mouse over one of the nodes on the graph. Unfortunately, much of the data was unavailable or incomplete, so we had to do some data entry and support less fields
 
 
-
 ## Analysis
 There are many applications of our final data visualization.
-
+<!-- TODO -->
 
 ### Case Study: Montata vs Rhode Island
 <!-- TODO  -->
@@ -65,11 +64,18 @@ There are many applications of our final data visualization.
 - Finding a better method to get text data from bills.
 
 ## Setup
+
+### The Website
+
 To run the website locally, go to the `docs` directory (`cd docs`) and run:
 
 `python -m http.server 3000`
 
 This will setup a local server for the website. You should now be able to visit http://localhost:3000 in your web browser and see our visualization running locally.
+
+### Web Scraper/APIs
+To generate a complete dataset for a state using the open states API as a datasource, run `./generate-complete-dataset` from your terminal.
+You will need to install a few R packages and the pyopenstates package for python.
 
 ## Contributing
 Contributions are welcome from anyone! Please read our setup guide above to get started and open pull requests with any new additional features or bug fixes.
