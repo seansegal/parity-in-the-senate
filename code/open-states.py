@@ -6,8 +6,7 @@ import sys
 
 # Useful for debugging
 pp = pprint.PrettyPrinter(indent=4)
-
-
+ 
 default_st = 'mt'
 st = sys.argv[1] if len(sys.argv) > 1 else default_st
 print(st)
@@ -86,8 +85,6 @@ for leg in legislators:
     except Exception as e:
         print('ERROR: ' + str(e))
 
-
-# WRITE INFORMATION TO FILE #
 
 # Write vote information to CSV file
 with open(OUTFILE_VOTES, 'w') as csvfile:
