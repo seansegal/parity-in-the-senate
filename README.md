@@ -5,7 +5,7 @@ Website: https://seansegal.github.io/parity-in-the-senate/
 
 ## Introduction
 
-![both_houses](parity-in-the-senate/docs/images/both_houses.png?raw=true "Title")
+![both_houses](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/both_houses.png)
 
 # Initial goals:
 - Create a publicly available data set that contains the information from http://webserver.rilin.state.ri.us/votes/ in a more easy to use form (currently only one bill is viewable at a time).
