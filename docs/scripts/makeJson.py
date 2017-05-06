@@ -3,9 +3,9 @@ import csv
 import sys
 import uuid
 
-outputFile = "../data/data-ri.json"
-linksFile = "../../data/weights-ri.csv"
-senatorsFile = "../../data/senator-info-ri.json"
+outputFile = "../data/data-mt.json"
+linksFile = "../../data/weights-mt.csv"
+senatorsFile = "../../data/senator-info-mt.json"
 
 maxWeight = 800
 minWeight = 100
@@ -45,9 +45,9 @@ class Link:
 		return {"source": self.source, "target": self.target, "weight": self.weight, "term": self.term}
 
 def getInfoStr(infoItems):
-	districtStr = "Unknown district"
-	locationStr = "Unknown location"
-	if "district" in infoItems:
+	districtStr = "Unknown"
+	locationStr = "Location Unknown"
+	if "district" in infoItems and infoItems["district"] != 0:
 		districtStr = infoItems["district"]
 	if "location" in infoItems:
 		locationStr = infoItems["location"]
@@ -68,7 +68,7 @@ def getSenators():
 
 			info = getInfoStr(senatorData["info"])
 
-			party = "Unknown Party"
+			party = "Party Unknown"
 			if "party" in senatorData["info"]:
 				party = "D"
 				if senatorData["info"]["party"] == "Rep":
