@@ -3,7 +3,7 @@ import csv
 import sys
 import uuid
 
-outputFile = "../data/montana.json"
+outputFile = "../data/dataMT.json"
 linksFile = "../../data/weights-mt.csv"
 senatorsFile = "../../data/senator-info-mt.json"
 

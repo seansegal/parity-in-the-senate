@@ -5,8 +5,6 @@ Network = () ->
   container = document.getElementById("page-content-wrapper")
   width = container.offsetWidth
   height = screen.height
-  console.log width
-  console.log height
 
   nodePadding = 2.0
   maxRadius = 0
@@ -76,7 +74,7 @@ Network = () ->
     update()
 
   redraw = ->
-    console.log 'here', d3.event.translate, d3.event.scale
+    # console.log 'here', d3.event.translate, d3.event.scale
     child.attr 'transform', 'translate(' + d3.event.translate + ')' + ' scale(' + d3.event.scale + ')'
     return
 
@@ -143,17 +141,17 @@ Network = () ->
     update()
 
   updateTerms = (data) ->
-    # change term dropdown  
+    # change term dropdown
     $("#terms").empty()
     first = true
     data.terms.forEach (t) ->
       if first
         first = false
         $("#terms").append $('<li class="active">' + t + '</li>')
-        console.log '<li class="active">' + t + '</li>'
+        currTerm = t
       else
         $("#terms").append $('<li>' + t + '</li>')
-        console.log '<li>' + t + '</li>'
+    setUpTermsClick()
 
   # called once to clean up raw data and switch links to point to node instances
   # Returns modified data
@@ -183,7 +181,6 @@ Network = () ->
 
       # Set radius
       n.radius = n.importance
-      console.log n.radius
       maxRadius = Math.max(maxRadius, n.radius)
 
     # id's -> node objects
@@ -356,6 +353,17 @@ Network = () ->
   # Final act of Network() function is to return the inner 'network()' function.
   return network
 
+setUpTermsClick = () ->
+  $("#terms li").on "click", (e) ->
+    if not ($(this).text() == $("#terms .active").text())
+
+      # change the active list item
+      $("#terms li").removeClass("active")
+      $(this).addClass("active")
+
+      myNetwork.updateDataForTerm($(this).text())
+
+myNetwork = null
 $ ->
   myNetwork = Network()
 
@@ -363,7 +371,7 @@ $ ->
   $("#states li").on "click", (e) ->
     # if this list item is the active one
     if not ($(this).text() == $("#states .active").text())
-      stateFile = $(this).text().toLowerCase().replace(" ", "_")
+      stateFile = $(this).attr("id")
 
       # change the active list item
       $("#states li").removeClass("active")
@@ -376,16 +384,6 @@ $ ->
   $("#search").keyup () ->
     searchTerm = $(this).val()
     myNetwork.updateSearch(searchTerm)
-
-  # change term
-  $("#terms li").on "click", (e) ->
-    if not ($(this).text() == $("#terms .active").text())
-
-      # change the active list item
-      $("#terms li").removeClass("active")
-      $(this).addClass("active")
-
-      myNetwork.updateDataForTerm($(this).text())
 
   # start our visualization
   d3.json "data/data.json", (json) ->
