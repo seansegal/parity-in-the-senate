@@ -1,11 +1,15 @@
-# ECON1660 Final Project
+# Parity in the Senate
+A data visualization of State Senate voting data created for a ECON1660 (Big Data)
+final project at Brown University.  
 Created By: Sean Segal, Nate Meyers, Ben Wesner
 
-Website: https://seansegal.github.io/parity-in-the-senate/
+Checkout the final product at https://seansegal.github.io/parity-in-the-senate/
 
 ![both_houses](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/both_houses.png "Both Senate and House")
 
-# Introduction
+# Project Report
+## Introduction
+TODO: explain basic visualization, process etc.
 
 ## Initial goals:
 - Create a publicly available data set that contains the information from http://webserver.rilin.state.ri.us/votes/ in a more easy to use form (currently only one bill is viewable at a time).
@@ -13,14 +17,13 @@ Website: https://seansegal.github.io/parity-in-the-senate/
 - Try and generalize this process to other states.
 
 ## Process and Reflections:
-
-1. Scraping
+1. Web Scraping
 
 	We began scraping data from [the RI Legislature website](http://webserver.rilin.state.ri.us/votes/). Initially, we found that we could only get data from 2014 onwards, but after playing around with an index on the website url, we found that we could view Senate votes from as early as 2003. Scraping proved to be a pretty difficult process; in addition to having to figure out how the indexing worked, we also had to figure out which votes were relevant (we needed to identify and exclude roll calls, etc.) and account for changes in the format the information was presented in.
 
 	Part way through the project, and after a lot of the scraping had been completed, we found a website called https://openstates.org/. Openstates collects data from every state senate and compiles it into a publicly available API. Initially, we felt silly for overlooking this massive website, but after trying to use the API we found some severe limitations and confusing errors. Of these, the two biggest problems were shorter data ranges (the earliest available data in most states was 2011) and data integrity (for some reason, when we pulled data for the Montana senate only contained votes in odd years, and when we pulled data for the Connecticut senate, we found only 28 senators when there should have been 36). While we like the idea behind Openstates, we hope their issues can be resolved in the near future, and we didn't feel comfortable making their API the centerpiece of the project.
 
-	In terms of mechanics, we used [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) in python to scrape from the RI Senate website, and we used the official Openstate python package to make requests from the API.
+	In terms of mechanics, we used [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) in Python to scrape from the RI Senate website, and we used the official Openstate python package ([pyopenstates]()http://docs.openstates.org/projects/pyopenstates/en/latest/) to make requests from the API (all other states).
 
 2. Data Cleaning and Calculations
 
@@ -42,13 +45,40 @@ Website: https://seansegal.github.io/parity-in-the-senate/
 
 	We were able to get some information for each senator that pops up when you mouse over one of the nodes on the graph. Unfortunately, much of the data was unavailable or incomplete, so we had to do some data entry and support less fields
 
-# Future Directions (Wishes)
 
+## Analysis
+There are many applications of our final data visualization.
+<!-- TODO -->
+
+### Case Study: Montata vs Rhode Island
+<!-- TODO  -->
+
+### Figures
+<!-- TODO -->
+
+## Future Directions (Wishes)
 - We would like to learn more about backend development and how some of the more dynamic visualizations we see on websites like 538 and NYTimes update so fast. This seems like a major obstacle for making dynamic visualizations, and would definitely improve our visualization if we knew how to do it.
 
 - Figuring out the issues with the openstates API would allow us to add more data to our visualization which would allow users to compare Senate networks across states.
 
 - Finding a better method to get text data from bills.
 
+## Setup
 
-# Documentation
+### The Website
+
+To run the website locally, go to the `docs` directory (`cd docs`) and run:
+
+`python -m http.server 3000`
+
+This will setup a local server for the website. You should now be able to visit http://localhost:3000 in your web browser and see our visualization running locally.
+
+### Web Scraper/APIs
+To generate a complete dataset for a state using the open states API as a datasource, run `./generate-complete-dataset` from your terminal.
+You will need to install a few R packages and the pyopenstates package for python.
+
+## Contributing
+Contributions are welcome from anyone! Please read our setup guide above to get started and open pull requests with any new additional features or bug fixes.
+
+## License
+MIT © Sean Segal, Nate Meyers, Ben Wesner 2017
