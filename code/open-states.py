@@ -6,12 +6,12 @@ import sys
 
 # Useful for debugging
 pp = pprint.PrettyPrinter(indent=4)
- 
+
 default_st = 'mt'
 st = sys.argv[1] if len(sys.argv) > 1 else default_st
 print(st)
-OUTFILE_VOTES = '../data/votes-%s.csv' % st
-OUTFILE_SENATOR_INFO = '../data/senator-info-raw-%s.json' % st
+OUTFILE_VOTES = '../data/%s/votes-%s.csv' % (st,st)
+OUTFILE_SENATOR_INFO = '../data/%s/senator-info-raw-%s.json' % (st,st)
 
 # Get all general information of all bills
 bills = pyopenstates.search_bills(state=st, search_window='all', fields=['id', 'bill_id'])
@@ -29,6 +29,8 @@ for bill in bills:
     fullBill = pyopenstates.get_bill(uid=bill['id'])
     for vote in fullBill['votes']:
         if not vote:
+            continue
+        if 'upper' not in vote['chamber']:
             continue
         voteRecord = {
             'description': fullBill['title'],

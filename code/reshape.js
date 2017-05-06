@@ -1,18 +1,26 @@
 const fs = require('fs');
 const districts = require('../data/districts');
 
-STATE = 'mt'
+if(process.argv.length !== 3){
+  console.log('Usage: ./reshape <state>')
+}
+
+STATE = process.argv[2]
 HEADERS_START = '"VotesAgainst'
-VOTES_FILE = '../data/parity-<state>.csv'.replace("<state>", STATE);
-SENATOR_FILE = "../data/senator-info-raw-<state>.json".replace("<state>", STATE);
-OUTFILE = '../data/senator-info-<state>.json'.replace("<state>", STATE);
+stateRegex = new RegExp('<state>', 'g')
+VOTES_FILE = '../data/<state>/parity-<state>.csv'.replace(stateRegex, STATE);
+SENATOR_FILE = "../data/<state>/senator-info-raw-<state>.json".replace(stateRegex, STATE);
+OUTFILE = '../data/<state>/senator-info-<state>.json'.replace(stateRegex, STATE);
 dates = {}
 parities = {}
 fs.readFile(VOTES_FILE, 'utf8', function(err, linesFull) {
+  if(err){
+    console.log(err)
+  }
   lines = linesFull.split('\n');
   header = lines[0].split(',');
+  console.log(lines.length)
   for (let i = 1; i < lines.length; i++) {
-    console.log('LINE' + lines[i])
     elements = lines[i].split(',');
     if (elements.length <= 1) {
       continue;
@@ -22,13 +30,13 @@ fs.readFile(VOTES_FILE, 'utf8', function(err, linesFull) {
     header.forEach(function(col, index) {
       if (col.startsWith(HEADERS_START)) {
         year = col.substring(HEADERS_START.length)
-        year = year.substring(0, year.length -1);
-        parity[String(year)] = Number(elements[index]) || undefined
+        year = year.substring(0, year.length - 1);
+        par = Number(elements[index]);
+        if(!isNaN(par)){
+          parity[String(year)] = par
+        }
       }
     });
-    // console.log(parity)
-    console.log('A')
-    console.log(elements[0].substring(1, elements[0].length - 1))
     parities[elements[0].substring(1, elements[0].length - 1).toLowerCase()] = parity;
   }
 
@@ -39,8 +47,6 @@ fs.readFile(VOTES_FILE, 'utf8', function(err, linesFull) {
     newData = [];
     senators.forEach(function(data) {
       key = Object.keys(data)[0];
-      console.log(key
-      )
 
       senatorInfo = data[key] || data[key.toLowerCase()]
       if (!senatorInfo) {
