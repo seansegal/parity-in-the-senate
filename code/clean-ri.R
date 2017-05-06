@@ -8,7 +8,7 @@ library(tidyr)
 library(qdapRegex)
 
 #Reformats date and description
-votes <- read.csv("data2all.csv", header=T)
+votes <- read.csv("votes-ri.csv", header=T)
 votes$date <- sapply(votes$date, as.character)
 votes <- separate(votes, date, c("weekday","monthday","yeartime"), sep = '/ ')
 votes <- separate(votes, monthday, c("month", "day"), sep = " ")
