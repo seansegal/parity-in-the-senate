@@ -45,6 +45,9 @@ TODO: explain basic visualization, process etc.
 
 	We were able to get some information for each senator that pops up when you mouse over one of the nodes on the graph. Unfortunately, much of the data was unavailable or incomplete, so we had to do some data entry and support less fields
 
+## Results
+TODO: cool things
+
 ## Future Directions (Wishes)
 
 - We would like to learn more about backend development and how some of the more dynamic visualizations we see on websites like 538 and NYTimes update so fast. This seems like a major obstacle for making dynamic visualizations, and would definitely improve our visualization if we knew how to do it.
@@ -53,8 +56,15 @@ TODO: explain basic visualization, process etc.
 
 - Finding a better method to get text data from bills.
 
+## Setup
+To run the website locally, go to the `docs` directory:
+`cd docs`
+From that directory, run a local python server:
+`python -m http.server <port>`
+Visit localhost:<port> and you should be running our visualization locally. 
 
 ## Contributing
+Contributions are welcome from anyone! Please read our setup guide above to get started and open pull requests with any new additional features or bug fixes.
 
 ## License
 MIT © Sean Segal, Nate Meyers, Ben Wesner 2017
