@@ -87,15 +87,20 @@ Network = () ->
     tx = translation[0]
     ty = translation[1]
 
-    if translation[0] < -600
-      tx = -600
-    else if translation[0] > 1100
-      tx = 1100
+    minX = -600 * d3.event.scale
+    maxX = 1100 * d3.event.scale
+    minY = -400 * d3.event.scale
+    maxY = 800 * d3.event.scale
 
-    if translation[1] < -400
-      ty = -400
-    else if translation[1] > 500
-      ty = 500
+    if translation[0] < minX
+      tx = minX
+    else if translation[0] > maxX
+      tx = maxX
+
+    if translation[1] < minY
+      ty = minY
+    else if translation[1] > maxY
+      ty = maxY
     child.attr 'transform', 'translate(' + [tx, ty] + ')' + ' scale(' + d3.event.scale + ')'
     return
 
