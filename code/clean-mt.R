@@ -1,4 +1,4 @@
-setwd("/Users/nathanmeyers/Documents/bigdatafinal/data/")
+setwd("/Users/nathanmeyers/Documents/parity-in-the-senate/data/")
 
 library(tidyr)
 library(qdapRegex)
