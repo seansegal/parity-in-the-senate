@@ -1,3 +1,6 @@
+## Example command input should be:
+## Rscript clean-mt2.R "mt" "/Users/nathanmeyers/Documents/parity-in-the-senate/data/"
+
 args <- commandArgs(trailingOnly = TRUE)
 
 state <- args[1] 
