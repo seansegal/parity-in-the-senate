@@ -57,11 +57,11 @@ TODO: cool things
 - Finding a better method to get text data from bills.
 
 ## Setup
-To run the website locally, go to the `docs` directory:
-`cd docs`
-From that directory, run a local python server:
-`python -m http.server <port>`
-Visit localhost:<port> and you should be running our visualization locally. 
+To run the website locally, go to the `docs` directory (`cd docs`) and run:
+
+`python -m http.server 3000`
+
+This will setup a local server for the website. You should now be able to visit localhost:3000 in your web browser and see our visualization running locally.
 
 ## Contributing
 Contributions are welcome from anyone! Please read our setup guide above to get started and open pull requests with any new additional features or bug fixes.
