@@ -49,12 +49,14 @@ Network = () ->
     updateTerms(fullJson)
     allData = setupData(data)
 
+    zoom = d3.behavior.zoom().scaleExtent([minScale, maxScale]).on("zoom", redraw)
+
     # create our svg and groups
     vis = d3.select(selection).append("svg")
       .attr("width", width)
       .attr("height", height)
       .attr("align", "center")
-      .call(d3.behavior.zoom().scaleExtent([minScale, maxScale]).on("zoom", redraw))
+      .call(zoom)
     child = vis.append("g")
     linksG = child.append("g").attr("id", "links")
     nodesG = child.append("g").attr("id", "nodes")
@@ -73,9 +75,28 @@ Network = () ->
     # perform rendering and start force layout
     update()
 
+  network.resetSize = ->
+    width = container.offsetWidth
+    height = screen.height
+    force.size([width, height])
+    vis.attr("width", width).attr("height", height)
+
   redraw = ->
-    # console.log 'here', d3.event.translate, d3.event.scale
-    child.attr 'transform', 'translate(' + d3.event.translate + ')' + ' scale(' + d3.event.scale + ')'
+    console.log 'here', d3.event.translate, d3.event.scale
+    translation = d3.event.translate
+    tx = translation[0]
+    ty = translation[1]
+
+    if translation[0] < -600
+      tx = -600
+    else if translation[0] > 1100
+      tx = 1100
+
+    if translation[1] < -400
+      ty = -400
+    else if translation[1] > 500
+      ty = 500
+    child.attr 'transform', 'translate(' + [tx, ty] + ')' + ' scale(' + d3.event.scale + ')'
     return
 
   # The update() function performs the bulk of the
@@ -384,6 +405,9 @@ $ ->
   $("#search").keyup () ->
     searchTerm = $(this).val()
     myNetwork.updateSearch(searchTerm)
+
+  $(window).resize ->
+    myNetwork.resetSize()
 
   # start our visualization
   d3.json "data/data-ri.json", (json) ->
