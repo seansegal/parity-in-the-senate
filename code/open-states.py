@@ -2,12 +2,15 @@ import pyopenstates
 import csv
 import pprint
 import json
+import sys
 
 # Useful for debugging
 pp = pprint.PrettyPrinter(indent=4)
 
 
-st = 'mt'
+default_st = 'mt'
+st = sys.argv[1] if len(sys.argv) > 1 else default_st
+print(st)
 OUTFILE_VOTES = '../data/votes-%s.csv' % st
 OUTFILE_SENATOR_INFO = '../data/senator-info-raw-%s.json' % st
 
@@ -33,16 +36,19 @@ for bill in bills:
             'date': vote['date']
         }
         for yes in vote['yes_votes']:
-            legislators.add(yes['leg_id'])
-            voteRecord[yes['leg_id']] = 'Y'
+            if yes['leg_id']:
+                legislators.add(yes['leg_id'])
+                voteRecord[yes['leg_id']] = 'Y'
 
         for no in vote['no_votes']:
-            legislators.add(no['leg_id'])
-            voteRecord[no['leg_id']] = 'N'
+            if no['leg_id']:
+                legislators.add(no['leg_id'])
+                voteRecord[no['leg_id']] = 'N'
 
         for other in vote['other_votes']:
-            legislators.add(other['leg_id'])
-            voteRecord[other['leg_id']] = 'NV'
+            if other['leg_id']:
+                legislators.add(other['leg_id'])
+                voteRecord[other['leg_id']] = 'NV'
         votes.append(voteRecord)
 
 # Fetches information on each senator (name, party, district ..etc)
