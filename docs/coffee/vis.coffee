@@ -165,10 +165,10 @@ Network = () ->
     data.terms.forEach (t) ->
       if first
         first = false
-        $("#terms").append $('<li class="active">' + t + '</li>')
-        currTerm = t
+        $("#terms").append $('<li class="active">' + t["year"] + '</li>')
+        currTerm = t["year"]
       else
-        $("#terms").append $('<li>' + t + '</li>')
+        $("#terms").append $('<li>' + t["year"] + '</li>')
     setUpTermsClick()
 
   updateInfo = ->

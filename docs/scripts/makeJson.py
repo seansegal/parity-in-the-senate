@@ -6,6 +6,7 @@ import uuid
 outputFile = "../data/data-mt.json"
 linksFile = "../../data/mt/weights-mt.csv"
 senatorsFile = "../../data/mt/senator-info-mt.json"
+summaryFile = "../../data/summary/mt/summary-mt.csv"
 
 maxWeight = 800
 minWeight = 100
@@ -14,7 +15,8 @@ importance = 15
 
 senatorIDs = {}
 
-terms = set()
+pBinFormat = "{0:.2f}"
+wBinFormat = "{0:.2f}"
 
 class Senator:
 	def __init__(self, name, ID, info, party, importance, parities):
@@ -44,14 +46,24 @@ class Link:
 	def toJson(self):
 		return {"source": self.source, "target": self.target, "weight": self.weight, "term": self.term}
 
+class Term:
+	def __init__(self, year, numDem, numRep, numInd, numUnkOth, pbins, wbins):
+		self.year = year
+		self.numDem = numDem
+		self.numRep = numRep
+		self.numInd = numInd
+		self.numUnkOth = numUnkOth
+		self.pbins = pbins
+		self.wbins = wbins
+
+	def toJson(self):
+		return {"year": self.year, "numDem": self.numDem, "numRep": self.numRep, "numInd": self.numInd, "numUnkOth": self.numUnkOth, "pbins": self.pbins, "wbins": self.wbins}
+
 def getInfoStr(infoItems):
 	districtStr = "Unknown"
-	locationStr = "Location Unknown"
 	if "district" in infoItems and infoItems["district"] != 0:
 		districtStr = infoItems["district"]
-	if "location" in infoItems:
-		locationStr = infoItems["location"]
-	return "District " + str(districtStr) + ": " + locationStr
+	return "District " + str(districtStr)
 
 def getSenators():
 	senators = []
@@ -75,9 +87,6 @@ def getSenators():
 					party = "R"
 				elif senatorData["info"]["party"] == "Ind":
 					party = "I"
-
-			for term in senatorData["parities"]:
-				terms.add(term)
 
 			senators.append(Senator(senatorData["name"], senatorUUID, info, party, importance, senatorData["parities"]))
 
@@ -119,17 +128,52 @@ def getLinks():
 						links.append(Link(id1, id2, weight, term))
 
 		for term in minWeightsUnscaled:
-			terms.add(term)
-
 			for link in links:
 				link.scaleWeight(minWeightsUnscaled[term], maxWeightsUnscaled[term], term)
 
 	return links
 
-def writeToJson(senators, links):
+def getTerms():
+	terms = []
+	with open(summaryFile, "r") as f:
+		reader = csv.DictReader(f)
+
+		numPBins = 0
+		numWBins = 0
+		for field in reader.fieldnames:
+			if field.startswith("pbin"):
+				numPBins += 1
+			elif field.startswith("wbin"):
+				numWBins += 1
+
+		for row in reader:
+			pBins = {}
+			for i in range(1, numPBins + 1):
+				colName = "pbin" + str(i)
+				low = (i - 1) * float(1 / numPBins)
+				high = i * float(1 / numPBins)
+				newColName = pBinFormat.format(low) + " - " + pBinFormat.format(high)
+
+				pBins[newColName] = int(row[colName])
+
+			wBins = {}
+			for i in range(1, numWBins + 1):
+				colName = "wbin" + str(i)
+				low = (i - 1) * float(1 / numWBins)
+				high = i * float(1 / numWBins)
+				newColName = wBinFormat.format(low) + " - " + wBinFormat.format(high)
+
+				wBins[newColName] = int(row[colName])
+
+			terms.append(Term(row[""], int(row["Dem"]), int(row["Rep"]), int(row["Ind"]), int(row["Unk"]), pBins, wBins))
+
+	return sorted(terms, key=lambda t: t.year, reverse=True)
+
+def writeToJson(senators, links, terms):
 	data = {}
 	allNodes = []
 	allLinks = []
+	allTerms = []
 
 	for senator in senators:
 		allNodes.append(senator.toJson())
@@ -137,10 +181,10 @@ def writeToJson(senators, links):
 	for link in links:
 		allLinks.append(link.toJson())
 
-	termsList = list(terms)
-	termsList.sort(reverse=True)
+	for term in terms:
+		allTerms.append(term.toJson())
 
-	data["terms"] = termsList
+	data["terms"] = allTerms
 	data["nodes"] = allNodes
 	data["links"] = allLinks
 
@@ -150,7 +194,8 @@ def writeToJson(senators, links):
 def main():
 	senators = getSenators()
 	links = getLinks()
+	terms = getTerms()
 
-	writeToJson(senators, links)
+	writeToJson(senators, links, terms)
 
 main()
