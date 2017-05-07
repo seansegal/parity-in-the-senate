@@ -50,7 +50,7 @@ colnames(histbins) <- bin_names
 
 for (i in c(1:length(years))){
   yr <- years[i]
-  x <- hist(parity[,yr],breaks = breaks)
+  x <- hist(parity[,yr],breaks = breaks,plot = F)
   histbins[i,] <- x$counts
 }
 
@@ -69,7 +69,7 @@ colnames(histbins) <- bin_names
 
 for (i in c(1:length(years))){
   yr <- years[i]
-  x <- hist(weights[,yr],breaks = breaks)
+  x <- hist(weights[,yr],breaks = breaks, plot = F)
   histbins[i,] <- x$counts
 }
 
