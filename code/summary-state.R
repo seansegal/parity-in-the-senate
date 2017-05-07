@@ -19,6 +19,8 @@ if (state == "ri"){
   offset = 2
 }
 
+grepl("parities.", )
+
 years = sort(substr(colnames(info[,c(3:(length(info)-offset))]),10,13))
 if (length(years) == 0){
   years = "2017"
