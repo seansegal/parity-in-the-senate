@@ -110,7 +110,19 @@ Network = () ->
     force.links(curLinksData)
     updateLinks()
 
-    # child.attr("transform", "translate(" + width/4 + "," + height/8 + ")scale(0.6)")
+    # d3.transition().duration(750).tween 'zoom', ->
+    #   ix = d3.interpolate([-width/2, width/2], [
+    #     -width / 2
+    #     width / 2
+    #   ])
+    #   iy = d3.interpolate([-height/2, height/2], [
+    #     -height / 2
+    #     height / 2
+    #   ])
+    #   (t) ->
+    #     zoom.x(x.domain(ix(t))).y y.domain(iy(t))
+    #     zoomed()
+    #     return
 
     # start me up!
     force.start()
