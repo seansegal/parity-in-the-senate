@@ -43,9 +43,9 @@ TODO: explain basic visualization, process etc.
 
 	Additionally, we wanted to show some summary statistics about the makeup of each senate term. We included the number of senators from each party, and then to see how polarized the senate is, we included histograms showing the distribution of parities and weights in the Senate. Below are the histograms we generate for Montana. The parity histogram shows what seems to be a bimodal distribution: there are a lot of senators who almost always vote with the majority (parity between 0-0.2, probably center-right politicians) and a group of senators that tend to oppose the majority more frequently (parity between 0.2-0.4, probably left and far-right politicians). The weight histogram for 2011 shows a more clear example of the bimodal distribution we expect from a senate with a near 50/50 right/left split.
 	
-![parity_hist](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/both_houses.png "Both Senate and House")	
+![parity_hist](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/mt_parity_hist2017.png "Parity Hist")	
 
-![weight_hist](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/both_houses.png "Both Senate and House")
+![weight_hist](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/mt_weight_hist2011.png "Weight Hist")
 
 	When we started to think about how we could work with a date range, we initially wanted to make something where you could put in any range the user wanted to, and the visualization and summary panels would update accordingly. After playing around with a few options, we came to the conclusion that the easiest way to make that dynamic of a visualization would take a lot of time and involve some sort of backend that would update the weights and partisanship scores according to the input date range. As a result, we decided to limit the possible selections to the available years, and pre-compute the statistics for each year ahead of time so the results would be viewable instantly. We acknowledge that this is kind of cheating but we didn't have unlimited time to make all of our features perfect!!!!
 
