@@ -6,6 +6,9 @@ args <- commandArgs(trailingOnly = TRUE)
 state <- args[1] 
 folder <- args[2]
 
+state <- "mt"
+folder <- "/Users/nathanmeyers/Documents/parity-in-the-senate/code"
+
 setwd(folder)
 
 library(tidyr)
@@ -18,6 +21,10 @@ votes$date <- year(votes$date)
 sens <- colnames(votes)
 sens <- sens[c(3:length(sens))]
 years <- unique(votes$date)
+
+votesF <- data.frame(votes)
+votesF$count <- apply(votesF, 1, function(x) (sum(x != "N/A")-2))
+numsens <- max(votesF$count)
 
 inc1 <- 1
 
@@ -35,7 +42,7 @@ for (k in years){
   jvN[,notpres] <- 0
   jvYN[,notpres] <- 0
 
-  votesyear$DEM <- (rowSums(jvY) > 19)*1
+  votesyear$DEM <- (rowSums(jvY) > (numsens/2))*1
   against <- data.frame(colSums(votesyear$DEM*jvN+(1-votesyear$DEM)*jvY)/colSums(jvYN))
   colnames(against) <- c(paste0("VotesAgainst",k))
 
