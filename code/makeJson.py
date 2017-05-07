@@ -11,6 +11,7 @@ st = sys.argv[1]
 outputFile = "../docs/data/data-%s.json" % st
 linksFile = "../data/%s/weights-%s.csv" % (st, st)
 senatorsFile = "../data/%s/senator-info-%s.json" % (st, st)
+summaryFile = "../data/summary/%s/summary-%s.csv" %(st, st)
 
 maxWeight = 800
 minWeight = 100
@@ -48,6 +49,30 @@ class Link:
 
 	def toJson(self):
 		return {"source": self.source, "target": self.target, "weight": self.weight, "term": self.term}
+
+def getSummary():
+	summaryStats = {
+		'parityHist': {},
+		'weightHist': {}
+	}
+	parties = ["Dem","Rep","Ind","Unk"]
+	with open(summaryFile, "r") as f:
+		reader = csv.DictReader(f)
+		for row in reader:
+			for field in reader.fieldnames:
+				if field == '':
+					continue
+				elif field in parties:
+					summaryStats[field] = row[field]
+				elif field.startswith('pbin'):
+					binNum = int(field[4:])
+					summaryStats['parityHist'][binNum] = row[field]
+				elif field.startswith('wbin'):
+					binNum = int(field[4:])
+					summaryStats['weightHist'][binNum] = row[field]
+				else:
+					raise Exception('Unexpected Summary Field: %s' % field)
+	return summaryStats
 
 def getInfoStr(infoItems):
 	districtStr = "Unknown district"
@@ -131,7 +156,7 @@ def getLinks():
 
 	return links
 
-def writeToJson(senators, links):
+def writeToJson(senators, links, summary):
 	data = {}
 	allNodes = []
 	allLinks = []
@@ -145,6 +170,7 @@ def writeToJson(senators, links):
 	termsList = list(terms)
 	termsList.sort(reverse=True)
 
+	data["summary"] = summary
 	data["terms"] = termsList
 	data["nodes"] = allNodes
 	data["links"] = allLinks
@@ -155,7 +181,8 @@ def writeToJson(senators, links):
 def main():
 	senators = getSenators()
 	links = getLinks()
+	summary = getSummary()
 
-	writeToJson(senators, links)
+	writeToJson(senators, links, summary)
 
 main()

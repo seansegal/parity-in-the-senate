@@ -9,12 +9,12 @@ pp = pprint.PrettyPrinter(indent=4)
 
 default_st = 'mt'
 st = sys.argv[1] if len(sys.argv) > 1 else default_st
-print(st)
+
 OUTFILE_VOTES = '../data/%s/votes-%s.csv' % (st,st)
 OUTFILE_SENATOR_INFO = '../data/%s/senator-info-raw-%s.json' % (st,st)
 
 # Get all general information of all bills
-bills = pyopenstates.search_bills(state=st, search_window='session', fields=['id', 'bill_id'])
+bills = pyopenstates.search_bills(state=st, search_window='all', per_page=10000, fields=['id', 'bill_id'])
 print('TOTAL BILLS: ', len(bills))
 
 # Fetches extra information on each bill (voting information)
@@ -23,8 +23,8 @@ votes = []
 count = 0
 for bill in bills:
     count = count + 1
-    if 'SB' not in bill['bill_id']:
-        continue
+    # if 'SB' not in bill['bill_id']:
+    #     continue
     print('Requesting: ', bill['bill_id'], 'Count: ', count)
     fullBill = pyopenstates.get_bill(uid=bill['id'])
     for vote in fullBill['votes']:
@@ -93,7 +93,7 @@ with open(OUTFILE_VOTES, 'w') as csvfile:
     print('Writing votes to %s' % OUTFILE_VOTES)
     headers = ['date', 'description']
     headers.extend(list(legislators))
-    print(len(list(legislators)))
+    print('Senators: ', len(list(legislators)))
     writer = csv.DictWriter(csvfile, fieldnames=headers, restval='N/A')
     writer.writeheader()
     for vote in votes:
