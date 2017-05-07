@@ -75,4 +75,4 @@ for (i in c(1:length(years))){
 
 out <- cbind(out,histbins)
 
-write.csv(out,paste0("../data/summary/",state,"/summary-",state,".csv"))
+write.csv(out,paste0("../data/",state,"/summary-",state,".csv"))

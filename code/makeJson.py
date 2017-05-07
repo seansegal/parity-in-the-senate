@@ -11,7 +11,7 @@ st = sys.argv[1]
 outputFile = "../docs/data/data-%s.json" % st
 linksFile = "../data/%s/weights-%s.csv" % (st, st)
 senatorsFile = "../data/%s/senator-info-%s.json" % (st, st)
-summaryFile = "../data/summary/%s/summary-%s.csv" %(st, st)
+summaryFile = "../data/%s/summary-%s.csv" %(st, st)
 
 maxWeight = 800
 minWeight = 100
