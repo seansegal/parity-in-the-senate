@@ -28,6 +28,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  <script src="http://benschmidt.org/colorbar/colorbar.js"></script>
 </head>
 
 <body>
@@ -71,17 +72,37 @@
                     <li>2017</li>
                   </ul>
 
-                   <li>
-                    <a href="#">
-                    <i class="fa fa-info-circle fa-lg"></i> More Information
-                    </a>
-                    </li>
-
-                   <li>
-                    <a href="#">
-                    <i class="fa fa-database fa-lg"></i> Get the Data
-                    </a>
+                   <li  data-toggle="collapse" data-target="#more_info" class="collapsed">
+                    <a href="#"><i class="fa fa-info-circle fa-lg"></i> More Information <span class="arrow"></span></a>
                   </li>
+                  <ul class="sub-menu collapse" id="more_info">
+                      <li id="more_info_item">
+                        <div class="more_info_body">
+                          <h4>Overview</h4>
+                          <p>State senators who tend to vote together are linked closer together. Senators are colored by their parity, which is determined by how often the senator votes with the majority:</p><br>
+                          <div id="colorBarLabel1">Majority</div><div id="colorBarLabel2">Minority</div>
+                          <div id="colorBar"></div>
+
+                          <h4>Current Summary</h4>
+                          <p><strong>Visualization:</strong> </p><div style="display:inline;" id="currStateTerm">State - Term</div><br>
+                          <p><strong>Democrats:</strong> </p><div style="display:inline;" id="numDem">numDem</div><br>
+                          <p><strong>Republicans:</strong> </p><div style="display:inline;" id="numRep">numRep</div><br>
+                          <p><strong>Independents:</strong> </p><div style="display:inline;" id="numInd">numInd</div><br>
+                          <p><strong>Unknown/Other:</strong> </p><div style="display:inline;" id="numUnkOth">numUnkOth</div><br>
+                        </div>
+                      </li>
+                  </ul>
+
+                   <li  data-toggle="collapse" data-target="#dataLinks" class="collapsed">
+                    <a href="#"><i class="fa fa-database fa-lg"></i> Get the Data <span class="arrow"></span></a>
+                  </li>
+                  <ul class="sub-menu collapse" id="dataLinks">
+                      <a href="https://openstates.org/downloads/" target="_blank"><li>Alabama</li></a>
+                      <a href="https://openstates.org/downloads/" target="_blank"><li>Florida</li></a>
+                      <a href="https://openstates.org/downloads/" target="_blank"><li>Michigan</li></a>
+                      <a href="https://openstates.org/downloads/" target="_blank"><li>Montana</li></a>
+                      <a href="data/release/votes-ri.csv" download="votes-ri.csv"><li>Rhode Island</li></a>
+                  </ul>
               </ul>
        </div>
   </div>

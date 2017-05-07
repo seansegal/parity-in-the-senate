@@ -1,5 +1,8 @@
 root = exports ? this
 
+majorityColor = "#1f77b4"
+minorityColor = "#d62728"
+
 Network = () ->
   # width and height of visualization (should be based off css spacing on page)
   container = document.getElementById("page-content-wrapper")
@@ -30,6 +33,7 @@ Network = () ->
   # variables to refect the current settings of the visualization
   filter = "all"
   currTerm = "2017"
+  currState = "Rhode Island"
 
   # our force directed layout
   force = d3.layout.force().gravity(.05)
@@ -38,7 +42,7 @@ Network = () ->
   zoom = null
 
   # color function used to color nodes
-  nodeColors = d3.scale.linear().domain([0.0, 1.0]).range(["#1f77b4", "#d62728"])
+  nodeColors = d3.scale.linear().domain([0.0, 1.0]).range([majorityColor, minorityColor])
 
   # tooltip used to display details
   tooltip = Tooltip("vis-tooltip", 230)
@@ -110,20 +114,6 @@ Network = () ->
     force.links(curLinksData)
     updateLinks()
 
-    # d3.transition().duration(750).tween 'zoom', ->
-    #   ix = d3.interpolate([-width/2, width/2], [
-    #     -width / 2
-    #     width / 2
-    #   ])
-    #   iy = d3.interpolate([-height/2, height/2], [
-    #     -height / 2
-    #     height / 2
-    #   ])
-    #   (t) ->
-    #     zoom.x(x.domain(ix(t))).y y.domain(iy(t))
-    #     zoomed()
-    #     return
-
     # start me up!
     force.start()
 
@@ -165,6 +155,9 @@ Network = () ->
     node.remove()
     update()
 
+  network.setCurrState = (newState) ->
+    currState = newState
+
   updateTerms = (data) ->
     # change term dropdown
     $("#terms").empty()
@@ -178,11 +171,18 @@ Network = () ->
         $("#terms").append $('<li>' + t + '</li>')
     setUpTermsClick()
 
+  updateInfo = ->
+    $("#currStateTerm").text(currState + " - " + currTerm)
+    # DO THE REST
+
   # called once to clean up raw data and switch links to point to node instances
   # Returns modified data
   setupData = (data) ->
     # clone the data
     data = JSON.parse(JSON.stringify(data))
+
+    # update the side panel
+    updateInfo(data)
 
     # filter all data to only include nodes and links of the current term
     data.nodes = data.nodes.filter (n) ->
@@ -378,7 +378,7 @@ Network = () ->
   # Final act of Network() function is to return the inner 'network()' function.
   return network
 
-setUpTermsClick = () ->
+setUpTermsClick = ->
   $("#terms li").on "click", (e) ->
     if not ($(this).text() == $("#terms .active").text())
 
@@ -387,6 +387,11 @@ setUpTermsClick = () ->
       $(this).addClass("active")
 
       myNetwork.updateDataForTerm($(this).text())
+
+createColorBar = (selection) ->
+  myScale = d3.scale.linear().range([majorityColor, minorityColor]).domain([0, 100])
+  colorbar = Colorbar().origin([0, 0]).scale(myScale).orient('horizontal').thickness(20).barlength(281).margin({top: 0, right: 0, bottom: 0, left: 0})
+  colorbarObject = d3.select(selection).call(colorbar)
 
 myNetwork = null
 $ ->
@@ -402,6 +407,9 @@ $ ->
       $("#states li").removeClass("active")
       $(this).addClass("active")
 
+      # set current state and update info
+      myNetwork.setCurrState($(this).text())
+
       d3.json "data/#{stateFile}.json", (json) ->
         myNetwork.updateData(json)
   
@@ -416,3 +424,8 @@ $ ->
   # start our visualization
   d3.json "data/data-ri.json", (json) ->
     myNetwork("#vis", json)
+
+  createColorBar("#colorBar")
+
+  # show more info
+  $("#more_info").collapse("show")

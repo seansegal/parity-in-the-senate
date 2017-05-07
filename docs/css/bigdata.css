@@ -14,10 +14,66 @@ body {
   color: black;
 }
 
+/*.nav-side-menu li .sub-menu li:before {
+  font-family: FontAwesome;
+  content: "\f105";
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.nav-side-menu li {
+  padding-left: 0px;
+  border-left: 3px solid #2e353d;
+  border-bottom: 1px solid #23282e;
+}
+.nav-side-menu li a {
+  text-decoration: none;
+  color: #e1ffff;
+}
+.nav-side-menu li a i {
+  padding-left: 10px;
+  width: 20px;
+  padding-right: 20px;
+}*/
+
+#more_info_item:before {
+  font-family: Helvetica;
+  content: none;
+}
+
+.more_info_body {
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+  line-height: 20px;
+}
+
+.more_info_body p {
+  display: inline;
+}
+
+.more_info_body h4 {
+  color: #d19b3d;
+}
+
+#more_info {
+  font-family: Helvetica;
+}
+
+#colorBarLabel1 {
+  font-size: 8px;
+  float: left;
+}
+
+#colorBarLabel2 {
+  font-size: 8px;
+  float: right;
+}
+
 .nav-side-menu {
   overflow: auto;
-  font-family: verdana;
-  font-size: 12px;
+  font-family: Helvetica;
+  font-size: 14px;
   font-weight: 200;
   background-color: #2e353d;
   position: fixed;
@@ -31,7 +87,7 @@ body {
   line-height: 50px;
   display: block;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 .nav-side-menu .toggle-btn {
   display: none;
