@@ -6,9 +6,6 @@ args <- commandArgs(trailingOnly = TRUE)
 state <- args[1] 
 folder <- args[2]
 
-state <- "mt"
-folder <- "/Users/nathanmeyers/Documents/parity-in-the-senate/code"
-
 setwd(folder)
 
 library(tidyr)
