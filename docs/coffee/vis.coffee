@@ -57,7 +57,7 @@ Network = () ->
     updateTerms(fullJson)
     allData = setupData(data)
 
-    zoom = d3.behavior.zoom().translate([width/15, height/8]).scale(0.6).scaleExtent([minScale, maxScale]).on("zoom", redraw)
+    zoom = d3.behavior.zoom().translate([width/4, height/8]).scale(0.6).scaleExtent([minScale, maxScale]).on("zoom", redraw)
 
     # create our svg and groups
     vis = d3.select(selection).append("svg")
