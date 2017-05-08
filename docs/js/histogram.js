@@ -1,9 +1,9 @@
 function makeHistograms(selection1, selection2, pbins, wbins) {
-	makeHistogramsHelper(selection1, pbins, 480, "Parity Distribution");
-	makeHistogramsHelper(selection2, wbins, 480, "Link Length Distribution")
+	makeHistogramsHelper(selection1, pbins, 480, "Parity Distribution", false);
+	makeHistogramsHelper(selection2, wbins, 480, "Link Length Distribution", true)
 }
 
-function makeHistogramsHelper(selection, bins, thisWidth, thisTitle) {
+function makeHistogramsHelper(selection, bins, thisWidth, thisTitle, makeRelative) {
 	d3.select(selection).selectAll("svg").remove()
 
 	var color = "steelblue";
@@ -15,23 +15,25 @@ function makeHistogramsHelper(selection, bins, thisWidth, thisTitle) {
 		values.push(bins[key]);
 	});
 
-	len = values.length
-	for (var i = 0; i < len; i++) {
-		if (values[i] == 0) {
-			values.splice(i, 1);
-			keys.splice(i, 1);
-			i--;
-			len--;
-		} else {
-			break;
+	if (makeRelative) {
+		len = values.length
+		for (var i = 0; i < len; i++) {
+			if (values[i] == 0) {
+				values.splice(i, 1);
+				keys.splice(i, 1);
+				i--;
+				len--;
+			} else {
+				break;
+			}
 		}
-	}
-	for (var i = values.length - 1; i > 0; i--) {
-		if (values[i] == 0) {
-			values.splice(i, 1);
-			keys.splice(i, 1);
-		} else {
-			break;
+		for (var i = values.length - 1; i > 0; i--) {
+			if (values[i] == 0) {
+				values.splice(i, 1);
+				keys.splice(i, 1);
+			} else {
+				break;
+			}
 		}
 	}
 
