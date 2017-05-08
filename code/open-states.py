@@ -14,7 +14,7 @@ OUTFILE_VOTES = '../data/%s/votes-%s.csv' % (st,st)
 OUTFILE_SENATOR_INFO = '../data/%s/senator-info-raw-%s.json' % (st,st)
 
 # Get all general information of all bills
-bills = pyopenstates.search_bills(state=st, search_window='all', per_page=10000, fields=['id', 'bill_id'])
+bills = pyopenstates.search_bills(state=st, search_window='all', chamber='upper', per_page=10000, fields=['id', 'bill_id'])
 print('TOTAL BILLS: ', len(bills))
 
 # Fetches extra information on each bill (voting information)
@@ -23,8 +23,6 @@ votes = []
 count = 0
 for bill in bills:
     count = count + 1
-    # if 'SB' not in bill['bill_id']:
-    #     continue
     print('Requesting: ', bill['bill_id'], 'Count: ', count)
     fullBill = pyopenstates.get_bill(uid=bill['id'])
     for vote in fullBill['votes']:
