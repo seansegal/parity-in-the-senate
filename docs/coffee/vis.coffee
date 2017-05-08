@@ -1,10 +1,10 @@
 root = exports ? this
 
-majorityColor = "#1f77b4"
-minorityColor = "#d62728"
+# majorityColor = "#1f77b4"
+# minorityColor = "#d62728"
 
-# majorityColor = "#3182bd"
-# minorityColor = "#fa9fb5"
+majorityColor = "#ffffe0"
+minorityColor = "#8b0000"
 
 Network = () ->
   # width and height of visualization (should be based off css spacing on page)
