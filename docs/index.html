@@ -16,6 +16,7 @@
   <!-- Custom CSS -->
   <!-- <link href="css/simple-sidebar.css" rel="stylesheet"> -->
   <link href='css/bigdata.css' rel='stylesheet'>
+  <link href='css/histogramStyle.css' rel='stylesheet'>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Favicon -->
@@ -29,6 +30,7 @@
     <![endif]-->
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
   <script src="js/libs/colorbar.js"></script>
+  <script src="js/histogram.js"></script>
 </head>
 
 <body>
@@ -89,10 +91,11 @@
 
                           <h4>Current Summary</h4>
                           <p><strong>Visualization:</strong> </p><div style="display:inline;" id="currStateTerm">State - Term</div><br>
-                          <p><strong>Democrats:</strong> </p><div style="display:inline;" id="numDem">numDem</div><br>
-                          <p><strong>Republicans:</strong> </p><div style="display:inline;" id="numRep">numRep</div><br>
-                          <p><strong>Independents:</strong> </p><div style="display:inline;" id="numInd">numInd</div><br>
-                          <p><strong>Unknown/Other:</strong> </p><div style="display:inline;" id="numUnkOth">numUnkOth</div><br>
+                          <p><strong>Democrats:</strong> </p><div style="display:inline;border-right:1px solid #fff;padding-right:2px;margin-right:5px;" id="numDem">numDem</div>
+                          <p><strong>Republicans:</strong> </p><div style="display:inline;border-right:1px solid #fff;padding-right:2px;margin-right:5px;" id="numRep">numRep</div>
+                          <p><strong> Independents:</strong> </p><div style="display:inline;border-right:1px solid #fff;padding-right:2px;margin-right:5px;" id="numInd">numInd</div>
+                          <p><strong> Unknown/Other:</strong> </p><div style="display:inline;" id="numUnkOth">numUnkOth</div><br>
+                          <div id="parityHistogram"></div><div id="weightHistogram"></div>
                         </div>
                       </li>
                   </ul>

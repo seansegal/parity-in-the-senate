@@ -3,10 +3,13 @@ root = exports ? this
 majorityColor = "#1f77b4"
 minorityColor = "#d62728"
 
+# majorityColor = "#3182bd"
+# minorityColor = "#fa9fb5"
+
 Network = () ->
   # width and height of visualization (should be based off css spacing on page)
   container = document.getElementById("page-content-wrapper")
-  width = container.offsetWidth
+  width = container.offsetWidth + 200
   height = screen.height
 
   nodePadding = 2.0
@@ -54,7 +57,7 @@ Network = () ->
     updateTerms(fullJson)
     allData = setupData(data)
 
-    zoom = d3.behavior.zoom().translate([width/4, height/8]).scale(0.6).scaleExtent([minScale, maxScale]).on("zoom", redraw)
+    zoom = d3.behavior.zoom().translate([width/15, height/8]).scale(0.6).scaleExtent([minScale, maxScale]).on("zoom", redraw)
 
     # create our svg and groups
     vis = d3.select(selection).append("svg")
@@ -171,9 +174,29 @@ Network = () ->
         $("#terms").append $('<li>' + t["year"] + '</li>')
     setUpTermsClick()
 
-  updateInfo = ->
+  updateInfo = (data) ->
     $("#currStateTerm").text(currState + " - " + currTerm)
-    # DO THE REST
+    
+    data.terms.forEach (t) ->
+      if t["year"] == currTerm
+        numDem = t["numDem"]
+        numRep = t["numRep"]
+        if numDem > numRep
+          $("#numDem").css("color", majorityColor)
+          $("#numRep").css("color", minorityColor)
+        else if numRep > numDem
+          $("#numRep").css("color", majorityColor)
+          $("#numDem").css("color", minorityColor)
+        else
+          mixedColor = getMixedColor(majorityColor, minorityColor, 0.5)
+          $("#numDem").css("color", mixedColor)
+          $("#numRep").css("color", mixedColor)
+
+        $("#numDem").text(numDem + " ")
+        $("#numRep").text(numRep + " ")
+        $("#numInd").text(t["numInd"] + " ")
+        $("#numUnkOth").text(t["numUnkOth"])
+        makeHistograms("#parityHistogram", "#weightHistogram", t["pbins"], t["wbins"])
 
   # called once to clean up raw data and switch links to point to node instances
   # Returns modified data
@@ -390,7 +413,7 @@ setUpTermsClick = ->
 
 createColorBar = (selection) ->
   myScale = d3.scale.linear().range([majorityColor, minorityColor]).domain([0, 100])
-  colorbar = Colorbar().origin([0, 0]).scale(myScale).orient('horizontal').thickness(20).barlength(281).margin({top: 0, right: 0, bottom: 0, left: 0})
+  colorbar = Colorbar().origin([0, 0]).scale(myScale).orient('horizontal').thickness(20).barlength(481).margin({top: 0, right: 0, bottom: 0, left: 0})
   colorbarObject = d3.select(selection).call(colorbar)
 
 myNetwork = null

@@ -1,5 +1,7 @@
 ## Example command input should be:
 ## Rscript clean-mt2.R "mt" "/Users/nathanmeyers/Documents/parity-in-the-senate/code"
+## state <- "ca"
+## folder <- "/Users/nathanmeyers/Documents/parity-in-the-senate/code"
 
 args <- commandArgs(trailingOnly = TRUE)
 

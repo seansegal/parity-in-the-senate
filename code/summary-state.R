@@ -5,7 +5,7 @@ args <- commandArgs(trailingOnly = TRUE)
 state <- args[1]
 folder <- args[2]
 
-#state <- "mt"
+#state <- "ri"
 #folder <- "/Users/nathanmeyers/Documents/parity-in-the-senate/code"
 
 setwd(folder)
@@ -62,7 +62,7 @@ years <- substr(colnames(weights[,c(3:length(weights))]),7,11)
 colnames(weights) <- c("Sen1","Sen2",years)
 years <- sort(years)
 
-breaks = c(0:100)*0.01
+breaks = c(0:40)*0.025
 bin_names <- paste0("wbin",c(1:(length(breaks)-1)))
 histbins <- matrix(0,nrow = length(years),ncol = (length(breaks)-1))
 colnames(histbins) <- bin_names

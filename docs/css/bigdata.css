@@ -9,7 +9,7 @@ body {
 }
 
 .search_section input[type="text"] {
-  width: 80%;
+  width: 87%;
   border-radius: 5px;
   color: black;
 }
@@ -50,6 +50,7 @@ body {
 
 .more_info_body p {
   display: inline;
+  font-size: 14px;
 }
 
 .more_info_body h4 {
@@ -60,25 +61,35 @@ body {
   font-family: Helvetica;
 }
 
+.more_info_body strong {
+  font-size: 14px;
+}
+
+.more_info_body #currStateTerm {
+  font-size: 14px;
+}
+
 #colorBarLabel1 {
-  font-size: 8px;
+  font-size: 10px;
   float: left;
+  color: #d19b3d;
 }
 
 #colorBarLabel2 {
-  font-size: 8px;
+  font-size: 10px;
   float: right;
+  color: #d19b3d;
 }
 
 .nav-side-menu {
   overflow: auto;
   font-family: Helvetica;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 200;
   background-color: #2e353d;
   position: fixed;
   top: 0px;
-  width: 300px;
+  width: 500px;
   height: 100%;
   color: #e1ffff;
 }
@@ -87,7 +98,7 @@ body {
   line-height: 50px;
   display: block;
   text-align: center;
-  font-size: 20px;
+  font-size: 24px;
 }
 .nav-side-menu .toggle-btn {
   display: none;
