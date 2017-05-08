@@ -1,0 +1,24 @@
+.bar rect {
+  shape-rendering: crispEdges;
+}
+
+.bar text {
+  fill: #fff;
+  font-family: Helvetica;
+  font-size: 12px;
+}
+
+.axis path, .axis line, .axis text {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+  font-size: 10px;
+  font-family: Helvetica;
+}
+
+.title {
+	fill: #d19b3d;
+	font-size: 16px;
+	font-family: Helvetica;
+	text-decoration: underline;
+}
