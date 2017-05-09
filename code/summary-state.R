@@ -43,7 +43,7 @@ years <- substr(colnames(parity[,c(2:length(parity))]),13,16)
 colnames(parity) <- c("id",years)
 years <- sort(years)
 
-breaks = c(0:20)*0.05
+breaks = c(0:100)*0.01
 bin_names <- paste0("pbin",c(1:(length(breaks)-1)))
 histbins <- matrix(0,nrow = length(years),ncol = (length(breaks)-1))
 colnames(histbins) <- bin_names
