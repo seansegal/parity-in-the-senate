@@ -11,7 +11,7 @@ Checkout the final product at https://seansegal.github.io/parity-in-the-senate/
 ## Introduction
 
 ### Initial goals:
-- Create a publicly available data set that contains the information from http://webserver.rilin.state.ri.us/votes/ in a more easy to use form (currently only one bill is viewable at a time).
+- Create a publicly available data set that contains the information from [rilegislature.gov](http://webserver.rilin.state.ri.us/votes/) in a more easy to use form (currently only one bill is viewable at a time).
 - Create an accompanying website using [D3](https://d3js.org/) to present the data in an informative manner. Ideally the website will give an understanding of voting networks in the [Rhode Island Senate](https://en.wikipedia.org/wiki/Rhode_Island_Senate) as well as the partisanship present in the senate.
 - Try and generalize this process to other states.
 
@@ -68,14 +68,21 @@ We were able to get some information for each senator that pops up when you mous
 
 
 ## Analysis
-There are many applications of our final data visualization.
-<!-- TODO -->
+There are many applications of our final data visualization:
 
-### Case Study: Montata vs Rhode Island
-<!-- TODO  -->
+1. Comparisons of individual senators within a Senate, and identify subnetworks of senators within the Senate. (This can go beyond simply verifying that Democrats vote together and Republicans vote together.
 
-### Figures
-<!-- TODO -->
+2. Comparisons across state Senates to see how the voting patterns of highly polarized senates compare 
+
+### Case Study: Montana vs Rhode Island
+
+Below is the visualization of the Rhode Island senate. From the visualization, we can see that political parity in the RI Senate is very very low, and the senators almost always vote with the majority, both democrats and republicans. From the weight histogram, we can see that the vast majority of senators vote the say way as every other senator. This makes sense, as the senate contains 33 Democrats and 5 Republicans (the republicans are the 5 red dots to the right of the visualization). In addition, we can see a few red dots to the left of the visualization, and these represent some of the most liberal members of the RI Senate:
+
+![ri_sen](docs/images/rhode_sen.png "RI_sen")	
+
+Now we can look at the Montana senate.
+
+![mt_sen](docs/images/montana_sen.png "MT_sen")	
 
 ## Future Directions (Wishes)
 - We would like to learn more about backend development and how some of the more dynamic visualizations we see on websites like 538 and NYTimes update so fast. This seems like a major obstacle for making dynamic visualizations, and would definitely improve our visualization if we knew how to do it.
