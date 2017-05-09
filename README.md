@@ -70,13 +70,13 @@ We were able to get some information for each senator that pops up when you mous
 ## Analysis
 There are many applications of our final data visualization:
 
-1. Comparisons of individual senators within a Senate, and identify subnetworks of senators within the Senate. (This can go beyond simply verifying that Democrats vote together and Republicans vote together.
+1. Comparisons of individual senators within a Senate, and identifing subnetworks of senators within the Senate. This can go beyond simply verifying that Democrats vote together and Republicans vote together.
 
-2. Comparisons across state Senates to see how the voting patterns of highly polarized senates compare 
+2. Comparisons across state Senates to see how the voting patterns of highly polarized senates compare.
 
 ### Case Study: Montana vs Rhode Island
 
-Below is the visualization of the Rhode Island senate. From the visualization, we can see that political parity in the RI Senate is very very low, and the senators almost always vote with the majority, both democrats and republicans. From the weight histogram, we can see that the vast majority of senators vote the say way as every other senator. This makes sense, as the senate contains 33 Democrats and 5 Republicans (the republicans are the 5 red dots to the right of the visualization). In addition, we can see a few red dots to the left of the visualization, and these represent some of the most liberal members of the RI Senate:
+Below is the visualization of the Rhode Island senate. From the visualization, we can see that political parity in the RI Senate is very very low, and the senators almost always vote with the majority, both democrats and republicans. From the weight histogram, we can see that the vast majority of senators vote the same way as every other senator. This makes sense, as the senate contains 33 Democrats and 5 Republicans (the republicans are the 5 dots on the right of the visualization). In addition, we can see a few red dots to the left of the visualization, and these represent some of the most liberal members of the RI Senate:
 
 ![ri_sen](docs/images/rhode_sen.png "RI_sen")	
 
