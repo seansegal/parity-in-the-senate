@@ -59,6 +59,7 @@ fi
 
 
 rm -r ../data/$STATE
+rm -r ../data/summary/$STATE
 
 echo 'Completed'
 say Done
