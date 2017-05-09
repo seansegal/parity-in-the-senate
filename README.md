@@ -9,12 +9,27 @@ Checkout the final product at https://seansegal.github.io/parity-in-the-senate/
 
 # Project Report
 ## Introduction
-TODO: explain basic visualization, process etc.
 
-## Initial goals:
+### Initial goals:
 - Create a publicly available data set that contains the information from http://webserver.rilin.state.ri.us/votes/ in a more easy to use form (currently only one bill is viewable at a time).
-- Create an accompanying website using [D3](https://d3js.org/) to present the data in an informative manner. Ideally the website will give and understanding of voting networks in the [Rhode Island Senate](https://en.wikipedia.org/wiki/Rhode_Island_Senate) as well as the partisanship present in the senate.
+- Create an accompanying website using [D3](https://d3js.org/) to present the data in an informative manner. Ideally the website will give an understanding of voting networks in the [Rhode Island Senate](https://en.wikipedia.org/wiki/Rhode_Island_Senate) as well as the partisanship present in the senate.
 - Try and generalize this process to other states.
+
+### The Visualization
+
+1. Overview
+
+The visualization shows the voting patterns of the senators as they relate to their peer senators in a given state over a given term. The state can be controlled using the "State" dropdown menu, and the term can likewise be controlled using the "Term" dropdown menu. The visualization can be panned and zoomed as needed, and each individual node can be moused over to display information about the senator it represents. The "More Information" dropdown gives a brief explanation of the graphic, and also presents relevant information about the current visualization. This includes which political party comprises the majority in the given senate, and histograms that show the distribution of parity values and senator similarity values.
+
+2. The Aesthetics
+
+The first aesthetic is node color, which corresponds to parity. We are defining "parity" as the relative frequency with which a senator votes with or against the majority of the senate. Specifically, a parity value of 0 indicates that the senator always votes with the majority on every bill, and a parity value of 1 indicates that the senator never votes with the majority on every bill. The corresponding colors are displayed in the "More Information" dropdown on the website. 
+
+It is important to note that parity doesn't necessarily correspond to the actual party the senator belongs to. For example, if you take a look at the visualization for Montana 2017, you will see that although the senate is majority republican, there are both republican and democratic senators who often vote against the majority, and thus have high parity values. Additionally, it is important to note that although the parity distribution is different between every state and term, the range of color is always the same. That is, the nodes in each visualization are colored relative to the parities in just that visualization, not relative to other states or terms. In order to compare the general parity levels across differents states or terms, you should refer to the parity histogram in the "More Information" dropdown. For example, Rhode Island 2017 sees all senators having parity values between 0 and 0.05, which indicates that they generally vote together. Meanwhile in New York 2017, most senators actually vote against the majority quite frequently, indicating that the individual senators (specifically -- the democrats) don't vote in alignment with their party as often as senators do in Rhode Island 2017.
+
+The second aesthetic is distance between nodes, which corresponds to senator similarity, or "weight". We are defining the weight between two senators to be the relative frequency with which those senators vote together. The weight will be equal to 1 if the two senators always vote together, and the weight will be 0 if the they never vote together. The visualization corresponds this weight to the distance between the nodes representing the two senators. That is, a high weight corresponds to a low distance, and vice versa. In this way, we can effectively see which senators tend to vote together -- the ones clustered together!
+
+As with parity, it is important to note that the senator similarity distribution for a given state and term is mapped to the same range of distances, so that the longest distance in any two visualizations is the same. That means that the distances between senators are again relative to that specific state and term, not any other state or term. Use the senator similarity distribution histogram in the "More Information" dropdown to compare across different state/term visualizations.
 
 ## Process and Reflections:
 1. Web Scraping
@@ -29,11 +44,11 @@ In terms of mechanics, we used [Beautiful Soup](https://www.crummy.com/software/
 
 After scraping the data from the RI Senate website, we used R to reformat the data to be input into our website, the scripts can be found in the repository. In addition to reshaping the data, we also calculated a "weight" between each senator. The weight represents how many times a pair of senators agreed on a bill over the total number of times they voted together. This would result in senators with similar voting habits would have high weights (think two Democratic senators, for example) and senators with different voting habits would have low weights (think a Democratic Senator and a Republican Senator).
 
-We soon realized that while this metric conveys some information, it is not particularly informative within the RI Senate. This is because the RI Senate is overwhelming dominated by Democrats (there are 38 active senators, and only 33 are Democrats), Democrats propose almost all of the bills in the data set, and Democrats almost always vote yes on the bills they propose. As a result, the weights we generated were almost always close to 1, and even for the most conservative senators, the weights were still pretty high. Below is a histogram demonstrating how the average Senate bill in our data set receives well over the 20 votes needed to pass legislation.
+We soon realized that while this metric conveys some information, it is not particularly informative within the RI Senate. This is because the RI Senate is overwhelming dominated by Democrats (there are 38 active senators, and only 5 are Republicans), Democrats propose almost all of the bills in the data set, and Democrats almost always vote yes on the bills they propose. As a result, the weights we generated were almost always close to 1, and even for the most conservative senators, the weights were still pretty high. Below is a histogram demonstrating how the average Senate bill in our data set receives well over the 20 votes needed to pass legislation.
 
 ![YesVotesHist](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/yes_votes_hist.png "Histogram of Yes Votes")
 
-In addition to the weights, we also calculated a parity statistic to see how frequently the Senator went against the will of the majority. The idea behind this statistic was to determine how willing the senator is to go against the majority opinion in the senate. This was calculated by taking the number of votes the senator went against the majority over the total number of votes that the senator participated in. Similarly to the weights statistic, this wasn't a very revealing statistic in RI; most times Democrats sided with the majority, and the people who sided with the majority less were almost always republicans. Still, it appeared that most Republican RI Senators voted for Democratic bills the vast majority of the time.
+In addition to the weights, we also calculated a parity statistic for each senator. The idea behind this statistic was to determine how willing the senator is to go against the majority opinion in the senate. This was calculated by taking the number of votes the senator went against the majority over the total number of votes that the senator participated in. Similarly to the weights statistic, this wasn't a very revealing statistic in RI; most times Democrats sided with the majority, and the people who sided with the majority less were almost always republicans. Still, it appeared that most Republican RI Senators voted for Democratic bills the vast majority of the time.
 
 3. Data Visualization Website
 
@@ -49,7 +64,7 @@ Additionally, we wanted to show some summary statistics about the makeup of each
 
 When we started to think about how we could work with a date range, we initially wanted to make something where you could put in any range the user wanted to, and the visualization and summary panels would update accordingly. After playing around with a few options, we came to the conclusion that the easiest way to make that dynamic of a visualization would take a lot of time and involve some sort of backend that would update the weights and partisanship scores according to the input date range. As a result, we decided to limit the possible selections to the available years, and pre-compute the statistics for each year ahead of time so the results would be viewable instantly. We acknowledge that this is kind of cheating but we didn't have unlimited time to make all of our features perfect!!!!
 
-We were able to get some information for each senator that pops up when you mouse over one of the nodes on the graph. Unfortunately, much of the data was unavailable or incomplete, so we had to do some data entry and support less fields
+We were able to get some information for each senator that pops up when you mouse over one of the nodes on the graph. Unfortunately, much of the data was unavailable or incomplete, so we had to do some data entry and support less fields. The only fields that were common across all senators in the data were full name, registered party, and the district they represent.
 
 
 ## Analysis
