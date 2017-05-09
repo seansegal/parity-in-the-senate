@@ -1,5 +1,5 @@
 # Parity in the Senate
-A data visualization of State Senate voting data created for an ECON1660 (Big Data)
+A data visualization of State Senate voting data created for a ECON1660 (Big Data)
 final project at Brown University.  
 Created By: Sean Segal, Nate Meyers, Ben Wesner
 
@@ -86,12 +86,17 @@ Now we can look at the Montana senate. Montana has a much more even split in par
 
 ![mt_sen](docs/images/montana_sen.png "MT_sen")	
 
-## Future Directions (Wishes)
-- We would like to learn more about backend development and how some of the more dynamic visualizations we see on websites like 538 and NYTimes update so fast. This seems like a major obstacle for making dynamic visualizations, and would definitely improve our visualization if we knew how to do it.
 
-- Figuring out the issues with the openstates API would allow us to add more data to our visualization which would allow users to compare Senate networks across states.
+## Future Directions & Improvements
+- We would like to learn more about backend development and how some of the more dynamic visualizations we see on websites like 538 and NYTimes update so fast. This seems like a major obstacle for making dynamic visualizations, and would definitely improve our visualization if we knew how to do it. For example, we preprocessesed our data year by year but it would be cool if you could look at various year ranges. We could not do this, because we would need to precompute different files for every possible year range. If we had a backend, we could do this calculation on the backend depending on which data was requested by the user. 
 
-- Finding a better method to get text data from bills.
+- Working with the team managing the Open States API to fix small issues with data on some states. This would enable us to add more states to our visualization
+
+- Finding a better method to get text data from bills. With this data, we could perform more interesting analysis using NLP.
+
+- Add more data on each senator to the visualization. It would be interesting to have data on each Senator's financial contributers, maybe a short description scraped from their Wikipedia page (if they have one) and other information. This is quite difficult to do as there is no API for this information and would probably need to be compiled manually. 
+
+- Visually show senator parity changes over time. We currently have all the information needed to see how a Senator's parity level changes over time but we do not have a way to display it. 
 
 ## Setup
 
@@ -103,9 +108,18 @@ To run the website locally, go to the `docs` directory (`cd docs`) and run:
 
 This will setup a local server for the website. You should now be able to visit http://localhost:3000 in your web browser and see our visualization running locally.
 
+
 ### Web Scraper/APIs
-To generate a complete dataset for a state using the open states API as a datasource, run `./generate-complete-dataset` from your terminal.
-You will need to install a few R packages and the pyopenstates package for python.
+To run the open-states data pipeline, run 
+` ./generate-complete-dataset.sh <state>`
+where the state is the two letter code for that state. For example, to get data on Florida, run 
+` ./generate-complete-dataset.sh fl`
+
+For this the script to run on your computer you will need 
+- Python 3
+- Node 
+- pyopenstates Python module
+- R (with a few packages that you will be prompted to install)
 
 ## Contributing
 Contributions are welcome from anyone! Please read our setup guide above to get started and open pull requests with any new additional features or bug fixes.
