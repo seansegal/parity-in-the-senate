@@ -1,6 +1,8 @@
 #!/bin/bash
 # A Bash script for generating all data required for the project in one script.
+# This script will generate complete dataset for a state using the open-state API
 # Usage: ./generate-complete-dataset <state>
+# Args: <state> state code (ex: fl for Florida)
 
 # Check for appropriate arguments
 if [ "$#" -ne 1 ]; then

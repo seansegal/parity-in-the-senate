@@ -1,3 +1,12 @@
+"""
+    This script fetches data fromt the Open States API. It currently searches
+    for all Bills in the State's upper house (Senate).
+    Usage: python open-states.py <state>
+    <state> should be two-letter state code: 'fl' for Flordia
+
+    Requires the 'pyopenstates' python module to run and Python 3.
+"""
+
 import pyopenstates
 import csv
 import pprint
@@ -10,11 +19,12 @@ pp = pprint.PrettyPrinter(indent=4)
 default_st = 'mt'
 st = sys.argv[1] if len(sys.argv) > 1 else default_st
 
-OUTFILE_VOTES = '../data/%s/votes-%s.csv' % (st,st)
-OUTFILE_SENATOR_INFO = '../data/%s/senator-info-raw-%s.json' % (st,st)
+OUTFILE_VOTES = '../data/%s/votes-%s.csv' % (st, st)
+OUTFILE_SENATOR_INFO = '../data/%s/senator-info-raw-%s.json' % (st, st)
 
 # Get all general information of all bills
-bills = pyopenstates.search_bills(state=st, search_window='all', chamber='upper', per_page=10000, fields=['id', 'bill_id'])
+bills = pyopenstates.search_bills(
+    state=st, search_window='all', chamber='upper', per_page=10000, fields=['id', 'bill_id'])
 print('TOTAL BILLS: ', len(bills))
 
 # Fetches extra information on each bill (voting information)
@@ -28,8 +38,10 @@ for bill in bills:
     for vote in fullBill['votes']:
         if not vote:
             continue
+        # Only fetch senate votes (lower house votes on senate bills sometimes)
         if 'upper' not in vote['chamber']:
             continue
+        # Specical cases of bad data from the API.
         if (vote['date'].startswith('2011') and st == 'al') or (vote['date'].startswith('2014') and st == 'fl'):
             continue
         voteRecord = {
