@@ -5,7 +5,7 @@ Created By: Sean Segal, Nate Meyers, Ben Wesner
 
 Checkout the final product at https://seansegal.github.io/parity-in-the-senate/
 
-![RI_2017](docs/images/both_houses.png "Rhode Island 2017")
+![RI_2017](docs/images/RI_2017.png "Rhode Island 2017")
 
 # Project Report
 ## Introduction
@@ -46,7 +46,7 @@ After scraping the data from the RI Senate website, we used R to reformat the da
 
 We soon realized that while this metric conveys some information, it is not particularly informative within the RI Senate. This is because the RI Senate is overwhelming dominated by Democrats (there are 38 active senators, and only 5 are Republicans), Democrats propose almost all of the bills in the data set, and Democrats almost always vote yes on the bills they propose. As a result, the weights we generated were almost always close to 1, and even for the most conservative senators, the weights were still pretty high. Below is a histogram demonstrating how the average Senate bill in our data set receives well over the 20 votes needed to pass legislation.
 
-![YesVotesHist](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/yes_votes_hist.png "Histogram of Yes Votes")
+![YesVotesHist](docs/images/yes_votes_hist.png "Histogram of Yes Votes")
 
 In addition to the weights, we also calculated a parity statistic for each senator. The idea behind this statistic was to determine how willing the senator is to go against the majority opinion in the senate. This was calculated by taking the number of votes the senator went against the majority over the total number of votes that the senator participated in. Similarly to the weights statistic, this wasn't a very revealing statistic in RI; most times Democrats sided with the majority, and the people who sided with the majority less were almost always republicans. Still, it appeared that most Republican RI Senators voted for Democratic bills the vast majority of the time.
 
@@ -58,9 +58,9 @@ As all grand visions go, we faced many significant challenges implementing these
 
 Additionally, we wanted to show some summary statistics about the makeup of each senate term. We included the number of senators from each party, and then to see how polarized the senate is, we included histograms showing the distribution of parities and weights in the Senate. Below are the histograms we generate for Montana. The parity histogram shows what seems to be a bimodal distribution: there are a lot of senators who almost always vote with the majority (parity between 0-0.2, probably center-right politicians) and a group of senators that tend to oppose the majority more frequently (parity between 0.2-0.4, probably left and far-right politicians). The weight histogram for 2011 shows a more clear example of the bimodal distribution we expect from a senate with a near 50/50 right/left split.
 
-![parity_hist](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/mt_parity_hist2017.png "Parity Hist")	
+![parity_hist](docs/images/mt_parity_hist2017.png "Parity Hist")	
 
-![weight_hist](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/mt_weight_hist2011.png "Weight Hist")	
+![weight_hist](docs/images/mt_weight_hist2011.png "Weight Hist")	
 
 When we started to think about how we could work with a date range, we initially wanted to make something where you could put in any range the user wanted to, and the visualization and summary panels would update accordingly. After playing around with a few options, we came to the conclusion that the easiest way to make that dynamic of a visualization would take a lot of time and involve some sort of backend that would update the weights and partisanship scores according to the input date range. As a result, we decided to limit the possible selections to the available years, and pre-compute the statistics for each year ahead of time so the results would be viewable instantly. We acknowledge that this is kind of cheating but we didn't have unlimited time to make all of our features perfect!!!!
 
