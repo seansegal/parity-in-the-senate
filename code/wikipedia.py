@@ -1,3 +1,8 @@
+"""
+    Scrapes information on current Rhode Island senators. Not used for any
+    state other than Rhode Island.
+"""
+
 import requests
 from bs4 import BeautifulSoup
 import csv

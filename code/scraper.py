@@ -1,3 +1,8 @@
+"""
+    Scrapes votes from the Rhode Island Senate website and compiles them to
+    a CSV file.
+"""
+
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -6,10 +11,11 @@ import csv
 
 
 DATES = {
-    '2003': 1,
+    '2003': 1,  # Last available data
     '2014': 8231,
-    'TODAY': 10720 # Updated May 2, 2017
+    'TODAY': 10720  # Updated May 2, 2017
 }
+
 
 def scrape(id):
     url = "http://webserver.rilin.state.ri.us/SVotes/votereport.asp"
@@ -19,12 +25,13 @@ def scrape(id):
     headers = {
         'content-type': "application/x-www-form-urlencoded",
         'cache-control': "no-cache"
-        }
+    }
 
     print('Requesting: id', id)
 
     try:
-        response = requests.request("GET", url, data=payload, headers=headers, params=querystring)
+        response = requests.request(
+            "GET", url, data=payload, headers=headers, params=querystring)
 
         # Error Checking
         if response.status_code != requests.codes.ok:
@@ -32,22 +39,25 @@ def scrape(id):
 
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        description = str(soup.find_all('table')[3].find_all('tr')[2].get_text())
+        description = str(soup.find_all('table')[
+                          3].find_all('tr')[2].get_text())
         description = description.strip()
 
-        date = soup.find_all('table')[3].find_all('tr')[1].get_text().strip().split('\n')[-1]
+        date = soup.find_all('table')[3].find_all(
+            'tr')[1].get_text().strip().split('\n')[-1]
 
         votes = soup.find_all('span')
         votes_arr = []
         for vote in votes[3:-3]:
-            votes_arr.append({'senator': str(vote.next.next).strip(), 'voted': vote.next})
+            votes_arr.append(
+                {'senator': str(vote.next.next).strip(), 'voted': vote.next})
         return (description, date, votes_arr, soup)
     except KeyboardInterrupt:
         # Don't ignore CTRL-C
         raise
     except Exception as e:
         # Ignore all other exceptions
-        print ('ERROR: Could not fetch or parse id: ', id, '[', e, ']')
+        print('ERROR: Could not fetch or parse id: ', id, '[', e, ']')
         return None, None, None, None
 
 
@@ -74,6 +84,9 @@ def scrape_all(begin, end, desc_to_ignore=[]):
         all_data.append(data)
     return all_data
 
+# Saves data to a CSV file
+
+
 def write_to_csv(file, all_data):
     senators = set()
     for bill in all_data:
@@ -83,22 +96,25 @@ def write_to_csv(file, all_data):
     headers.extend(senators)
 
     with open(file, 'w') as csvfile:
-         writer = csv.DictWriter(csvfile, fieldnames=headers, restval='N/A')
-         writer.writeheader()
-         for bill in all_data:
-             row = {
-             'description': bill['description'],
-             'date': bill['date'].replace(',', '/')
-             }
-             row.update({b['senator']: b['voted'] for b in bill['votes']})
-             writer.writerow(row)
+        writer = csv.DictWriter(csvfile, fieldnames=headers, restval='N/A')
+        writer.writeheader()
+        for bill in all_data:
+            row = {
+                'description': bill['description'],
+                'date': bill['date'].replace(',', '/')
+            }
+            row.update({b['senator']: b['voted'] for b in bill['votes']})
+            writer.writerow(row)
+
+# Save data to JSON
+
 
 def write_to_json(file, all_data):
     with open(file, 'w') as outfile:
         json.dump(all_data, outfile)
 
 
-desc_to_ignore=['ROLL CALL', 'Adoption']
-all_data = scrape_all( DATES['2003'], DATES['TODAY'], desc_to_ignore)
+desc_to_ignore = ['ROLL CALL', 'Adoption']
+all_data = scrape_all(DATES['2003'], DATES['TODAY'], desc_to_ignore)
 write_to_json('../data/data-all.json', all_data)
 write_to_csv('../data/data-all.csv', all_data)

@@ -1,7 +1,7 @@
 const fs = require('fs');
 // const districts = require('../data/districts');
 
-if(process.argv.length !== 3){
+if (process.argv.length !== 3) {
   console.log('Usage: ./reshape <state>')
 }
 
@@ -14,7 +14,7 @@ OUTFILE = '../data/<state>/senator-info-<state>.json'.replace(stateRegex, STATE)
 dates = {}
 parities = {}
 fs.readFile(VOTES_FILE, 'utf8', function(err, linesFull) {
-  if(err){
+  if (err) {
     console.log(err)
   }
   lines = linesFull.split('\n');
@@ -32,7 +32,7 @@ fs.readFile(VOTES_FILE, 'utf8', function(err, linesFull) {
         year = col.substring(HEADERS_START.length)
         year = year.substring(0, year.length - 1);
         par = Number(elements[index]);
-        if(!isNaN(par)){
+        if (!isNaN(par)) {
           parity[String(year)] = par
         }
       }

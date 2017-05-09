@@ -33,37 +33,37 @@ inc1 <- 1
 
 #Generate weights and parities for each year
 for (k in years){
-  
+
   #Calculate vote totals for each senator
   votesyear <- votesFIN[votesFIN$year == k,]
   justvotes <- votesyear[,sens]
   jvY <- (justvotes == 'Y')*1
   jvN <- (justvotes == 'N')*1
   jvYN <- jvY + jvN
-  
+
   #Only include senators who voted at least 20 times in the data
   notpres <- c(colSums(jvYN) < 20)
-  
+
   jvY[,notpres] <- 0
   jvN[,notpres] <- 0
   jvYN[,notpres] <- 0
-  
+
   #Determin parity by how many times the senator voted against the majority
   votesyear$DEM <- (rowSums(jvY) > 19)*1
   against <- data.frame(colSums(votesyear$DEM*jvN+(1-votesyear$DEM)*jvY)/colSums(jvYN))
   colnames(against) <- c(paste0("VotesAgainst",k))
-  
+
   #Merge results of each year together
   if (inc1 == 1){
     againstall <- against
   }else{
     againstall <- cbind(againstall,against)
   }
-  
+
   #Calculate weights between each pair of senators
   output <- data.frame(matrix(0,nrow = (length(sens)*(length(sens)-1)/2), ncol = 4))
   inc <- 1
-  
+
   for (i in c(1:(length(sens)-1))) {
     for (j in c((i+1):length(sens))) {
       output[inc,1] <- sens[i]
@@ -73,19 +73,19 @@ for (k in years){
       inc <- inc + 1
     }
   }
-  
+
   colnames(output) <- c("Senator1","Senator2","Agree","Disagree")
   output$weight <- output$Agree/(output$Agree+output$Disagree)
   colnames(output) <- c("Senator1","Senator2","Agree","Disagree",paste0("Weight",k))
   output <- output[,c(1,2,5)]
-  
+
   #Merge results of each year together
   if (inc1 == 1){
     outputall <- output
   }else{
     outputall <- cbind(outputall,output[,3])
   }
-  
+
   inc1 <- inc1 + 1
 }
 
@@ -104,6 +104,3 @@ outputall$Senator2 <- tolower(outputall$Senator2)
 #Output csvs
 write.csv(againstall,"parity-ri.csv")
 write.csv(outputall,"weights-ri.csv",row.names = F)
-
-
-
