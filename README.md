@@ -50,6 +50,8 @@ We soon realized that while this metric conveys some information, it is not part
 
 In addition to the weights, we also calculated a parity statistic for each senator. The idea behind this statistic was to determine how willing the senator is to go against the majority opinion in the senate. This was calculated by taking the number of votes the senator went against the majority over the total number of votes that the senator participated in. Similarly to the weights statistic, this wasn't a very revealing statistic in RI; most times Democrats sided with the majority, and the people who sided with the majority less were almost always republicans. Still, it appeared that most Republican RI Senators voted for Democratic bills the vast majority of the time.
 
+The raw data for Rhode Island can be found in data/ri, while the data for all other states uses the OpenStates API and converts the data directly until the format used by the visualization -- found in docs/data.
+
 3. Data Visualization Website
 
 At the beginning of the project, we sat down and brainstormed a bunch of ideas we had for how to effectively visualize the Senate voting data. All three of use were interested in networks, and decided that the core visualization should be a graph with connections that would mimic some of the visualizations we had seen about the US Senate and Congress during the election. Outside of that, we wanted to be able to select specific date ranges for the visualization, have a couple panels of summary information surrounding the visualization, and also have ways to zoom in on different bills, senators, and networks.
