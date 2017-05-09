@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
-
-    <title>Parity at the State Level: Understanding our State Senates</title>
     <meta name="description" content="Understanding Parity in State Senates">
     <meta name="author" content="Nate Meyers, Ben Wesner, and Sean Segal">
+
+    <title>Parity at the State Level: Understanding our State Senates</title>
 
     <!-- Lib CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -41,6 +42,7 @@
     <!-- "Fork me on GitHub" tag -->
     <a href="https://github.com/seansegal/parity-in-the-senate"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 
+    <!-- Sidebar -->
     <div class="nav-side-menu">
       <div class="brand">Parity in the Senate</div>
         <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
@@ -87,11 +89,13 @@
             <ul class="sub-menu collapse" id="more_info">
               <li id="more_info_item">
                 <div class="more_info_body">
+                  <!-- Overview section -->
                   <h4>Overview</h4>
                   <p>State senators who tend to vote together are linked closer together. Senators are colored by their parity, which is determined by how often the senator votes with the majority:</p><br>
                   <div id="colorBarLabel1">Votes <b>With</b> Majority</div><div id="colorBarLabel2">Votes <b>Against</b> Majority</div>
                   <div id="colorBar"></div>
 
+                  <!-- Summary Statistics Section -->
                   <h4>Current Summary</h4>
                   <p><strong>Visualization:</strong> </p><div style="display:inline;" id="currStateTerm">State - Term</div><br>
                   <p><strong>Democrats:</strong> </p><div style="display:inline;border-right:1px solid #fff;padding-right:2px;margin-right:5px;" id="numDem">numDem</div>
@@ -123,7 +127,7 @@
         </div>
       </div>
 
-      <!-- Page Content -->
+      <!-- Page Content (visualization goes here) -->
       <div id="page-content-wrapper">
         <div class="container-fluid">
           <div id="vis"></div>
