@@ -1,5 +1,10 @@
+#######################################################################
+# This script calculates inter-senator weights and parities for each
+# senator, then writes to two csvs.
+#######################################################################
+
 ## Example command input should be:
-## Rscript clean-mt2.R "mt" "/Users/nathanmeyers/Documents/parity-in-the-senate/code"
+## Rscript clean-state.R "mt" "/Users/. . ./code"
 
 #Take command line arguments
 args <- commandArgs(trailingOnly = TRUE)
