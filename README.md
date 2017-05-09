@@ -80,7 +80,7 @@ Below is the visualization of the Rhode Island senate. From the visualization, w
 
 ![ri_sen](docs/images/rhode_sen.png "RI_sen")	
 
-Now we can look at the Montana senate.
+Now we can look at the Montana senate. Montana has a much more even split in party affiliation than Rhode Island, with 15 Democrats and 31 Republicans. In the graph of the senate, the Republicans are the senators in the middle and to the right, and the Democrats are to the left. The centrist republicans are really easy to identify, as they have the white shading, indicating that they vote for most left leaning bills and most right leaning bills. We can also see that the Parity Distribution and the Senator Similarity Distribution have two peaks, with the smaller peak for the Democratic senators and the larger peak for the Republican senators:
 
 ![mt_sen](docs/images/montana_sen.png "MT_sen")	
 
