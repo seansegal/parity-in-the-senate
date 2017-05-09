@@ -5,7 +5,7 @@ Created By: Sean Segal, Nate Meyers, Ben Wesner
 
 Checkout the final product at https://seansegal.github.io/parity-in-the-senate/
 
-![both_houses](https://github.com/seansegal/parity-in-the-senate/blob/master/docs/images/both_houses.png "Both Senate and House")
+![RI_2017](docs/images/both_houses.png "Rhode Island 2017")
 
 # Project Report
 ## Introduction
