@@ -1,5 +1,5 @@
 # Parity in the Senate
-A data visualization of State Senate voting data created for an ECON1660 (Big Data)
+A data visualization of State Senate voting data created for a ECON1660 (Big Data)
 final project at Brown University.  
 Created By: Sean Segal, Nate Meyers, Ben Wesner
 
