@@ -30,6 +30,14 @@ for bill in bills:
             continue
         if 'upper' not in vote['chamber']:
             continue
+        if (vote['date'].startswith('2011') and st == 'al') or (vote['date'].startswith('2014') and st == 'fl'):
+            print('REACHED')
+            continue
+        if(vote['date'].startswith('2014')):
+            print('HERE!')
+            print(vote['date'])
+            print('st:', st)
+            assert(False)
         voteRecord = {
             'description': fullBill['title'],
             'date': vote['date']

@@ -58,7 +58,7 @@ if [ $? -ne 0 ]; then
 fi
 
 
-# rm -r ../data/$STATE
+rm -r ../data/$STATE
 
 echo 'Completed'
 say Done
