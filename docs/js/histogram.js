@@ -1,9 +1,9 @@
 function makeHistograms(selection1, selection2, pbins, wbins) {
-	makeHistogramsHelper(selection1, pbins, 480, "Parity Distribution", false);
-	makeHistogramsHelper(selection2, wbins, 480, "Link Length Distribution", true)
+	makeHistogramsHelper(selection1, pbins, 480, "Parity Distribution", false, (Object.keys(pbins).length == 100));
+	makeHistogramsHelper(selection2, wbins, 480, "Senator Similarity Distribution", false, (Object.keys(wbins).length == 100))
 }
 
-function makeHistogramsHelper(selection, bins, thisWidth, thisTitle, makeRelative) {
+function makeHistogramsHelper(selection, bins, thisWidth, thisTitle, makeRelative, make20From100) {
 	d3.select(selection).selectAll("svg").remove()
 
 	var color = "steelblue";
@@ -35,6 +35,22 @@ function makeHistogramsHelper(selection, bins, thisWidth, thisTitle, makeRelativ
 				break;
 			}
 		}
+	}
+
+	if (make20From100) {
+		newKeys = []
+		newValues = []
+
+		for (var i = 0; i < values.length; i+=5) {
+			newValue = values[i] + values[i + 1] + values[i + 2] + values[i + 3] + values[i + 4];
+			key1 = keys[i].replace(" ", "").split("-")[0];
+			key2 = keys[i + 4].replace(" ", "").split("-")[1];
+			newKey = key1 + " - " + key2;
+			newValues.push(newValue);
+			newKeys.push(newKey);
+		}
+		values = newValues;
+		keys = newKeys;
 	}
 
 	var min = Number.MAX_SAFE_INTEGER;

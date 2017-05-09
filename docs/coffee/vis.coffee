@@ -245,8 +245,8 @@ Network = () ->
       # linkedByIndex is used for link sorting
       linkedByIndex["#{l.source.id},#{l.target.id}"] = 1
 
-    # uncomment this line to make parities relative within the current visualization, as opposed to relative across all the data
-    # nodeColors.domain([minParity, maxParity])
+    # comment out this line to make parities relative across all data, as opposed to relative within the current visualization
+    nodeColors.domain([minParity, maxParity])
 
     data
 
