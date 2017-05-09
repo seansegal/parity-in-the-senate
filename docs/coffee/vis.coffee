@@ -1,8 +1,6 @@
 root = exports ? this
 
-# majorityColor = "#1f77b4"
-# minorityColor = "#d62728"
-
+# the spectrum colors
 majorityColor = "#ffffe0"
 minorityColor = "#8b0000"
 
@@ -12,13 +10,15 @@ Network = () ->
   width = container.offsetWidth + 200
   height = screen.height
 
+  # distance between clustered nodes
   nodePadding = 2.0
   maxRadius = 0
 
+  # zoom parameters
   maxScale = 2.0
   minScale = 0.4
 
-  # allData will store the unfiltered data
+  # initializing data variables
   fullJson = null
   allData = []
   curLinksData = []
@@ -38,7 +38,7 @@ Network = () ->
   currTerm = "2017"
   currState = "Rhode Island"
 
-  # our force directed layout
+  # our force directed layout, and relevant children
   force = d3.layout.force().gravity(.05)
   vis = null  
   child = null
@@ -52,11 +52,12 @@ Network = () ->
 
   # Starting point for network visualization -- initializes visualization and starts force layout
   network = (selection, data) ->
-    # format our data
+    # setup the data
     fullJson = data
     updateTerms(fullJson)
     allData = setupData(data)
 
+    # setup zoom, and move visualization to starting position
     zoom = d3.behavior.zoom().translate([width/4, height/8]).scale(0.6).scaleExtent([minScale, maxScale]).on("zoom", redraw)
 
     # create our svg and groups
@@ -69,6 +70,7 @@ Network = () ->
     linksG = child.append("g").attr("id", "links")
     nodesG = child.append("g").attr("id", "nodes")
 
+    # this is for panning/zooming
     child.attr("transform", "translate(" + width/4 + "," + height/8 + ")scale(0.6)")
 
     # setup the size of the force environment
@@ -85,23 +87,19 @@ Network = () ->
     # perform rendering and start force layout
     update()
 
+  # Resets size of visualization when window is resized by user
   network.resetSize = ->
     width = container.offsetWidth
     height = screen.height
     force.size([width, height])
     vis.attr("width", width).attr("height", height)
 
+  # Function called when user zooms
   redraw = ->
-    # console.log 'here', d3.event.translate, d3.event.scale
     child.attr 'transform', 'translate(' + d3.event.translate + ')' + ' scale(' + d3.event.scale + ')'
     return
 
-  # The update() function performs the bulk of the
-  # work to setup our visualization based on the
-  # current layout/sort/filter.
-  #
-  # update() is called everytime a parameter changes
-  # and the network needs to be reset.
+  # Updates visualization based on current settings
   update = () ->
     # filter data to show based on current filter settings.
     curNodesData = filterNodes(allData.nodes)
@@ -151,6 +149,7 @@ Network = () ->
     node.remove()
     update()
 
+  # Updates data for a specified term
   network.updateDataForTerm = (newTerm) ->
     currTerm = newTerm
     allData = setupData(fullJson)
@@ -158,9 +157,11 @@ Network = () ->
     node.remove()
     update()
 
+  # Sets current state variable
   network.setCurrState = (newState) ->
     currState = newState
 
+  # Updates the terms for a new state
   updateTerms = (data) ->
     # change term dropdown
     $("#terms").empty()
@@ -174,6 +175,7 @@ Network = () ->
         $("#terms").append $('<li>' + t["year"] + '</li>')
     setUpTermsClick()
 
+  # Updates more info side bar for a given state and term
   updateInfo = (data) ->
     $("#currStateTerm").text(currState + " - " + currTerm)
     
@@ -198,8 +200,7 @@ Network = () ->
         $("#numUnkOth").text(t["numUnkOth"])
         makeHistograms("#parityHistogram", "#weightHistogram", t["pbins"], t["wbins"])
 
-  # called once to clean up raw data and switch links to point to node instances
-  # Returns modified data
+  # Sets up data into node and link objects
   setupData = (data) ->
     # clone the data
     data = JSON.parse(JSON.stringify(data))
@@ -220,7 +221,7 @@ Network = () ->
       minParity = Math.min(minParity, parity)
       maxParity = Math.max(maxParity, parity)
 
-      # set initial x/y to values within the width/height of the visualization (make dems on left)
+      # set x/y values of nodes to be initially random, but grouped roughly by parity
       if parity < 0.3
         n.x = randomnumber=Math.floor(Math.random() * 1.5) + (width / 4)
       else
@@ -234,6 +235,7 @@ Network = () ->
     # id's -> node objects
     nodesMap = mapNodes(data.nodes)
 
+    # filter the links based on those that exist for the given term 
     data.links = data.links.filter (l) ->
       nodesMap.get(l.source) and nodesMap.get(l.target) and (l.term == currTerm)
 
@@ -276,14 +278,13 @@ Network = () ->
 
     filteredNodes
 
-  # Removes links from allLinks whose source or target is not present in curNodes
-  # Returns array of links
+  # Removes links from allLinks who don't belong in current term
   filterLinks = (allLinks, curNodes) ->
     curNodes = mapNodes(curNodes)
     allLinks.filter (l) ->
       curNodes.get(l.source.id) and curNodes.get(l.target.id) and (l.term == currTerm)
 
-  # enter/exit display for nodes
+  # Enter/exit display for nodes
   updateNodes = () ->
     node = nodesG.selectAll("circle.node")
       .data(curNodesData, (d) -> d.id)
@@ -302,7 +303,7 @@ Network = () ->
 
     node.exit().remove()
 
-  # enter/exit display for links
+  # Enter/exit display for links
   updateLinks = () ->
     link = linksG.selectAll("line.link")
       .data(curLinksData, (d) -> "#{d.source.id}_#{d.target.id}")
@@ -317,11 +318,11 @@ Network = () ->
 
     link.exit().remove()
 
-  # switches filter option to new filter
+  # Switches filter option to new filter
   setFilter = (newFilter) ->
     filter = newFilter
 
-  # tick function for force directed layout
+  # Tick function for force directed layout
   forceTick = (e) ->
     node
       .each(dontCollide(0.5))
@@ -334,6 +335,7 @@ Network = () ->
       .attr("x2", (d) -> d.target.x)
       .attr("y2", (d) -> d.target.y)
 
+  # Ensures that nodes don't overlap
   dontCollide = (alpha) ->
     quadtree = d3.geom.quadtree(allData.nodes)
     (d) ->
@@ -402,6 +404,7 @@ Network = () ->
   # Final act of Network() function is to return the inner 'network()' function.
   return network
 
+# When the terms list has been updated, set up a listener for it
 setUpTermsClick = ->
   $("#terms li").on "click", (e) ->
     if not ($(this).text() == $("#terms .active").text())
@@ -412,6 +415,7 @@ setUpTermsClick = ->
 
       myNetwork.updateDataForTerm($(this).text())
 
+# Instantiate the color bar in the more info tab
 createColorBar = (selection) ->
   myScale = d3.scale.linear().range([majorityColor, minorityColor]).domain([0, 100])
   colorbar = Colorbar().origin([0, 0]).scale(myScale).orient('horizontal').thickness(20).barlength(481).margin({top: 0, right: 0, bottom: 0, left: 0})
@@ -442,6 +446,7 @@ $ ->
     searchTerm = $(this).val()
     myNetwork.updateSearch(searchTerm)
 
+  # resize window
   $(window).resize ->
     myNetwork.resetSize()
 
